@@ -8,7 +8,6 @@
 
       iframe {
         display: block;
-        margin: 5rem auto;
       }
     </style>
   </head>
@@ -24,8 +23,8 @@
 
       function onYouTubeIframeAPIReady () {
         var player = new YT.Player('player', {
-          height: '390',
-          width: '640',
+          height: window.innerHeight,
+          width: window.innerWidth,
           videoId: 'LrJkzd2oLb8',
           events: {
             'onReady': function onPlayerReady (e) {
