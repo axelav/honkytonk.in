@@ -1,23 +1,22 @@
 const fs = require('fs-extra')
 const recursive = require('recursive-readdir')
-const marked = require('marked')
 const metaMarked = require('meta-marked')
 const async = require('async')
-const slugger = require('slugger')
+const slugify = require('slugify')
 const Minimize = require('minimize')
 
 // TODO: smart links in headers? is this necessary?
-const renderer = new marked.Renderer()
+// const renderer = new marked.Renderer()
 const minimize = new Minimize()
 
 const src = __dirname + '/../notes'
 const ignore = ['trips'] // ignore `trips` for now
 
-renderer.heading = (text, level) => {
-  const linkableText = slugger(text.replace(/<.+>.*<\/.+>/, '').trim())
-  const atag = '<a name="' + linkableText + '" class="anchor" href="#' + linkableText + '">'
-  return atag + '<h' + level + '><span class="header-link"></span>' + text + '</h' + level + '></a>'
-}
+// renderer.heading = (text, level) => {
+//   const linkableText = slugify(text.replace(/<.+>.*<\/.+>/, '').trim())
+//   const atag = '<a name="' + linkableText + '" class="anchor" href="#' + linkableText + '">'
+//   return atag + '<h' + level + '><span class="header-link"></span>' + text + '</h' + level + '></a>'
+// }
 
 recursive(src, ignore, parseFiles)
 
@@ -41,6 +40,10 @@ function writeJSON (err, files) {
   })
 }
 
+// function stripMarkdownMetadata (text) {
+//   return text.slice(text.indexOf('...') + 3).trim()
+// }
+
 function parseFiles (err, files) {
   if (err) console.error(err)
 
@@ -48,23 +51,19 @@ function parseFiles (err, files) {
     console.log(`parsing ${file}`)
 
     const contents = fs.readFileSync(file, 'utf8')
-    const markdown = stripMarkdownMetadata(contents)
-
-    // const html = marked(markdown)
-    // TODO: smart links in headers?
-    const lexed = marked.lexer(markdown)
-    const html = marked.parser(lexed, { renderer })
+    // const markdown = stripMarkdownMetadata(contents)
 
     const parsed = metaMarked(contents)
     const url = '/notes/' + parsed.meta.slug
 
-    minimize.parse(html, (err, data) => {
+    minimize.parse(parsed.html, (err, html) => {
       if (err) throw err
 
       const result = {
         url,
-        markdown,
-        html: data,
+        html,
+        title: parsed.meta.title,
+        markdown: parsed.markdown,
         startingFilename: file,
         outputFile: `${url}.html`,
         date: parsed.meta.date
@@ -73,8 +72,4 @@ function parseFiles (err, files) {
       cb(null, result)
     })
   }, writeJSON)
-
-  function stripMarkdownMetadata (text) {
-    return text.slice(text.indexOf('...') + 3).trim()
-  }
 }
