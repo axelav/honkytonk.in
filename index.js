@@ -18,7 +18,7 @@ app.use(createInitialState)
 
 app.route('/', require('./pages/root'))
 app.route('/notes', require('./pages/notes'))
-app.route('/:slug', require('./pages/note'))
+app.route('/notes/:slug', require('./pages/note'))
 
 if (!module.parent) {
   app.mount('body')

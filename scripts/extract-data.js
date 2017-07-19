@@ -5,18 +5,10 @@ const async = require('async')
 const slugify = require('slugify')
 const Minimize = require('minimize')
 
-// TODO: smart links in headers? is this necessary?
-// const renderer = new marked.Renderer()
 const minimize = new Minimize()
 
 const src = __dirname + '/../notes'
 const ignore = ['trips'] // ignore `trips` for now
-
-// renderer.heading = (text, level) => {
-//   const linkableText = slugify(text.replace(/<.+>.*<\/.+>/, '').trim())
-//   const atag = '<a name="' + linkableText + '" class="anchor" href="#' + linkableText + '">'
-//   return atag + '<h' + level + '><span class="header-link"></span>' + text + '</h' + level + '></a>'
-// }
 
 recursive(src, ignore, parseFiles)
 
@@ -40,10 +32,6 @@ function writeJSON (err, files) {
   })
 }
 
-// function stripMarkdownMetadata (text) {
-//   return text.slice(text.indexOf('...') + 3).trim()
-// }
-
 function parseFiles (err, files) {
   if (err) console.error(err)
 
@@ -51,21 +39,18 @@ function parseFiles (err, files) {
     console.log(`parsing ${file}`)
 
     const contents = fs.readFileSync(file, 'utf8')
-    // const markdown = stripMarkdownMetadata(contents)
-
     const parsed = metaMarked(contents)
-    const url = '/notes/' + parsed.meta.slug
 
     minimize.parse(parsed.html, (err, html) => {
       if (err) throw err
 
       const result = {
-        url,
         html,
+        slug: parsed.meta.slug.toString(),
         title: parsed.meta.title,
         markdown: parsed.markdown,
         startingFilename: file,
-        outputFile: `${url}.html`,
+        outputFile: `${parsed.meta.slug}.html`,
         date: parsed.meta.date
       }
 

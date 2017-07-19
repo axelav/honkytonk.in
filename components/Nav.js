@@ -1,17 +1,21 @@
 const html = require('choo/html')
+const Link = require('./Link')
 
 module.exports = function Nav () {
   return html`
     <nav class="nav">
       <ul class="list pl0 flex">
         <li class="mr3">
-          <a href="/" class="link underline blue hover-orange">Home</a>
+          ${Link({ href: '/', text: 'Home' })}
         </li>
         <li class="mr3">
-          <a href="/notes" class="link underline blue hover-orange">Notes</a>
+          ${Link({ href: '/notes', text: 'Notes' })}
         </li>
         <li class="mr3">
-          <a href="/learned" class="link underline blue hover-orange">Learned</a>
+          ${Link({ href: '/learned', text: 'Learned' })}
+        </li>
+        <li>
+          ${Link({ href: '/about', text: 'About' })}
         </li>
       </ul>
     </nav>
