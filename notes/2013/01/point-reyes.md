@@ -6,6 +6,8 @@ tags: california, summer
 slug: point-reyes
 ...
 
-<img src="/images/california/63910023.jpg" class="mx-auto mb2" alt="California">
-<img src="/images/california/63910001.jpg" class="mx-auto mb2" alt="California">
-<img src="/images/california/63920006.jpg" class="mx-auto mb2" alt="California">
+<div>
+<img src="/assets/images/california/63910023.jpg" alt="California">
+<img src="/assets/images/california/63910001.jpg" alt="California">
+<img src="/assets/images/california/63920006.jpg" alt="California">
+</div>

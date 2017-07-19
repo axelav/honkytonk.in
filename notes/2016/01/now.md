@@ -1,12 +1,12 @@
 ---
-title: "now"
+title: "Now"
 type: text
 date: 2016-01-05T06:16:00.000Z
 tags: now, life
 slug: now
 ...
 
-living in Brooklyn, trying to focus on:
+I'm currently living in Brooklyn, trying to focus on:
 
 - family & dogs
 - learning (link to /learning) ??? should I start a pinboard tag called learning

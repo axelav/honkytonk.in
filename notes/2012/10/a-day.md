@@ -1,5 +1,5 @@
 ---
-title: "a day"
+title: "A Day"
 type: list
 date: 2012-10-31T12:16:00.000Z
 tags: life
@@ -8,7 +8,7 @@ slug: a-day
 
 - wake up.
 - have sex.
-- walk around greenpoint.
+- walk around Greenpoint.
 - eat a sandwich.
 - watch tv.
 - drive through lower Manhattan, which currently has no power. everyone acts decently.

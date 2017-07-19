@@ -1,5 +1,5 @@
 ---
-title: "the transit of venus"
+title: "The Transit of Venus"
 type: video
 date: 2012-06-06T12:16:00.000Z
 tags: video, science, space

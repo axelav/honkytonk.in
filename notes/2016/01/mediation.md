@@ -1,18 +1,18 @@
 ---
-title: "first thought"
+title: "First Thought"
 type: text
 date: 2016-01-05T06:16:00.000Z
 tags: mediation, improvement
 slug: first-thought-best-thought
 ...
 
-## how to
+## How To
 
-1. sit properly: back straight, shoulders & belly relaxed, feet planted, hands
+1. Sit properly: back straight, shoulders & belly relaxed, feet planted, hands
    with plams down just below knees, chin tucked, jaw relaxed, tongue on roof of
    mouth; eyes open, gaze soft & six feet ahead
-2. breath: in & out
-3. keep your attention on your breath: if thoughts come, let them go; always come
+2. Breathe: in & out
+3. Keep your attention on your breath: if thoughts come, let them go; always come
    back to your breath; let thoughts touch you & leave; you are like the sky
 
 - make offerings (incense, candle, flower, => offer yourself)

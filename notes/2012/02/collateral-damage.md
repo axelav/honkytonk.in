@@ -1,5 +1,5 @@
 ---
-title: "collateral damage"
+title: "Collateral Damage"
 type: text
 date: 2012-02-26T12:16:00.000Z
 tags: music, capitalism, internet
@@ -16,7 +16,6 @@ slug: collateral-damage
 > is unfortunate; however, I recall many hours spent in record stores only looking
 > at the covers.
 
-Vicki Bennett, [Collateral Damage][link] in the Wire #337
+Vicki Bennett, [Collateral Damage][0] in the Wire #337
 
-[link]: http://www.thewire.co.uk/in-writing/essays/collateral-damage_vicki-bennett
-
+[0]: http://www.thewire.co.uk/in-writing/essays/collateral-damage_vicki-bennett

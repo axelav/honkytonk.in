@@ -6,12 +6,14 @@ tags: wyoming
 slug: wyoming
 ...
 
-<img src="/images/wyoming/wyoming_01.jpg" class="mx-auto mb2">
-<img src="/images/wyoming/wyoming_02.jpg" class="mx-auto mb2">
-<img src="/images/wyoming/wyoming_03.jpg" class="mx-auto mb2">
-<img src="/images/wyoming/wyoming_05.jpg" class="mx-auto mb2">
-<img src="/images/wyoming/wyoming_06.jpg" class="mx-auto mb2">
-<img src="/images/wyoming/wyoming_07.jpg" class="mx-auto mb2">
-<img src="/images/wyoming/wyoming_08.jpg" class="mx-auto mb2">
-<img src="/images/wyoming/wyoming_09.jpg" class="mx-auto mb2">
-<img src="/images/wyoming/wyoming_10.jpg" class="mx-auto mb2">
+<div>
+![canyon through a clearing](/assets/images/wyoming/wyoming_02.jpg)
+![sky, pines & mountains](/assets/images/wyoming/wyoming_03.jpg)
+![whoops](/assets/images/wyoming/wyoming_05.jpg)
+![tent](/assets/images/wyoming/wyoming_01.jpg)
+![sky & mountains](/assets/images/wyoming/wyoming_06.jpg)
+![canyon](/assets/images/wyoming/wyoming_07.jpg)
+![river flowing through canyon](/assets/images/wyoming/wyoming_08.jpg)
+![J on a snowy trail](/assets/images/wyoming/wyoming_09.jpg)
+![steam rising off the lake](/assets/images/wyoming/wyoming_10.jpg)
+</div>
