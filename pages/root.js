@@ -1,35 +1,31 @@
 const html = require('choo/html')
 const Body = require('../components/Body')
+const YouTubePlayer = require('youtube-player')
 
 module.exports = function indexView (state, emit) {
+  const honkyTonks = [
+    'kN17OTQIGqg',
+    'Q6gUnFZsDjc',
+    'KHEQi25GSNo',
+    'BrkLxJqb2xM',
+    'q57iYqeY3j0',
+    '918TER9fDRQ',
+    'Y0r651OMVUw'
+  ]
+
+  const videoId = honkyTonks[Math.floor(Math.random() * honkyTonks.length)]
+
   const children = html`
     <section class="section index">
-      <div id="player"></div>
-      <script>
-        var tag = document.createElement('script')
-        tag.src = 'http://www.youtube.com/iframe_api'
-        var firstScriptTag = document.getElementsByTagName('script')[0]
-        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag)
-
-        var honkyTonks = [
-          'kN17OTQIGqg',
-          'Q6gUnFZsDjc',
-          'KHEQi25GSNo'
-        ]
-
-        function onYouTubeIframeAPIReady () {
-          const player = new YT.Player('player', {
-            videoId: honkyTonks[Math.floor(Math.random() * honkyTonks.length)],
-            events: {
-              'onReady': function onPlayerReady (e) {
-                player.setPlaybackRate(0.33)
-              }
-            }
-          })
-        }
-      </script>
+      <div id="player" onload=${el => loadPlayer(el, videoId)}></div>
     </section>
   `
+
+  function loadPlayer(el, videoId) {
+    const player = YouTubePlayer(el)
+    player.cueVideoById(videoId)
+    player.setPlaybackRate(0.33)
+  }
 
   return Body({ children })
 }

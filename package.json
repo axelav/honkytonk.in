@@ -9,7 +9,8 @@
   },
   "dependencies": {
     "choo": "^5.6.2",
-    "tachyons": "^4.7.4"
+    "tachyons": "^4.7.4",
+    "youtube-player": "^5.4.0"
   },
   "devDependencies": {
     "async": "^2.5.0",
