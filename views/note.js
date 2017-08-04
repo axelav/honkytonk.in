@@ -4,6 +4,7 @@ const assert = require('assert')
 
 const Body = require('../components/Body')
 const format = require('../lib/format')
+const localeDate = require('../lib/locale-date')
 
 module.exports = function noteView (state, emit) {
   assert.equal(typeof state.notes, 'object', 'honkytonkin:pages/note: note should be type object')
@@ -27,7 +28,7 @@ module.exports = function noteView (state, emit) {
         <h2 class="f2 mb7-l mb5 mt0">${note.title}</h2>
       </header>
       ${frag}
-      <time class="gray">${localeDate}</time>
+      <time class="gray">${localeDate(note.date)}</time>
     </article>
   `
 

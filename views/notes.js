@@ -3,8 +3,6 @@ const Body = require('../components/Body')
 const Link = require('../components/Link')
 
 function Item (note) {
-  const localeDate = new Date(note.date).toLocaleString()
-
   return html`
     <li class="mb2">
       ${Link({ href: `/notes/${note.slug}`, text: note.title })}
