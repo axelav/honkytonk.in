@@ -4,7 +4,7 @@ const Link = require('./Link')
 module.exports = function Footer () {
   // TODO dont use margin-top
   return html`
-    <footer class="footer mb7-l mb5">
+    <footer class="footer mb5">
       <ul class="list pl0 flex mb0 mt0">
         <li class="mr3">
           ${Link({ href: '/library', text: 'Library' })}
