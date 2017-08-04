@@ -44,13 +44,13 @@ Tuesday.
 [0]: http://www.rockawave.com/news/2011-08-05/Top_Stories/New_Group_Seeks_to_Save_Rockaways_Beaches.html
 
 <div>
-<img src="/assets/images/IMG_2640.jpg" alt="destroyed boardwalk">
-<img src="/assets/images/IMG_2646.jpg" alt="military helicopter">
-<img src="/assets/images/IMG_2649.jpg" alt="fuck sandy">
-<img src="/assets/images/IMG_2658.jpg" alt="military vehicle">
-<img src="/assets/images/IMG_2664.jpg" alt="destroyed car">
-<img src="/assets/images/IMG_2666.jpg" alt="another car">
-<img src="/assets/images/IMG_2675.jpg" alt="destroyed boardwalk">
-<img src="/assets/images/IMG_2676.jpg" alt="destroyed boardwalk &amp; handball wall">
-<img src="/assets/images/IMG_2680.jpg" alt="littered street">
+![destroyed boardwalk](/assets/images/IMG_2640.jpg)
+![military helicopter](/assets/images/IMG_2646.jpg)
+![fuck sandy](/assets/images/IMG_2649.jpg)
+![military vehicle](/assets/images/IMG_2658.jpg)
+![destroyed car](/assets/images/IMG_2664.jpg)
+![another car](/assets/images/IMG_2666.jpg)
+![destroyed boardwalk](/assets/images/IMG_2675.jpg)
+![destroyed boardwalk & handball wall](/assets/images/IMG_2676.jpg)
+![littered street](/assets/images/IMG_2680.jpg)
 </div>

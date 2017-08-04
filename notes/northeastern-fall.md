@@ -7,10 +7,10 @@ slug: northeastern-fall
 ...
 
 <div>
-<img src="/assets/images/newyork-capecod-newjersey/45330018.jpg" alt="New York">
-<img src="/assets/images/newyork-capecod-newjersey/45330017.jpg" alt="New York">
-<img src="/assets/images/newyork-capecod-newjersey/45330022.jpg" alt="New York">
-<img src="/assets/images/newyork-capecod-newjersey/45330009.jpg" alt="Cape Cod">
-<img src="/assets/images/newyork-capecod-newjersey/45330004.jpg" alt="Cape Cod">
-<img src="/assets/images/newyork-capecod-newjersey/45330001.jpg" alt="New Jersey">
+![New York](/assets/images/newyork-capecod-newjersey/45330018.jpg)
+![New York](/assets/images/newyork-capecod-newjersey/45330017.jpg)
+![New York](/assets/images/newyork-capecod-newjersey/45330022.jpg)
+![Cape Cod](/assets/images/newyork-capecod-newjersey/45330009.jpg)
+![Cape Cod](/assets/images/newyork-capecod-newjersey/45330004.jpg)
+![New Jersey](/assets/images/newyork-capecod-newjersey/45330001.jpg)
 </div>

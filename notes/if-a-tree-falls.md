@@ -9,13 +9,13 @@ slug: if-a-tree-falls
 [If a Tree Falls - IMBD](http://www.imdb.com/title/tt1787725/)
 
 <div>
-  <img src="/assets/images/elf.jpg" alt="ELF">
-  <img src="/assets/images/elf-graffiti.jpg" alt="ELF graffiti">
+![ELF](/assets/images/elf.jpg)
+![ELF graffiti](/assets/images/elf-graffiti.jpg)
 </div>
 
 [The Secret Life of Plants - IMBD](http://www.imdb.com/title/tt0078217/)
 
 <div>
-  <img src="/assets/images/the-secret-life-of-plants-1.jpg" alt="The Secret Life of Plants">
-  <img src="/assets/images/the-secret-life-of-plants-2.jpg" alt="The Secret Life of Plants">
+![The Secret Life of Plants](/assets/images/the-secret-life-of-plants-1.jpg)
+![The Secret Life of Plants](/assets/images/the-secret-life-of-plants-2.jpg)
 </div>

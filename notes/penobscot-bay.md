@@ -7,15 +7,15 @@ slug: penobscot-bay
 ...
 
 <div>
-<img src="/assets/images/maine/57750007.jpg" alt="Maine">
-<img src="/assets/images/maine/63900025.jpg" alt="Maine">
-<img src="/assets/images/maine/63900010.jpg" alt="Maine">
-<img src="/assets/images/maine/57690003.jpg" alt="Maine">
-<img src="/assets/images/maine/57760014.jpg" alt="Maine">
-<img src="/assets/images/maine/63900012.jpg" alt="Maine">
-<img src="/assets/images/maine/57760017.jpg" alt="Maine">
-<img src="/assets/images/maine/57750031.jpg" alt="Maine">
-<img src="/assets/images/maine/57750013.jpg" alt="Maine">
-<img src="/assets/images/maine/57690022.jpg" alt="Maine">
-<img src="/assets/images/maine/57750019.jpg" alt="Maine">
+![Maine](/assets/images/maine/57750007.jpg)
+![Maine](/assets/images/maine/63900025.jpg)
+![Maine](/assets/images/maine/63900010.jpg)
+![Maine](/assets/images/maine/57690003.jpg)
+![Maine](/assets/images/maine/57760014.jpg)
+![Maine](/assets/images/maine/63900012.jpg)
+![Maine](/assets/images/maine/57760017.jpg)
+![Maine](/assets/images/maine/57750031.jpg)
+![Maine](/assets/images/maine/57750013.jpg)
+![Maine](/assets/images/maine/57690022.jpg)
+![Maine](/assets/images/maine/57750019.jpg)
 </div>

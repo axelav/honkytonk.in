@@ -7,7 +7,7 @@ slug: point-reyes
 ...
 
 <div>
-<img src="/assets/images/california/63910023.jpg" alt="California">
-<img src="/assets/images/california/63910001.jpg" alt="California">
-<img src="/assets/images/california/63920006.jpg" alt="California">
+![California](/assets/images/california/63910023.jpg)
+![California](/assets/images/california/63910001.jpg)
+![California](/assets/images/california/63920006.jpg)
 </div>
