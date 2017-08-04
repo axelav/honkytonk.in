@@ -4,7 +4,7 @@ const Link = require('../components/Link')
 
 function Item (note) {
   return html`
-    <li class="mb2">
+    <li class="mb2-ns mb1">
       ${Link({ href: `/notes/${note.slug}`, text: note.title })}
     </li>
   `

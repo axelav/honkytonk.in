@@ -4,15 +4,12 @@ const Link = require('./Link')
 module.exports = function Nav () {
   return html`
     <nav class="nav">
-      <ul class="list pl0 flex mb0 mt0">
-        <li class="mr3">
+      <ul class="list pl0 flex-ns mb0 mt0">
+        <li class="mr3-ns mb1 mb0-ns">
           ${Link({ href: '/', text: 'Honky Tonkin\'' })}
         </li>
-        <li class="mr3">
+        <li class="mr3-ns mb1 mb0-ns">
           ${Link({ href: '/notes', text: 'Notes' })}
-        </li>
-        <li class="mr3">
-          ${Link({ href: '/learned', text: 'Learned' })}
         </li>
         <li>
           ${Link({ href: '/about', text: 'About' })}
