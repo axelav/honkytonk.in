@@ -1,15 +1,16 @@
 const html = require('choo/html')
 const Link = require('./Link')
 
-module.exports = function Nav () {
+module.exports = function Footer () {
+  // TODO dont use margin-top
   return html`
-    <nav class="nav">
+    <footer class="footer mb7-l mb5">
       <ul class="list pl0 flex mb0 mt0">
         <li class="mr3">
-          ${Link({ href: '/', text: 'Honky Tonkin\'' })}
+          ${Link({ href: '/library', text: 'Library' })}
         </li>
         <li class="mr3">
-          ${Link({ href: '/notes', text: 'Notes' })}
+          ${Link({ href: '/future', text: 'Future' })}
         </li>
         <li class="mr3">
           ${Link({ href: '/learned', text: 'Learned' })}
@@ -18,6 +19,7 @@ module.exports = function Nav () {
           ${Link({ href: '/about', text: 'About' })}
         </li>
       </ul>
-    </nav>
+    </footer>
   `
 }
+

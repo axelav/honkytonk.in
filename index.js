@@ -7,8 +7,12 @@ css('tachyons')
 const app = choo()
 
 if (process.env.NODE_ENV !== 'production') {
+  app.use(require('choo-devtools')())
   app.use(require('choo-log')())
+  // app.use(require('choo-service-worker/clear')())
 }
+
+// app.use(require('choo-service-worker')())
 
 function createInitialState (state) {
   state.notes = notes
@@ -16,9 +20,11 @@ function createInitialState (state) {
 
 app.use(createInitialState)
 
-app.route('/', require('./pages/root'))
-app.route('/notes', require('./pages/notes'))
-app.route('/notes/:slug', require('./pages/note'))
+app.route('/', require('./views/main'))
+app.route('/notes', require('./views/notes'))
+app.route('/notes/:slug', require('./views/note'))
+app.route('/about', require('./views/about'))
+app.route('/*', require('./views/404'))
 
 if (!module.parent) {
   app.mount('body')

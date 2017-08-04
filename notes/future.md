@@ -24,6 +24,6 @@ slug: future
 - go to Roden Crater
 - go to Spain
 - see the Aurora Borealis
-- live on the west coast
+- move out of NYC
 - have an office on the ground floor
 - purchase land

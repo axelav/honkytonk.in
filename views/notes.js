@@ -7,20 +7,23 @@ function Item (note) {
 
   return html`
     <li class="mb2">
-      <span>
-        ${Link({ href: `/notes/${note.slug}`, text: note.title })}
-      </span>
+      ${Link({ href: `/notes/${note.slug}`, text: note.title })}
     </li>
   `
 }
 
-module.exports = function archiveView (state, emit) {
+module.exports = function notesView (state, emit) {
+  const TITLE = 'Notes - Honky Tonkin\''
+  if (state.title !== TITLE) {
+    emit(state.events.DOMTITLECHANGE, TITLE)
+  }
+
   const children = html`
-    <section class="section notes">
-      <ul class="list pl0 mb3 mt0">
+    <article class="notes">
+      <ul class="list pl0 mb0 mt0">
         ${state.notes.map(note => Item(note))}
       </ul>
-    </section>
+    </article>
   `
 
   return Body({ children })
