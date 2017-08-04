@@ -5,6 +5,8 @@ const async = require('async')
 const slugify = require('slugify')
 const Minimize = require('minimize')
 
+const renderer = require('../lib/renderer')
+
 const minimize = new Minimize()
 
 const src = __dirname + '/../notes'
@@ -39,7 +41,7 @@ function parseFiles (err, files) {
     console.log(`parsing ${file}`)
 
     const contents = fs.readFileSync(file, 'utf8')
-    const parsed = metaMarked(contents)
+    const parsed = metaMarked(contents, { renderer })
 
     minimize.parse(parsed.html, (err, html) => {
       if (err) throw err
