@@ -1,12 +1,9 @@
 const html = require('choo/html')
 const css = require('sheetify')
-const assert = require('assert')
 const Header = require('./Header')
 const Footer = require('./Footer')
 
 module.exports = function Body (props) {
-  assert.equal(typeof props, 'object', 'honkytonk.in: props should be type object')
-
   const styles = css`
     :host {
       text-rendering: optimizeLegibility;
