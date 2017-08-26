@@ -1,9 +1,6 @@
 ---
-title: "Future"
-type: list
-date: 2016-01-05T04:20:00.000Z
-tags: future, life
-slug: future
+title: Future
+type: page
 ...
 
 - ~~ride a motorcycle in Alaska~~

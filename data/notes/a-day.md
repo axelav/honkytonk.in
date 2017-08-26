@@ -1,9 +1,8 @@
 ---
-title: "A Day"
-type: list
+title: A Day
+type: note
 date: 2012-10-31T12:16:00.000Z
 tags: life
-slug: a-day
 ...
 
 - wake up.

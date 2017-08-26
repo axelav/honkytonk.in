@@ -1,12 +1,11 @@
 ---
-title: "The Disintegration Loops"
-type: text
+title: The Disintegration Loops
+type: note
 date: 2012-11-20T11:44:00.000Z
 tags: music, ambient, nyc
-slug: disintegration-loops
 ...
 
-The Quietus recently published a great [interview][0] with William Basinski on
+*The Quietus* recently published a great [interview][0] with William Basinski on
 the tenth anniversary of the Disintegration Loops. He speaks at length about how
 the music came to be & what meaning he finds in the decaying loops:
 

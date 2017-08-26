@@ -1,10 +1,10 @@
 ---
-title: "Words"
-type: text
+title: Words
+type: note
 date: 2015-08-16T04:00:00.000Z
 updated: 2016-01-05T00:00:00.000Z
 tags: words, people
-slug: words
+draft: true
 ...
 
 ## Known

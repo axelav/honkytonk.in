@@ -1,9 +1,8 @@
 ---
-title: "Hurricane Sandy, the Rockaways & Occupy Sandy"
-type: text
+title: Hurricane Sandy, the Rockaways & Occupy Sandy
+type: note
 date: 2012-11-07T14:16:00.000Z
 tags: nyc
-slug: hurricane-sandy
 ...
 
 I've been out in the Rockaways the past couple days & just want to get a few

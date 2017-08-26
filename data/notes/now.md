@@ -1,9 +1,9 @@
 ---
-title: "Now"
-type: text
+title: Now
+type: note
 date: 2016-01-05T06:16:00.000Z
 tags: now, life
-slug: now
+draft: true
 ...
 
 I'm currently living in Brooklyn, trying to focus on:

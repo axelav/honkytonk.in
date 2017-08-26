@@ -1,9 +1,8 @@
 ---
-title: "Hudson Valley, Cape Cod, Pine Barrens (Fall 2012)"
-type: image
+title: Hudson Valley, Cape Cod, Pine Barrens (Fall 2012)
+type: note
 date: 2013-02-01T14:16:00.000Z
 tags: new york, massachusetts, new jersey, fall
-slug: northeastern-fall
 ...
 
 <div>

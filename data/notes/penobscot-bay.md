@@ -1,9 +1,8 @@
 ---
-title: "Penobscot Bay (Memorial Day 2011)"
-type: image
+title: Penobscot Bay (Memorial Day 2011)
+type: note
 date: 2013-01-22T14:16:00.000Z
 tags: maine, water, spring
-slug: penobscot-bay
 ...
 
 <div>

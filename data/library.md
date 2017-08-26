@@ -1,9 +1,6 @@
 ---
-title: "Library"
-type: list
-date: 2017-07-19T03:36:50.692Z
-tags: books, reading, lists
-slug: library
+title: Library
+type: page
 ...
 
 Far from comprehensive, I need to do better at keeping this updated.

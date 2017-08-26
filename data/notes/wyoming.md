@@ -1,9 +1,8 @@
 ---
-title: "Wyoming (Late Summer 2013)"
-type: image
+title: Wyoming (Late Summer 2013)
+type: note
 date: 2013-12-31T14:16:00.000Z
 tags: wyoming
-slug: wyoming
 ...
 
 <div>

@@ -1,9 +1,8 @@
 ---
-title: "Acid Eiffel"
-type: text
+title: Acid Eiffel
+type: note
 date: 2012-01-15T17:33:00.000Z
 tags: music, techno
-slug: acid-eiffel
 ...
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/rYBUDRSeeeE" frameborder="0" allowfullscreen></iframe>

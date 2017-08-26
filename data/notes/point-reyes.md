@@ -1,9 +1,8 @@
 ---
-title: "Point Reyes (Summer 2012)"
-type: image
+title: Point Reyes (Summer 2012)
+type: note
 date: 2013-01-28T14:16:00.000Z
 tags: california, summer
-slug: point-reyes
 ...
 
 <div>

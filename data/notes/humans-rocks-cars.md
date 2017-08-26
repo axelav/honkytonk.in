@@ -1,9 +1,8 @@
 ---
-title: "Humans, Rocks, Cars (Winter 2013)"
-type: image
+title: Humans, Rocks, Cars (Winter 2013)
+type: note
 date: 2013-03-04T14:16:00.000Z
 tags: new york
-slug: humans-rocks-cars
 ...
 
 <div>

@@ -1,9 +1,8 @@
 ---
-title: "Collateral Damage"
-type: text
+title: Collateral Damage
+type: note
 date: 2012-02-26T12:16:00.000Z
 tags: music, capitalism, internet
-slug: collateral-damage
 ...
 
 > With this enhanced access in the past decade, one is far more likely to hear
