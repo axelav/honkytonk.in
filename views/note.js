@@ -1,5 +1,4 @@
 const html = require('choo/html')
-const css = require('sheetify')
 
 const Body = require('../components/Body')
 const format = require('../lib/format')
@@ -15,7 +14,6 @@ module.exports = function noteView (state, emit) {
   }
 
   const frag = format(note.html)
-
 
   const children = html`
     <article class="note">
