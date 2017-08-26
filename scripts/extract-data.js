@@ -1,62 +1,51 @@
 const fs = require('fs-extra')
+const path = require('path')
 const recursive = require('recursive-readdir')
 const metaMarked = require('meta-marked')
-const async = require('async')
-const slugify = require('slugify')
+const slug = require('slug')
 const Minimize = require('minimize')
 
 const renderer = require('../lib/renderer')
 
 const minimize = new Minimize()
+slug.defaults.mode = 'rfc3986'
 
-const src = __dirname + '/../notes'
-const ignore = ['trips'] // ignore `trips` for now
+const src = path.join(process.cwd(), 'data')
+const ignore = ['trips']
 
 recursive(src, ignore, parseFiles)
 
-function writeJSON (err, files) {
+function parseFiles (err, files) {
   if (err) throw err
 
-  files.sort((a, b) => {
-    if (a.date > b.date) return -1
-    if (a.date < b.date) return 1
-    return 0
-  })
-
-  const result = { notes: files }
-
-  const filename = __dirname + '/../data.json'
-
-  fs.outputJSON(filename, result, (err) => {
-    if (err) throw err
-    console.log(`wrote ${filename}`)
-    process.exit(0)
-  })
-}
-
-function parseFiles (err, files) {
-  if (err) console.error(err)
-
-  async.map(files, (file, cb) => {
+  const result = files.map(file => {
     console.log(`parsing ${file}`)
 
-    const contents = fs.readFileSync(file, 'utf8')
-    const parsed = metaMarked(contents, { renderer })
+    const parsed = metaMarked(fs.readFileSync(file, 'utf8'), { renderer })
 
-    minimize.parse(parsed.html, (err, html) => {
-      if (err) throw err
+    return {
+      html: minimize.parse(parsed.html),
+      slug: slug(parsed.meta.title),
+      title: parsed.meta.title,
+      markdown: parsed.markdown,
+      startingFilename: file,
+      outputFile: `${parsed.meta.slug}.html`,
+      date: parsed.meta.date,
+      type: parsed.meta.type,
+      published: !parsed.meta.draft
+    }
+  }).filter(file => file.published)
 
-      const result = {
-        html,
-        slug: parsed.meta.slug.toString(),
-        title: parsed.meta.title,
-        markdown: parsed.markdown,
-        startingFilename: file,
-        outputFile: `${parsed.meta.slug}.html`,
-        date: parsed.meta.date
-      }
+  writeJSON(result)
+}
 
-      cb(null, result)
-    })
-  }, writeJSON)
+function writeJSON (files) {
+  const filename = path.join(process.cwd(), 'data.json')
+
+  fs.outputJSON(filename, files, err => {
+    if (err) throw err
+
+    console.log(`writing ${filename}`)
+    process.exit(0)
+  })
 }

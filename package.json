@@ -1,11 +1,14 @@
 {
   "name": "honkytonk.in",
+  "description": "https://honkytonk.in",
+  "author": "Axel Anderson <axel@ftml.net>",
+  "private": true,
   "scripts": {
-    "build": "npm run extract-data && npm run generate-static-html",
+    "build": "bankai build index.js dist && npm run extract-data && npm run render",
     "extract-data": "node ./scripts/extract-data.js",
-    "generate-static-html": "node ./scripts/generate-static-html.js",
-    "start": "npm run extract-data && bankai index.js -d",
     "inspect": "bankai inspect index.js",
+    "render": "node ./scripts/render.js",
+    "start": "npm run extract-data && bankai index.js -d",
     "test": "standard && test-deps",
     "test-deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons"
   },
@@ -16,16 +19,17 @@
     "choo-service-worker": "^2.1.6",
     "classnames": "^2.2.5",
     "tachyons": "^4.7.4",
-    "youtube-player": "^5.4.0"
+    "youtube-component": "^1.0.1"
   },
   "devDependencies": {
-    "async": "^2.5.0",
     "bankai": "^8.1.1",
+    "create-html": "^3.1.0",
     "fs-extra": "^4.0.0",
     "meta-marked": "^0.4.2",
+    "mkdirp": "^0.5.1",
     "minimize": "^2.1.0",
     "recursive-readdir": "^2.2.1",
-    "slugify": "^1.1.0",
+    "slug": "^0.9.1",
     "standard": "^10.0.2"
   }
 }
