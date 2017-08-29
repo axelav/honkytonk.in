@@ -4,11 +4,11 @@
   "author": "Axel Anderson <axel@ftml.net>",
   "private": true,
   "scripts": {
-    "build": "bankai build index.js dist && npm run extract-data && npm run render",
-    "extract-data": "node ./scripts/extract-data.js",
+    "build": "npm run extract && bankai build index.js dist && npm run render",
+    "extract": "node ./scripts/extract.js",
     "inspect": "bankai inspect index.js",
     "render": "node ./scripts/render.js",
-    "start": "npm run extract-data && bankai index.js -d",
+    "start": "npm run extract && bankai index.js -d",
     "test": "standard && test-deps",
     "test-deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons"
   },
