@@ -21,7 +21,7 @@ module.exports = function noteView (state, emit) {
         <h2 class="f2 mb7-l mb5 mt0 lh-title">${note.title}</h2>
       </header>
       ${frag}
-      <time class="gray">${localeDate(note.date)}</time>
+      <time class="gray f5">${localeDate(note.date)}</time>
     </article>
   `
 
