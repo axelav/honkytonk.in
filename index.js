@@ -11,10 +11,10 @@ const app = choo()
 if (process.env.NODE_ENV !== 'production') {
   app.use(require('choo-devtools')())
   app.use(require('choo-log')())
-  // app.use(require('choo-service-worker/clear')())
+  app.use(require('choo-service-worker/clear')())
 }
 
-// app.use(require('choo-service-worker')())
+app.use(require('choo-service-worker')())
 
 app.use(createInitialState(data))
 app.use(scrollToTop)
