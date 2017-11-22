@@ -8,21 +8,21 @@
     "extract": "node ./scripts/extract.js",
     "inspect": "bankai inspect index.js",
     "render": "node ./scripts/render.js",
-    "start": "npm run extract && bankai index.js -d",
+    "start": "npm run extract && bankai start index.js",
     "test": "standard && test-deps",
     "test-deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons"
   },
   "dependencies": {
-    "choo": "^6.0.0-4",
-    "choo-devtools": "^1.3.1",
-    "choo-log": "^7.1.0",
-    "choo-service-worker": "^2.1.6",
+    "choo": "^6.0.0",
+    "choo-devtools": "^2.2.0",
+    "choo-scroll-to-top": "^1.0.0",
+    "choo-service-worker": "^2.3.1",
     "classnames": "^2.2.5",
-    "tachyons": "^4.7.4",
-    "youtube-component": "^1.0.1"
+    "dotenv": "^4.0.0",
+    "tachyons": "^4.7.4"
   },
   "devDependencies": {
-    "bankai": "^9.0.0-1",
+    "bankai": "^9.0.1",
     "create-html": "^3.1.0",
     "fs-extra": "^4.0.0",
     "meta-marked": "^0.4.2",

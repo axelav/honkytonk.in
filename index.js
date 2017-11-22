@@ -1,7 +1,8 @@
+require('dotenv').config()
 const choo = require('choo')
 const css = require('sheetify')
+const scrollToTop = require('choo-scroll-to-top')
 const createInitialState = require('./lib/create-initial-state')
-const scrollToTop = require('./lib/scroll-to-top')
 const data = require('./data.json')
 
 css('tachyons')
@@ -10,7 +11,6 @@ const app = choo()
 
 if (process.env.NODE_ENV !== 'production') {
   app.use(require('choo-devtools')())
-  app.use(require('choo-log')())
   app.use(require('choo-service-worker/clear')())
 }
 

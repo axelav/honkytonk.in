@@ -18,7 +18,7 @@ module.exports = function notesView (state, emit) {
 
   const children = html`
     <article class="notes">
-      <ul class="list pl0 mb0 mt0">
+      <ul class="list mt0 mb3 pl5">
         ${state.notes.map(note => Item(note))}
       </ul>
     </article>

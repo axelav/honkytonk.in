@@ -3,19 +3,16 @@ title: Library
 type: page
 ...
 
-Far from comprehensive, I need to do better at keeping this updated.
+I need to be better at updating this.
 
-## Reading
-
-- Gravity's Rainbow, Thomas Pynchon
-- The Real World of Technology, Ursula Franklin
-- Thinking in Systems: A Primer, Donella Meadows
 - Networking for Systems Administrators, Michael Lucas
-
-## Read
 
 ### 2017
 
+- Thinking in Systems: A Primer, Donella Meadows
+- Lincoln in the Bardo, George Saunders
+- The Pine Barrens, John McPhee
+- Allegheny Front, Matthew Neill Null
 - Jupiter's Travels, Ted Simon
 - Stories of Your Life and Others, Ted Chiang
 
@@ -30,6 +27,7 @@ Far from comprehensive, I need to do better at keeping this updated.
 
 ### 2015
 
+- The Real World of Technology, Ursula Franklin
 - Javascript Allonge, Reg Braithwaite
 - The Simulacra, Philip K Dick
 - Ancillary Justice, Ann Leckie

@@ -5,6 +5,7 @@ const Link = require('./Link')
 slug.defaults.mode = 'rfc3986'
 
 const links = [
+  'About',
   'Library',
   'Future'
   // 'Learned'

@@ -11,9 +11,6 @@ module.exports = function Nav () {
         <li class="mr3-ns mb1 mb0-ns">
           ${Link({ href: '/notes', text: 'Notes' })}
         </li>
-        <li>
-          ${Link({ href: '/about', text: 'About' })}
-        </li>
       </ul>
     </nav>
   `
