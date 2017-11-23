@@ -4,7 +4,7 @@ const Body = require('../components/Body')
 const format = require('../lib/format')
 
 module.exports = function pageView (state, emit) {
-  const page = state.pages.find(n => `/${n.slug}` === state.route)
+  const page = state.pages.find(n => `/${n.slug}` === state.route) || {}
   const TITLE = `${page.title} - Honky Tonkin'`
 
   if (state.title !== TITLE) {

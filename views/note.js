@@ -5,7 +5,7 @@ const format = require('../lib/format')
 const localeDate = require('../lib/locale-date')
 
 module.exports = function noteView (state, emit) {
-  const note = state.notes.find(n => n.slug === state.params.slug)
+  const note = state.notes.find(n => n.slug === state.params.slug) || {}
 
 
   const TITLE = `${note.title} - Honky Tonkin'`
