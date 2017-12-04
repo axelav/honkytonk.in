@@ -5,20 +5,21 @@ type: page
 
 - ~~get a dog~~
 - ~~get married~~
-- have a child
+- have a child (?)
 - hike the Appalachian Trail
 - leave NYC
 - make clothes
 - purchase land
 - quit drinking
-- ~~ride a motorcycle in Alaska~~
+- ride a motorcycle across the US
+- ride a motorcycle around the world
 - see the Aurora Borealis
 - start a company
-- take another cross country drive
+- ~~visit Alaska~~
 - visit Antarctica
+- ~~visit Denali NP~~
 - visit Glacier NP
-- ~~visit Denali~~
 - visit Japan
 - visit Portugal
 - visit Roden Crater
-- visit Spain
+- ~~visit Spain~~

@@ -4,11 +4,18 @@ const Body = require('../components/Body')
 const format = require('../lib/format')
 
 module.exports = function pageView (state, emit) {
-  const page = state.pages.find(n => `/${n.slug}` === state.route) || {}
+  const {
+    pages = [],
+    route,
+    title,
+    events
+  } = state
+
+  const page = pages.find(n => `/${n.slug}` === route) || {}
   const TITLE = `${page.title} - Honky Tonkin'`
 
-  if (state.title !== TITLE) {
-    emit(state.events.DOMTITLECHANGE, TITLE)
+  if (title !== TITLE) {
+    emit(events.DOMTITLECHANGE, TITLE)
   }
 
   const frag = format(page.html)
@@ -16,7 +23,7 @@ module.exports = function pageView (state, emit) {
   const children = html`
     <article class="page">
       <header>
-        <h2 class="f2 mb7-l mb5 mt0 lh-title">${page.title}</h2>
+        <h2 class="f2 mb5 mt0 lh-title">${page.title}</h2>
       </header>
       ${frag}
     </article>

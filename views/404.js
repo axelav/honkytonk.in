@@ -9,7 +9,7 @@ module.exports = function notFoundView (state, emit) {
 
   const children = html`
     <article class="404">
-      <h1 class="f-headline mb7-l mb5 mt0">404: Not Found</h1>
+      <h1 class="f-headline mb5 mt0">404: Not Found</h1>
     </article>
   `
 

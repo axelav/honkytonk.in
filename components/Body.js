@@ -18,7 +18,7 @@ module.exports = function Body (props) {
   return html`
     <body class="mw7 ph3 mt5 mb5 ph0-l center lh-solid f5 f4-m f3-l sans-serif ${styles}">
       ${Header()}
-      <main class="mb7-l mb5">
+      <main class="mb5">
         ${children}
       </main>
       ${Footer()}

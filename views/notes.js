@@ -11,15 +11,21 @@ function Item (note) {
 }
 
 module.exports = function notesView (state, emit) {
+  const {
+    notes = [],
+    title,
+    events
+  } = state
+
   const TITLE = 'Notes - Honky Tonkin\''
-  if (state.title !== TITLE) {
-    emit(state.events.DOMTITLECHANGE, TITLE)
+  if (title !== TITLE) {
+    emit(events.DOMTITLECHANGE, TITLE)
   }
 
   const children = html`
     <article class="notes lh-copy">
-      <ul class="list mt0 mb3 pl5">
-        ${state.notes.map(note => Item(note))}
+      <ul class="list mt0 mb0 pl5">
+        ${notes.map(note => Item(note))}
       </ul>
     </article>
   `

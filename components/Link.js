@@ -1,21 +1,20 @@
 const html = require('choo/html')
-
-const format = require('../lib/format')
+const assert = require('assert')
 
 module.exports = function Link (props) {
   const {
     href,
     text,
-    tag,
-    styles
+    children,
+    styles = ''
   } = props
 
-  if (tag) {
-    const frag = format(text, 'h1')
+  assert.equal(typeof href, 'string', 'Link: href is required and should be type string')
 
+  if (children) {
     return html`
       <a href="${href}" class="link blue hover-red ${styles}">
-        ${frag}
+        ${children}
       </a>
     `
   }

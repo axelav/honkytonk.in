@@ -9,6 +9,19 @@ draft: true
 
 ## Known
 
+> I am learning...that it is remarkably easy to do things, and much more
+> frightening to contemplate them.
+> &mdash; Ted Simon
+
+> The trace of war stays inside us. We are working. We continue. But something
+> inside us is sad and broken. We are very humiliated.
+> &mdash; [Ghada Harb](https://mobile.nytimes.com/2017/11/21/world/middleeast/syria-damascus-war.html)
+
+> I am, somehow, less interested in the weight and convolutions of Einstein's
+> brain than in the near certainty that people of equal talent have lived and
+> died in cotton fields and sweatshops.
+> &mdash; Stephen Jay Gould
+
 > Go the whole way & then not come back again.<br>
 > &mdash; Rockman Rock
 

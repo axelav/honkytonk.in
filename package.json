@@ -4,32 +4,37 @@
   "author": "Axel Anderson <axel@ftml.net>",
   "private": true,
   "scripts": {
-    "build": "npm run extract && bankai build index.js dist && npm run render",
+    "build": "npm run extract && bankai build index.js dist # TODO ??? && npm run render",
+    "create": "choo-scaffold",
     "extract": "node ./scripts/extract.js",
     "inspect": "bankai inspect index.js",
     "render": "node ./scripts/render.js",
     "start": "npm run extract && bankai start index.js",
-    "test": "standard && test-deps",
-    "test-deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons"
+    "test": "standard --verbose | snazzy && npm run test-deps",
+    "test-deps": "dependency-check . && dependency-check . --extra --no-dev -i tachyons --entry scripts/extract.js"
   },
   "dependencies": {
-    "choo": "^6.0.0",
+    "choo": "^6.6.0",
     "choo-devtools": "^2.2.0",
     "choo-scroll-to-top": "^1.0.0",
     "choo-service-worker": "^2.3.1",
     "classnames": "^2.2.5",
     "dotenv": "^4.0.0",
+    "sheetify": "^6.2.0",
     "tachyons": "^4.7.4"
   },
   "devDependencies": {
     "bankai": "^9.0.1",
+    "choo-scaffold": "^1.1.2",
     "create-html": "^3.1.0",
+    "dependency-check": "^2.9.1",
     "fs-extra": "^4.0.0",
     "meta-marked": "^0.4.2",
     "minimize": "^2.1.0",
     "mkdirp": "^0.5.1",
     "recursive-readdir": "^2.2.1",
     "slug": "^0.9.1",
+    "snazzy": "^7.0.0",
     "standard": "^10.0.2"
   }
 }
