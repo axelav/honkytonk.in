@@ -15,10 +15,10 @@ module.exports = function noteView (state, emit) {
   const note = notes.find(n => n.slug === params.slug) || {}
 
   // TODO how to handle no note?
-  // if (!note) {
-  //   emit(events.PUSHSTATE, '/404')
-  //   return html`<body><a onclick=${() => emit(events.PUSHSTATE, '/404')}>NOPE</a></body>`
-  // }
+  if (!note) {
+    // emit(events.PUSHSTATE, '/404')
+    return html`<body><a onclick=${() => emit(events.PUSHSTATE, '/404')}>NOPE</a></body>`
+  }
 
   const TITLE = `${note.title} - Honky Tonkin'`
   if (title !== TITLE) {

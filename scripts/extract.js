@@ -18,6 +18,7 @@ recursive(src, ignore, parseFiles)
 function parseFiles (err, files) {
   if (err) throw err
 
+  // TODO how to add / root honkytonk.in to this?
   const result = files.map(file => {
     console.log(`parsing ${file}`)
 

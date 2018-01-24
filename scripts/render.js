@@ -21,6 +21,8 @@ const DEFAULT_ROUTES = [
 
 const data = [...DEFAULT_ROUTES, ...require('../data.json')]
 
+const { HOST } = process.env
+
 writeFiles(data.map(render))
 // process.exit(0) // TODO can't do this cuz writeFiles is async right now
 
@@ -28,6 +30,20 @@ function render ({ slug, title, type }) {
   const head = `
     <meta name="description" content="dumb shit">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', function() {
+          navigator.serviceWorker.register('${HOST}/sw.js').then(function(registration) {
+            // Registration was successful
+            console.log('ServiceWorker registration successful with scope: ', registration.scope);
+          }, function(err) {
+            // registration failed :(
+            console.log('ServiceWorker registration failed: ', err);
+          });
+        });
+      }
+    </script>
   `
   const urlFrag = `${(type === 'note') ? '/notes/' : '/'}${slug || ''}`
   const filename = path.join(process.cwd(), 'dist', urlFrag, 'index.html')
@@ -36,12 +52,14 @@ function render ({ slug, title, type }) {
     // script: 'bundle.js',
     // scriptAsync: true,
     // favicon: 'favicon.png',
-    css: `${process.env.HOST}/bundle.css`, // TODO inline?
+    css: `${HOST}/bundle.css`, // TODO inline?
     head,
     body: app.toString(urlFrag, app.state)
   })
 
+  // TODO need to get main/index, /notes views in here
   return {
+    // TODO should this return like path without the index.html?
     filename,
     html
   }
@@ -60,4 +78,5 @@ function writeFiles (data) {
       console.log(`writing ${page.filename}`)
     })
   })
+  // process.exit(0) // TODO can't do this cuz writeFiles is async right now
 }
