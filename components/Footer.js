@@ -1,26 +1,32 @@
-const html = require('choo/html')
-const Link = require('./Link')
+import React from 'react'
+import Link from 'next/link'
 
-const links = [
-  'About',
-  'Library',
-  'Future'
-  // 'Learned'
-]
-
-module.exports = function Footer () {
-  return html`
-    <footer class="footer mb5">
-      <ul class="list pl0 flex-ns mb0 mt0">
-        ${links.map(text => {
-          const href = `/${text.toLowerCase()}`
-          return html`
-            <li class="mr3-ns mb1 mb0-ns">
-              ${Link({ href, text })}
-            </li>
-          `
-        })}
+const Footer = () => (
+  <footer className="Footer">
+    <hr />
+    <nav>
+      <ul className="list pl0 flex-ns mb0 mt0 lh-copy">
+        <li className="mr3-ns mb2 mb0-ns">
+          <a
+            href="https://tat.honkytonk.in"
+            target="_blank"
+            className="link blue hover-dark-blue"
+          >
+            Trans America Trail
+          </a>
+        </li>
+        <li className="mr3-ns mb0">
+          <a
+            href="https://strategies.honkytonk.in"
+            target="_blank"
+            className="link blue hover-dark-blue"
+          >
+            Oblique Strategies
+          </a>
+        </li>
       </ul>
-    </footer>
-  `
-}
+    </nav>
+  </footer>
+)
+
+export default Footer

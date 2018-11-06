@@ -1,19 +1,40 @@
-const html = require('choo/html')
-const Nav = require('./Nav')
-const Link = require('./Link')
+import React from 'react'
+import Link from 'next/link'
+import { Heading } from 'mdx-provider-components'
 
-module.exports = function Header () {
-  // TODO this may be the only thing really necessary here
-  const children = html`<h1>Honky Tonkin'</h1>`
+const Header = () => (
+  <div className="Header">
+    <Link prefetch href="/">
+      <a className="db link near-black hover-gray">
+        <Heading>Honky Tonkin'</Heading>
+      </a>
+    </Link>
+    <nav>
+      <ul className="list pl0 flex-ns mb0 mt0 lh-copy">
+        <li className="mr3-ns mb2 mb0-ns">
+          <Link prefetch href="/notes">
+            <a className="link blue hover-dark-blue">Notes</a>
+          </Link>
+        </li>
+        <li className="mr3-ns mb2 mb0-ns">
+          <Link prefetch href="/library">
+            <a className="link blue hover-dark-blue">Library</a>
+          </Link>
+        </li>
+        <li className="mr3-ns mb2 mb0-ns">
+          <Link prefetch href="/future">
+            <a className="link blue hover-dark-blue">Future</a>
+          </Link>
+        </li>
+        <li className="mr3-ns mb0">
+          <Link prefetch href="/about">
+            <a className="link blue hover-dark-blue">About</a>
+          </Link>
+        </li>
+      </ul>
+    </nav>
+    <hr />
+  </div>
+)
 
-  return html`
-    <header class="header mb5">
-      ${Link({
-        href: '/',
-        styles: 'dn',
-        children
-      })}
-      ${Nav()}
-    </header>
-  `
-}
+export default Header

@@ -1,0 +1,48 @@
+@import '~tachyons';
+
+body {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+h5,
+h6 {
+  font-size: 0.875rem;
+}
+
+hr {
+  background: #999;
+  border: none;
+  height: 1px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #f4f4f4;
+}
+
+th,
+td {
+  padding: 0.5rem 1rem;
+}
+
+th {
+  font-size: 0.875rem;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+video {
+  display: block;
+  margin: 2rem auto;
+}
+
+/* a[target='_blank']:after { */
+/*   content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==); */
+/*   margin: 0 3px 0 5px; */
+/* } */
+
+.tab-num {
+  font-variant-numeric: tabular-nums;
+}
