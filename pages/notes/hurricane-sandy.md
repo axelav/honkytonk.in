@@ -1,4 +1,4 @@
-import Layout from '../components/Layout'
+import Layout from '../../components/Layout'
 
 export default Layout
 
@@ -23,8 +23,8 @@ Cars ended up in places they could never have been parked. Someone scrawled
 "FUCK SANDY" on a basement wall & another resident wrote a note on a handball
 wall:
 
-> 1 - WHERE IS OUR HOSPITAL?<br/>
-> 2 - JOHN CORI WARNED YOU! DEMAND THE SAND. SHAME ON YOU!!<br/>
+> 1 - WHERE IS OUR HOSPITAL?<br />
+> 2 - JOHN CORI WARNED YOU! DEMAND THE SAND. SHAME ON YOU!!<br />
 > 3 - GO XXXXX OR NO USA
 
 [John Cori][0], who began Friends of Rockaway Beach, organized rallies over

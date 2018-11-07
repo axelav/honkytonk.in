@@ -2,6 +2,8 @@ import Layout from '../components/Layout'
 
 export default Layout
 
+TODO what to do with this???
+
 ---
 
 title: Words
@@ -27,13 +29,13 @@ draft: true
 > died in cotton fields and sweatshops.
 > &mdash; Stephen Jay Gould
 
-> Go the whole way & then not come back again.<br> > &mdash; Rockman Rock
+> Go the whole way & then not come back again.<br /> > &mdash; Rockman Rock
 
-> I wanted to know the exact dimension of hell<br>
-> Does this sound simple?<br>
-> Fuck you! Are you for sale?<br>
-> Does 'Fuck you' sound simple enough?<br>
-> This was the only part that turned me on<br> > &mdash; Kim Gordon, The Sprawl
+> I wanted to know the exact dimension of hell<br />
+> Does this sound simple?<br />
+> Fuck you! Are you for sale?<br />
+> Does 'Fuck you' sound simple enough?<br />
+> This was the only part that turned me on<br /> > &mdash; Kim Gordon, The Sprawl
 
 ## Unknown
 

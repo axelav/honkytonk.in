@@ -1,8 +1,8 @@
+// TODO make this a package?
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'next/link'
 
-// TODO make this a package?
 const IndexLink = ({ href, text, date }) => (
   <div className="IndexLink flex justify-between mb2 lh-copy">
     <Link prefetch href={href}>
