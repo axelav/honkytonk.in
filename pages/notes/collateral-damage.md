@@ -2,13 +2,7 @@ import Layout from '../../components/Layout'
 
 export default Layout
 
----
-
-title: Collateral Damage
-type: note
-date: 2012-02-26T12:16:00.000Z
-tags: music, capitalism, internet
-...
+# Collateral Damage
 
 > With this enhanced access in the past decade, one is far more likely to hear
 > more less often than less more often. This shifts the way one listens, as the

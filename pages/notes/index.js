@@ -16,11 +16,21 @@ const Notes = () => {
         date="2018-10-23"
       />
       <DateLink
+        href="/notes/booze-cont"
+        text="Booze (Cont.)"
+        date="2018-03-19"
+      />
+      <DateLink
         href="/notes/last-things-last"
         text="Last Things Last"
         date="2017-12-14"
       />
       <DateLink href="/notes/2018" text="2018" date="2017-12-04" />
+      <DateLink
+        href="/notes/2017-pine-barrens-500"
+        text="2017 Pine Barrens 500"
+        date="2017-11-12"
+      />
       <DateLink href="/notes/booze" text="Booze" date="2017-08-05" />
       <DateLink
         href="/notes/skip-tracer"
@@ -59,7 +69,7 @@ const Notes = () => {
       />
       <DateLink
         href="/notes/disintegration-loops"
-        text="Disintegration Loops"
+        text="The Disintegration Loops"
         date="2012-11-20"
       />
       <DateLink

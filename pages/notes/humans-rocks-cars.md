@@ -1,19 +1,12 @@
 import Layout from '../../components/Layout'
+import Image from '../../components/Image'
 
 export default Layout
 
----
+# Humans, Rocks, Cars (Winter 2013)
 
-title: Humans, Rocks, Cars (Winter 2013)
-type: note
-date: 2013-03-04T14:16:00.000Z
-tags: new york
-...
-
-<div>
-![Times Square](/assets/images/winter-hiking/times-square.jpg)
-![J](/assets/images/winter-hiking/j.jpg)
-![300D on the Queensboro Bridge](/assets/images/winter-hiking/mb300d.jpg)
-![AT](/assets/images/winter-hiking/at.jpg)
-![E](/assets/images/winter-hiking/e.jpg)
-</div>
+<Image src="/winter-hiking/times-square.jpg" alt="Times Square" />
+<Image src="/winter-hiking/j.jpg" alt="J" />
+<Image src="/winter-hiking/mb300d.jpg" alt="MB 300D on the Queensboro Bridge" />
+<Image src="/winter-hiking/at.jpg" alt="AT" />
+<Image src="/winter-hiking/e.jpg" alt="E" />

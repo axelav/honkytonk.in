@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 const Footer = () => (
   <footer className="Footer">
-    <hr className="mv7" />
+    <hr className="mt7" />
     <nav>
       <ul className="list pl0 flex-ns mb0 mt0 lh-copy">
         <li className="mr3-ns mb1 mb0-ns">

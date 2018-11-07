@@ -1,23 +1,16 @@
 import Layout from '../../components/Layout'
+import Image from '../../components/Image'
 
 export default Layout
 
----
+# Wyoming (Late Summer 2013)
 
-title: Wyoming (Late Summer 2013)
-type: note
-date: 2013-12-31T14:16:00.000Z
-tags: wyoming
-...
-
-<div>
-![canyon through a clearing](/assets/images/wyoming/wyoming_02.jpg)
-![sky, pines & mountains](/assets/images/wyoming/wyoming_03.jpg)
-![whoops](/assets/images/wyoming/wyoming_05.jpg)
-![tent](/assets/images/wyoming/wyoming_01.jpg)
-![sky & mountains](/assets/images/wyoming/wyoming_06.jpg)
-![canyon](/assets/images/wyoming/wyoming_07.jpg)
-![river flowing through canyon](/assets/images/wyoming/wyoming_08.jpg)
-![J on a snowy trail](/assets/images/wyoming/wyoming_09.jpg)
-![steam rising off the lake](/assets/images/wyoming/wyoming_10.jpg)
-</div>
+<Image src="/wyoming/wyoming_02.jpg" alt="A canyon through a clearing" />
+<Image src="/wyoming/wyoming_03.jpg" alt="Sky, pines, and mountains" />
+<Image src="/wyoming/wyoming_05.jpg" alt="Whoops" />
+<Image src="/wyoming/wyoming_01.jpg" alt="Inside the tent" />
+<Image src="/wyoming/wyoming_06.jpg" alt="Sky and mountains" />
+<Image src="/wyoming/wyoming_07.jpg" alt="Canyon" />
+<Image src="/wyoming/wyoming_08.jpg" alt="River flowing through a canyon" />
+<Image src="/wyoming/wyoming_09.jpg" alt="J on a snowy trail" />
+<Image src="/wyoming/wyoming_10.jpg" alt="Steam rises off a lake" />

@@ -2,13 +2,7 @@ import Layout from '../../components/Layout'
 
 export default Layout
 
----
-
-title: A Day
-type: note
-date: 2012-10-31T12:16:00.000Z
-tags: life
-...
+# A Day
 
 - wake up.
 - have sex.

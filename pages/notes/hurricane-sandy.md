@@ -1,14 +1,9 @@
 import Layout from '../../components/Layout'
+import Image from '../../components/Image'
 
 export default Layout
 
----
-
-title: Hurricane Sandy, the Rockaways & Occupy Sandy
-type: note
-date: 2012-11-07T14:16:00.000Z
-tags: nyc
-...
+# Hurricane Sandy, the Rockaways & Occupy Sandy
 
 I've been out in the Rockaways the past couple days & just want to get a few
 notes down. I've been working with [Occupy Sandy](http://occupysandy.com), or
@@ -47,14 +42,12 @@ Tuesday.
 
 [0]: http://www.rockawave.com/news/2011-08-05/Top_Stories/New_Group_Seeks_to_Save_Rockaways_Beaches.html
 
-<div>
-![destroyed boardwalk](/assets/images/IMG_2640.jpg)
-![military helicopter](/assets/images/IMG_2646.jpg)
-![fuck sandy](/assets/images/IMG_2649.jpg)
-![military vehicle](/assets/images/IMG_2658.jpg)
-![destroyed car](/assets/images/IMG_2664.jpg)
-![another car](/assets/images/IMG_2666.jpg)
-![destroyed boardwalk](/assets/images/IMG_2675.jpg)
-![destroyed boardwalk & handball wall](/assets/images/IMG_2676.jpg)
-![littered street](/assets/images/IMG_2680.jpg)
-</div>
+<Image src="/IMG_2640.jpg" alt="Destroyed boardwalk" />
+<Image src="/IMG_2646.jpg" alt="Military helicopter" />
+<Image src="/IMG_2649.jpg" alt="Fuck Sandy" />
+<Image src="/IMG_2658.jpg" alt="Military vehicle" />
+<Image src="/IMG_2664.jpg" alt="Destroyed car" />
+<Image src="/IMG_2666.jpg" alt="Another car" />
+<Image src="/IMG_2675.jpg" alt="Destroyed boardwalk" />
+<Image src="/IMG_2676.jpg" alt="Destroyed boardwalk and handball wall" />
+<Image src="/IMG_2680.jpg" alt="Littered street" />

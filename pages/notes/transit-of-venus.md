@@ -2,15 +2,9 @@ import Layout from '../../components/Layout'
 
 export default Layout
 
----
+# The Transit of Venus
 
-title: The Transit of Venus
-type: note
-date: 2012-06-06T12:16:00.000Z
-tags: video, science, space
-...
-
-<iframe width="853" height="480" src="//www.youtube.com/embed/4Z9rM8ChTjY" frameBorder="0" allowFullScreen></iframe>
+<iframe className="mb4" width="853" height="480" src="//www.youtube.com/embed/4Z9rM8ChTjY" frameBorder="0" allowFullScreen></iframe>
 
 > Transits of Venus are among the rarest of predictable astronomical phenomena.
 > They occur in a pattern that generally repeats every 243 years, with pairs of
