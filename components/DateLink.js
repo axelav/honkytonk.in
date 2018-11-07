@@ -3,19 +3,19 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'next/link'
 
-const IndexLink = ({ href, text, date }) => (
-  <div className="IndexLink flex justify-between mb2 lh-copy">
+const DateLink = ({ href, text, date }) => (
+  <div className="DateLink flex-l justify-between-l mb2 lh-copy">
     <Link prefetch href={href}>
-      <a className="link blue hover-dark-blue">{text}</a>
+      <a className="db link blue hover-dark-blue">{text}</a>
     </Link>{' '}
-    <div className="light-silver tab-num">{date}</div>
+    <div className="light-silver tabular-nums">{date}</div>
   </div>
 )
 
-IndexLink.propTypes = {
+DateLink.propTypes = {
   href: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired
 }
 
-export default IndexLink
+export default DateLink
