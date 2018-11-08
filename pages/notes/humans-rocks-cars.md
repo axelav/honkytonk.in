@@ -1,9 +1,10 @@
 import Layout from '../../components/Layout'
 import Image from '../../components/Image'
+import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-# Humans, Rocks, Cars (Winter 2013)
+<NoteTitle date="2013-03-04" title="Humans, Rocks, Cars (Winter 2013)" />
 
 <Image src="/winter-hiking/times-square.jpg" alt="Times Square" />
 <Image src="/winter-hiking/j.jpg" alt="J" />

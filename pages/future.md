@@ -9,7 +9,7 @@ export default Layout
 - have a child (?)
 - hike the Appalachian Trail
 - leave NYC
-- make clothes
+- make clothing
 - purchase land
 - ~~quit drinking~~
 - ~~ride a motorcycle across the US~~

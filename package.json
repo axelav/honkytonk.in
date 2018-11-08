@@ -8,12 +8,20 @@
     "@mdx-js/tag": "^0.15.6",
     "@zeit/next-css": "^1.0.1",
     "@zeit/next-mdx": "^1.2.0",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.8.0",
+    "eslint-config-react-app": "^3.0.5",
+    "eslint-plugin-flowtype": "^3.2.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.2",
+    "eslint-plugin-react": "^7.11.1",
     "journalize": "^2.1.0",
+    "luxon": "^1.5.0",
     "mdx-provider-components": "^1.4.1",
     "next": "^7.0.2",
     "prop-types": "^15.6.2",
-    "react": "^16.6.0",
-    "react-dom": "^16.6.0",
+    "react": "^16.6.1",
+    "react-dom": "^16.6.1",
     "remark-emoji": "^2.0.2",
     "remark-images": "^0.15.6",
     "tachyons": "^4.11.1"
@@ -29,5 +37,12 @@
   "now": {
     "name": "honkytonk.in",
     "type": "static"
+  },
+  "eslintConfig": {
+    "extends": "react-app",
+    "rules": {
+      "default-case": "off",
+      "react/prop-types": 1
+    }
   }
 }

@@ -4,14 +4,7 @@ export default Layout
 
 TODO what to do with this???
 
----
-
-title: First Thought
-type: note
-date: 2016-01-05T06:16:00.000Z
-tags: mediation, improvement
-draft: true
-...
+# First Thought
 
 ## How To
 

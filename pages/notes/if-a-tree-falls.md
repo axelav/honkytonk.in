@@ -1,9 +1,10 @@
 import Layout from '../../components/Layout'
 import Image from '../../components/Image'
+import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-# If a Tree Falls & the Secret Lives of Plants
+<NoteTitle date="2012-05-06" title="If a Tree Falls & the Secret Lives of Plants" />
 
 [If a Tree Falls - IMBD](http://www.imdb.com/title/tt1787725/)
 

@@ -2,16 +2,9 @@ import Layout from '../components/Layout'
 
 export default Layout
 
----
+# Now
 
-title: Now
-type: note
-date: 2016-01-05T06:16:00.000Z
-tags: now, life
-draft: true
-...
-
-TODO how does this differ from /about???
+TODO what to do with this? how does this differ from /about???
 
 I'm currently living in Brooklyn, trying to focus on:
 

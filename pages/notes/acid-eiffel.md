@@ -1,8 +1,9 @@
 import Layout from '../../components/Layout'
+import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-# Acid Eiffel
+<NoteTitle date="2012-01-15" title="Acid Eiffel" />
 
 <iframe className="mb4" width="560" height="315" src="https://www.youtube.com/embed/rYBUDRSeeeE" frameBorder="0" allowFullScreen></iframe>
 

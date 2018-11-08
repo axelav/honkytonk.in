@@ -1,8 +1,9 @@
 import Layout from '../../components/Layout'
+import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-# Last Things Last
+<NoteTitle date="2017-12-14" title="Last Things Last" />
 
 I find this to be one of the most beautiful songs I've ever come across. I'd
 probably have to credit Rachel's for introducing me to what's called "modern

@@ -20,6 +20,7 @@ const Index = () => {
     <Layout>
       <div className="flex justify-center mb4">
         <iframe
+          title="honky tonkin'"
           width="560"
           height="315"
           src={`https://www.youtube.com/embed/${videoId}`}

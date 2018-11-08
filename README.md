@@ -1,4 +1,4 @@
-# Honky Tonkin' - https://honkytonk.in
+# honky tonkin' - https://honkytonk.in
 
 - next.js
 - mdx

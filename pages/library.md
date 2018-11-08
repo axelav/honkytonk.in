@@ -6,6 +6,7 @@ export default Layout
 
 ## Currently
 
+- _7 Years from Start to Finish: The Baja 1000 &mdash; The Early Years_, Rod Koch
 - _Zen and the Art of Motorcycle Maintenance_, Robert Pirsig
 - _Angle of Repose_, Wallace Stegner
 
@@ -73,17 +74,17 @@ export default Layout
 - _Waging Heavy Peace_, Neil Young
 - _Wyoming Folklore: Reminiscences, Folktales, Beliefs, Customs and Folk Speech, Federal Writers' Project_
 
+TODO should this stay?
+
 ## The Thing About Motorcycles
 
-- [About Motorcycles][0], Frederick Seidel
-- [International Journal of Motorcycle Studies][2]
-- [Precious Dangers][3], Melissa Holbrook Pierson
-- _The Perfect Vehicle_, Melissa Holbrook Pierson
-- [Song of the Sausage Creature][1], Hunter S Thompson
-- [Zen and the Art of Motorcycle Maintainance][4], Robert M Pirsig
+- ["About Motorcycles"][0], Frederick Seidel
+- ["International Journal of Motorcycle Studies"][2]
+- ["Precious Dangers"][3] and _The Perfect Vehicle_, Melissa Holbrook Pierson
+- ["Song of the Sausage Creature"][1], Hunter S Thompson
+- _Zen and the Art of Motorcycle Maintainance_, Robert M Pirsig
 
 [0]: https://harpers.org/archive/2009/11/about-motorcycles/?single=1
 [1]: http://www.latexnet.org/~csmith/sausage.html
 [2]: http://motorcyclestudies.org
 [3]: https://harpers.org/archive/1995/05/precious-dangers/
-[4]: https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060589469

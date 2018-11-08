@@ -4,15 +4,7 @@ export default Layout
 
 TODO what to do with this???
 
----
-
-title: Words
-type: note
-date: 2015-08-16T04:00:00.000Z
-updated: 2016-01-05T00:00:00.000Z
-tags: words, people
-draft: true
-...
+# Words
 
 ## Known
 

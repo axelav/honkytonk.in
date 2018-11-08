@@ -6,7 +6,7 @@ const Header = () => (
   <div className="Header">
     <Link prefetch href="/">
       <a className="db link near-black hover-gray">
-        <Heading>Honky Tonkin'</Heading>
+        <Heading>honky tonkin'</Heading>
       </a>
     </Link>
     <nav>

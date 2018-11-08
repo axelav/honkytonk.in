@@ -1,9 +1,10 @@
 import Layout from '../../components/Layout'
 import Image from '../../components/Image'
+import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-# Penobscot Bay (Memorial Day 2011)
+<NoteTitle date="2013-01-22" title="Penobscot Bay (Memorial Day 2011)" />
 
 <Image src="/maine/57750007.jpg" alt="California" />
 <Image src="/maine/63900025.jpg" alt="California" />

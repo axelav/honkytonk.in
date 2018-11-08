@@ -58,18 +58,23 @@ class Image extends Component {
             max-height: 100%;
           }
 
+          /*
+           * TODO what to do with this? don't have it larger than text width?
           @media screen and (min-width: 30em) and (max-width: 60em) {
             .inline {
               width: 110%;
               margin-left: -5%;
             }
           }
+          */
 
           @media screen and (min-width: 60em) {
+            /*
             .inline {
               width: 125%;
               margin-left: -12.5%;
             }
+            */
 
             .expanded > img {
               max-width: 80%;

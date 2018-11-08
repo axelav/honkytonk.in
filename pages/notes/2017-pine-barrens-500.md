@@ -1,8 +1,9 @@
 import Layout from '../../components/Layout'
+import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-# 2017 Pine Barrens 500
+<NoteTitle date="2017-11-12" title="2017 Pine Barrens 500" />
 
 The trails rattled the screws that hold my pen together & twist off seal from a
 bottle of Cleareyes.

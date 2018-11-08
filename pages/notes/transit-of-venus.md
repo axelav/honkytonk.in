@@ -1,8 +1,9 @@
 import Layout from '../../components/Layout'
+import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-# The Transit of Venus
+<NoteTitle date="2012-06-06" title="The Transit of Venus" />
 
 <iframe className="mb4" width="853" height="480" src="//www.youtube.com/embed/4Z9rM8ChTjY" frameBorder="0" allowFullScreen></iframe>
 

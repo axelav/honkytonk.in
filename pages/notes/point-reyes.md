@@ -1,9 +1,10 @@
 import Layout from '../../components/Layout'
 import Image from '../../components/Image'
+import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-# Point Reyes (Summer 2012)
+<NoteTitle date="2013-01-28" title="Point Reyes (Summer 2012)" />
 
 <Image src="/california/63910023.jpg" alt="California" />
 <Image src="/california/63910001.jpg" alt="California" />

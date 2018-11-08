@@ -1,8 +1,9 @@
 import Layout from '../../components/Layout'
+import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-# Collateral Damage
+<NoteTitle date="2012-02-26" title="Collateral Damage" />
 
 > With this enhanced access in the past decade, one is far more likely to hear
 > more less often than less more often. This shifts the way one listens, as the

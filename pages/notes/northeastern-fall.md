@@ -1,9 +1,10 @@
 import Layout from '../../components/Layout'
 import Image from '../../components/Image'
+import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-# Hudson Valley, Cape Cod, Pine Barrens (Fall 2012)
+<NoteTitle date="2013-02-01" title="Hudson Valley, Cape Cod, Pine Barrens (Fall 2012)" />
 
 <Image src="/newyork-capecod-newjersey/45330018.jpg" alt="New York" />
 <Image src="/newyork-capecod-newjersey/45330017.jpg" alt="New York" />

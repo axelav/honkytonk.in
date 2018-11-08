@@ -1,8 +1,9 @@
 import Layout from '../../components/Layout'
+import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-# The Disintegration Loops
+<NoteTitle date="2012-11-20" title="The Disintegration Loops" />
 
 _The Quietus_ recently published a great [interview][0] with William Basinski on
 the tenth anniversary of the Disintegration Loops. He speaks at length about how
@@ -32,10 +33,3 @@ It happened over 10 years ago but I can't watch this without welling up.
 <iframe className="mb4" width="560" height="315" src="https://www.youtube.com/embed/qYOr8TlnqsY" frameBorder="0" allowFullScreen></iframe>
 
 [0]: http://thequietus.com/articles/10680-william-basinski-disintegration-loops-interview
-
-```
-title: The Disintegration Loops
-type: note
-date: 2012-11-20T11:44:00.000Z
-tags: music, ambient, nyc
-```

@@ -1,9 +1,10 @@
 import Layout from '../../components/Layout'
 import Image from '../../components/Image'
+import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-# Hurricane Sandy, the Rockaways & Occupy Sandy
+<NoteTitle date="2012-11-07" title="Hurricane Sandy, the Rockaways & Occupy Sandy" />
 
 I've been out in the Rockaways the past couple days & just want to get a few
 notes down. I've been working with [Occupy Sandy](http://occupysandy.com), or

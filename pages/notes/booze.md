@@ -1,8 +1,9 @@
 import Layout from '../../components/Layout'
+import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-# Booze
+<NoteTitle date="2017-08-05" title="Booze" />
 
 From a letter by Sam Shepard to Johnny Dark:
 

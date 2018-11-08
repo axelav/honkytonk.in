@@ -1,8 +1,9 @@
 import Layout from '../../components/Layout'
+import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-# A Day
+<NoteTitle date="2012-10-31" title="A Day" />
 
 - wake up.
 - have sex.

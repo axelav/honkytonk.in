@@ -1,8 +1,9 @@
 import Layout from '../../components/Layout'
+import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-# 2018 Pine Barrens 500
+<NoteTitle title="2018 Pine Barrens 500" date="2018-11-02" />
 
 TODO add photos
 
