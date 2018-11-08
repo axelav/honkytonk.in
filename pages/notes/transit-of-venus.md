@@ -5,7 +5,13 @@ export default Layout
 
 <NoteTitle date="2012-06-06" title="The Transit of Venus" />
 
-<iframe className="mb4" width="853" height="480" src="//www.youtube.com/embed/4Z9rM8ChTjY" frameBorder="0" allowFullScreen></iframe>
+<iframe
+  width="560"
+  height="315"
+  src="//www.youtube.com/embed/4Z9rM8ChTjY"
+  frameBorder="0"
+  allowFullScreen
+></iframe>
 
 > Transits of Venus are among the rarest of predictable astronomical phenomena.
 > They occur in a pattern that generally repeats every 243 years, with pairs of

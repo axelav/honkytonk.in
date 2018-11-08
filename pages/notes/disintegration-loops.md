@@ -30,6 +30,12 @@ As well as how the significance of 9/11 affected the music:
 
 It happened over 10 years ago but I can't watch this without welling up.
 
-<iframe className="mb4" width="560" height="315" src="https://www.youtube.com/embed/qYOr8TlnqsY" frameBorder="0" allowFullScreen></iframe>
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/qYOr8TlnqsY"
+  frameBorder="0"
+  allowFullScreen
+></iframe>
 
 [0]: http://thequietus.com/articles/10680-william-basinski-disintegration-loops-interview
