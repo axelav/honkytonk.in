@@ -1,5 +1,6 @@
 import Layout from '../../components/Layout'
 import NoteTitle from '../../components/NoteTitle'
+import Video from '../../components/Video'
 
 export default Layout
 
@@ -12,10 +13,4 @@ classical", which now takes a large segment of my listening time. This is one of
 particularly wrenching as it comes shortly after the death of Rachel's founding
 member Jason Noble.
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube-nocookie.com/embed/Bv6og-PvKAg?rel=0"
-  frameBorder="0"
-  allowFullScreen
-></iframe>
+<Video src="https://www.youtube-nocookie.com/embed/Bv6og-PvKAg?rel=0" />

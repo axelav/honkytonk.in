@@ -43,12 +43,12 @@ Tuesday.
 
 [0]: http://www.rockawave.com/news/2011-08-05/Top_Stories/New_Group_Seeks_to_Save_Rockaways_Beaches.html
 
-<Image src="/IMG_2640.jpg" alt="Destroyed boardwalk" />
-<Image src="/IMG_2646.jpg" alt="Military helicopter" />
-<Image src="/IMG_2649.jpg" alt="Fuck Sandy" />
-<Image src="/IMG_2658.jpg" alt="Military vehicle" />
-<Image src="/IMG_2664.jpg" alt="Destroyed car" />
-<Image src="/IMG_2666.jpg" alt="Another car" />
-<Image src="/IMG_2675.jpg" alt="Destroyed boardwalk" />
-<Image src="/IMG_2676.jpg" alt="Destroyed boardwalk and handball wall" />
-<Image src="/IMG_2680.jpg" alt="Littered street" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/IMG_2640.jpg" alt="Destroyed boardwalk" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/IMG_2646.jpg" alt="Military helicopter" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/IMG_2649.jpg" alt="Fuck Sandy" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/IMG_2658.jpg" alt="Military vehicle" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/IMG_2664.jpg" alt="Destroyed car" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/IMG_2666.jpg" alt="Another car" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/IMG_2675.jpg" alt="Destroyed boardwalk" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/IMG_2676.jpg" alt="Destroyed boardwalk and handball wall" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/IMG_2680.jpg" alt="Littered street" />

@@ -1,17 +1,12 @@
 import Layout from '../../components/Layout'
 import NoteTitle from '../../components/NoteTitle'
+import Video from '../../components/Video'
 
 export default Layout
 
 <NoteTitle date="2012-06-06" title="The Transit of Venus" />
 
-<iframe
-  width="560"
-  height="315"
-  src="//www.youtube.com/embed/4Z9rM8ChTjY"
-  frameBorder="0"
-  allowFullScreen
-></iframe>
+<Video src="//www.youtube.com/embed/4Z9rM8ChTjY" />
 
 > Transits of Venus are among the rarest of predictable astronomical phenomena.
 > They occur in a pattern that generally repeats every 243 years, with pairs of

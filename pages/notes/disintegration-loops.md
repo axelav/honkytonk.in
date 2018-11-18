@@ -1,5 +1,6 @@
 import Layout from '../../components/Layout'
 import NoteTitle from '../../components/NoteTitle'
+import Video from '../../components/Video'
 
 export default Layout
 
@@ -30,12 +31,6 @@ As well as how the significance of 9/11 affected the music:
 
 It happened over 10 years ago but I can't watch this without welling up.
 
-<iframe
-  width="560"
-  height="315"
-  src="https://www.youtube.com/embed/qYOr8TlnqsY"
-  frameBorder="0"
-  allowFullScreen
-></iframe>
+<Video src="https://www.youtube.com/embed/qYOr8TlnqsY" />
 
 [0]: http://thequietus.com/articles/10680-william-basinski-disintegration-loops-interview

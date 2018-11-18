@@ -2,6 +2,7 @@ import React from 'react'
 import { Subheading } from 'mdx-provider-components'
 import Layout from '../components/Layout'
 import DateLink from '../components/DateLink'
+import Video from '../components/Video'
 
 const Index = () => {
   const honkyTonks = [
@@ -18,14 +19,9 @@ const Index = () => {
 
   return (
     <Layout>
-      <iframe
+      <Video
         className="center"
-        title="honky tonkin'"
-        width="560"
-        height="315"
         src={`https://www.youtube.com/embed/${videoId}`}
-        frameBorder="0"
-        allowFullScreen
       />
       <hr />
       <Subheading>Lately</Subheading>

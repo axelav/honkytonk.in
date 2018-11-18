@@ -1,17 +1,20 @@
 import Layout from '../../components/Layout'
+import Image from '../../components/Image'
 import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
 <NoteTitle title="2018 Pine Barrens 500" date="2018-11-02" />
 
-TODO add photos
-
 ## Friday
 
 I woke at 5am, loaded the bike, and got on the road by six. The thermometer read around 40&deg; F. It was a cold two hours over the Verraznano Bride and then south on the NJ Turnpike and 206 to Hammonton. I made it by 8:30 and got registered and the bike inspected.
 
 I rode great with a guy whose name I can't remember. He rode his Husky 501 very well, especially in the enduro sections. He'd really get ahead of me there, but I could keep up with him in the sand and through the woods roads. The tracks were really fun with a good dose of all the terrain the Pine Barrens offers. Jack ends the day with a long run through a deep sand section where he then turns you back around to run right through it. I remember being exhausted going through it last year but feeling great today.
+
+<Image src="https://s3.amazonaws.com/honkytonk.in/pb500/181026_pb500_076-X2.jpg" alt="Hello World" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/pb500/181026_pb500_077-X2.jpg" alt="Hello World" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/pb500/181026_pb500_397-X2.jpg" alt="Hello World" />
 
 ## Saturday
 
@@ -21,10 +24,14 @@ The truck picked me up, and I spent the afternoon riding around with Dennis. He 
 
 We stopped by NAPA where I bought eight quarts of 10w40 and proceeded to change the oil four times before it looked pretty clean. I let the bike run for 10 minutes with no problems and would decide what to do tomorrow morning.
 
+<Image src="/pb500/181027_pb500_057-X2.jpg" alt="Hello World" />
+
 ## Sunday
 
 The forest was still soaking this morning.
 one deep puddle, probably got the starter solenoid
+
+<Image src="/pb500/181028_pb500_177-X2.jpg" alt="Hello World" />
 
 ## Notes
 

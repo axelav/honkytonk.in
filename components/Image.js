@@ -1,7 +1,6 @@
+// TODO make this a package?
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-
-const CDN_URL = 'https://s3.amazonaws.com/honkytonk.in'
 
 class Image extends Component {
   static propTypes = {
@@ -36,16 +35,12 @@ class Image extends Component {
 
     return (
       <div className="Image w-100 mt4 mb4" onClick={this.handleClick}>
-        <figure className="inline">
-          <img className="db mw-100" src={`${CDN_URL}${src}`} alt={alt} />
+        <figure>
+          <img className="db mw-100" src={src} alt={alt} />
         </figure>
         {isExpanded && (
           <figure className="expanded fixed top-0 left-0 flex justify-center items-center w-100 vh-100 bg-black-90">
-            <img
-              className="db mw-100 w-100"
-              src={`${CDN_URL}${src}`}
-              alt={alt}
-            />
+            <img className="db mw-100" src={src} alt={alt} />
           </figure>
         )}
 
@@ -58,24 +53,7 @@ class Image extends Component {
             max-height: 100%;
           }
 
-          /*
-           * TODO what to do with this? don't have it larger than text width?
-          @media screen and (min-width: 30em) and (max-width: 60em) {
-            .inline {
-              width: 110%;
-              margin-left: -5%;
-            }
-          }
-          */
-
           @media screen and (min-width: 60em) {
-            /*
-            .inline {
-              width: 125%;
-              margin-left: -12.5%;
-            }
-            */
-
             .expanded > img {
               max-width: 80%;
             }

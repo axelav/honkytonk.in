@@ -8,10 +8,10 @@ export default Layout
 
 [If a Tree Falls - IMBD](http://www.imdb.com/title/tt1787725/)
 
-<Image src="/elf.jpg" alt="ELF" />
-<Image src="/elf-graffiti.jpg" alt="ELF graffiti" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/elf.jpg" alt="ELF" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/elf-graffiti.jpg" alt="ELF graffiti" />
 
 [The Secret Life of Plants - IMBD](http://www.imdb.com/title/tt0078217/)
 
-<Image src="/the-secret-life-of-plants-1.jpg" alt="The Secret Life of Plants" />
-<Image src="/the-secret-life-of-plants-2.jpg" alt="The Secret Life of Plants" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/the-secret-life-of-plants-1.jpg" alt="The Secret Life of Plants" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/the-secret-life-of-plants-2.jpg" alt="The Secret Life of Plants" />
