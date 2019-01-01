@@ -15,9 +15,11 @@
     "eslint-plugin-import": "^2.14.0",
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
+    "husky": "^1.2.0",
     "journalize": "^2.1.0",
+    "lint-staged": "^8.1.0",
     "luxon": "^1.5.0",
-    "mdx-provider-components": "^1.5.0",
+    "mdx-provider-components": "^2.0.0",
     "next": "^7.0.2",
     "prop-types": "^15.6.2",
     "react": "^16.6.1",
@@ -40,6 +42,22 @@
     "rules": {
       "default-case": "off",
       "react/prop-types": 1
+    }
+  },
+  "lint-staged": {
+    "components/**/*.{js}": [
+      "prettier --single-quote --no-semi --write",
+      "git add"
+    ],
+    "pages/**/*.{js,md}": [
+      "prettier --single-quote --no-semi --write",
+      "git add"
+    ],
+    "style.css": ["prettier --write", "git add"]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
     }
   }
 }

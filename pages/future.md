@@ -2,7 +2,7 @@ import Layout from '../components/Layout'
 
 export default Layout
 
-# Future
+## Future
 
 - ~~get a dog~~
 - ~~get married~~

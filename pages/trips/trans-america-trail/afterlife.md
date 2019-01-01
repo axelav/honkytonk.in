@@ -1,10 +1,12 @@
-import Layout from '../components/Layout'
+import TATLayout from '../../../components/TATLayout'
+import NoteTitle from '../../../components/NoteTitle'
 
-export default Layout
+export default TATLayout
 
-### Life Back Home (October 6, 2018)
-
-#### _7479 miles round trip_
+<NoteTitle
+  title="Life Back Home (October 6, 2018)"
+  subtitle="7479 miles round trip"
+/>
 
 26112 - 18633
 

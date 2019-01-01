@@ -2,22 +2,22 @@ import Layout from '../components/Layout'
 
 export default Layout
 
-# Library
+## Library
 
-## Currently
+### Currently
 
 - _7 Years from Start to Finish: The Baja 1000 &mdash; The Early Years_, Rod Koch
-- _Zen and the Art of Motorcycle Maintenance_, Robert Pirsig
 - _Angle of Repose_, Wallace Stegner
+- _D3.js in Action, Second Edition: Data visualization with JavaScript_, Elijah Meeks
+- _Zen and the Art of Motorcycle Maintenance_, Robert Pirsig
 
-## Started and Put Down...
+### Started and Put Down...
 
 - _Networking for Systems Administrators_, Michael Lucas
-- _D3.js in Action, Second Edition: Data visualization with JavaScript_, Elijah Meeks
 - _The Intelligent Investor_, Benjamin Graham
 - _Code: The Hidden Language of Computer Hardware and Software_, Charles Petzold
 
-## 2018
+### 2018
 
 - _The Perfect Vehicle_, Melissa Holbrook Pierson
 - _Excuse Me, Which Way to the Baja 1000?_, Airborne Andy
@@ -29,7 +29,7 @@ export default Layout
 - _Stop Drinking Now_, Allen Carr
 - _Sanibel Flats_, Randy Wayne White
 
-## 2017
+### 2017
 
 - _Zero History_, William Gibson
 - _Thinking in Systems: A Primer_, Donella Meadows
@@ -40,7 +40,7 @@ export default Layout
 - _Stories of Your Life and Others_, Ted Chiang
 - _On Trails_, Robert Moor
 
-## 2016
+### 2016
 
 - _The Transmigration of Timothy Archer_, Philip K Dick
 - _High Performance Browser Networking_, Ilya Grigorik
@@ -49,7 +49,7 @@ export default Layout
 - _The Left Hand of Darkness_, Ursula Le Guin
 - _The Stories of Breece D'j Pancake_, Breece Pancake
 
-## 2015
+### 2015
 
 - _The Real World of Technology_, Ursula Franklin
 - _Javascript Allonge_, Reg Braithwaite
@@ -60,7 +60,7 @@ export default Layout
 - _Willie Nelson: An Epic Life_, Joe Patoski
 - _Zen and the Art of Motorcycle Maintenance_, Robert Pirsig
 
-## 2014
+### 2014
 
 - _Bleeding Edge_, Thomas Pynchon
 - _Mr. Penumbra's 24-Hour Bookstore_, Robin Sloan
@@ -76,7 +76,7 @@ export default Layout
 
 TODO should this stay?
 
-## The Thing About Motorcycles
+### The Thing About Motorcycles
 
 - ["About Motorcycles"][0], Frederick Seidel
 - ["International Journal of Motorcycle Studies"][2]

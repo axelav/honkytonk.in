@@ -6,16 +6,14 @@ import { Title, Subtitle } from 'mdx-provider-components'
 const NoteTitle = ({ title, subtitle, date }) => (
   <div className="flex-ns items-center-ns justify-between-ns">
     <Title>{title}</Title>
-    {subtitle && <Subtitle>{subtitle}</Subtitle>}
-    {date && (
-      <div className="tabular-nums">
+    <div className="tabular-nums w5-ns tr-ns">
+      {subtitle && <Subtitle>{subtitle}</Subtitle>}
+      {date && (
         <Subtitle>
-          {DateTime.fromJSDate(new Date(date)).toLocaleString(
-            DateTime.DATE_HUGE
-          )}
+          {DateTime.fromISO(date).toLocaleString(DateTime.DATE_HUGE)}
         </Subtitle>
-      </div>
-    )}
+      )}
+    </div>
   </div>
 )
 

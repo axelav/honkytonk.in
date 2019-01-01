@@ -1,10 +1,17 @@
 import React from 'react'
+import { Subheading } from 'mdx-provider-components'
 import Layout from '../../components/Layout'
 import DateLink from '../../components/DateLink'
 
 const Notes = () => {
   return (
     <Layout>
+      <Subheading>Notes</Subheading>
+      <DateLink
+        href="/notes/guitar-topographies"
+        text="Guitar Topographies"
+        date="2018-12-04"
+      />
       <DateLink
         href="/notes/2018-pine-barrens-500"
         text="2018 Pine Barrens 500"

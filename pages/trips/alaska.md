@@ -4,7 +4,6 @@ import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-<NoteTitle title="Shenandoah" />
+<NoteTitle title="Alaska" />
 
-- where are the photos?
-- what were the dates?
+TBD

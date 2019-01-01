@@ -1,0 +1,25 @@
+import Layout from '../../components/Layout'
+import Image from '../../components/Image'
+import Video from '../../components/Video'
+import NoteTitle from '../../components/NoteTitle'
+
+export default Layout
+
+<NoteTitle title="Guitar Topographies" date="2018-12-04" />
+
+This is an amazing mix by Andrew Pekler called "Guitar Topographies".
+
+<Video src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/525582759&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
+
+- Philip Tabane - Mgwedi (Moon)
+- Chas Smith - After
+- Marissa Anderson - Chimes
+- Roy Montgomery - Clear Night
+- A.C. Marias - Just Talk
+- Robert Fripp - 1988
+- Acetone - How Sweet I Roamed
+- Bill Nelson - The Ritual Echo
+- Pete Drake - Steal Away
+- Andrew Pekler - Untitled Guitar Music
+- Spacemen 3 - Repeater
+- Daniel Lanois - Sketches

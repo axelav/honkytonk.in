@@ -8,14 +8,14 @@ const DateLink = ({ href, text, date }) => (
     <Link prefetch href={href}>
       <a className="db link blue hover-dark-blue">{text}</a>
     </Link>
-    <div className="light-silver">{date}</div>
+    {date && <div className="light-silver">{date}</div>}
   </div>
 )
 
 DateLink.propTypes = {
   href: PropTypes.string.isRequired,
   text: PropTypes.string.isRequired,
-  date: PropTypes.string.isRequired
+  date: PropTypes.string
 }
 
 export default DateLink

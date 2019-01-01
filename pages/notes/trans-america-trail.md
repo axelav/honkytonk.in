@@ -7,7 +7,7 @@ export default Layout
 
 <NoteTitle title="Trans America Trail" date="2018-10-23" />
 
-This past summer, I rode across the Trans America Trail across the country on my 2010 KTM 690 Enduro R. I wrote a [ride report](/trips/trans-america-trail) for each day.
+This past summer, I rode across the Trans America Trail across the country on my 2010 KTM 690 Enduro R.
 
 <Image src="https://s3.amazonaws.com/honkytonk.in/tat-route-basecamp.jpg" alt="An overview of the route I travelled on the TAT" />
 
@@ -19,9 +19,9 @@ It took:
 - two oil changes
 - one fuel filter replacement
 - one fuel pump replacement
-- lots of chesseburgers and thousands of peanut butter M&Ms
+- dozens of cheeseburgers and thousands of peanut butter M&Ms
 
-Some of my favorite photos from the trip are below, and there are [many more](https://tat.honkytonk.in).
+I [wrote it up in much greater detail](/trips/trans-america-trail) but have selected some of my favorite photos from the trip below.
 
 <Subtitle>Tennessee</Subtitle>
 

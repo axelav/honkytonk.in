@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 import { Subheading } from 'mdx-provider-components'
 import Layout from '../../../components/Layout'
 import DateLink from '../../../components/DateLink'
@@ -156,6 +157,11 @@ const TransAmericaTrailIndex = () => {
         href="/trips/trans-america-trail/2018-09-16"
         text="30 &mdash; Oregon"
         date="2018-09-16"
+      />
+      <hr />
+      <DateLink
+        href="/trips/trans-america-trail/planning"
+        text="Appendix &mdash; Planning"
       />
     </Layout>
   )

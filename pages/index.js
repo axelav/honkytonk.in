@@ -19,12 +19,12 @@ const Index = () => {
 
   return (
     <Layout>
-      <Video
-        className="center"
-        src={`https://www.youtube.com/embed/${videoId}`}
-      />
-      <hr />
       <Subheading>Lately</Subheading>
+      <DateLink
+        href="/notes/guitar-topographies"
+        text="Guitar Topographies"
+        date="2018-12-04"
+      />
       <DateLink
         href="/notes/2018-pine-barrens-500"
         text="2018 Pine Barrens 500"
@@ -39,6 +39,11 @@ const Index = () => {
         href="/notes/last-things-last"
         text="Last Things Last"
         date="2017-12-14"
+      />
+      <hr />
+      <Video
+        className="center"
+        src={`https://www.youtube.com/embed/${videoId}`}
       />
     </Layout>
   )

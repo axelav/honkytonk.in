@@ -2,8 +2,9 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import cx from 'classnames'
 
-const Video = ({ src, title, className }) => {
+const Video = ({ src, className }) => {
   const prefix = cx('mw-100', className)
+
   return (
     <div className="Video">
       <iframe

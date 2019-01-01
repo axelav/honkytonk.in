@@ -39,7 +39,7 @@ class Image extends Component {
           <img className="db mw-100" src={src} alt={alt} />
         </figure>
         {isExpanded && (
-          <figure className="expanded fixed top-0 left-0 flex justify-center items-center w-100 vh-100 bg-black-90">
+          <figure className="expanded fixed top-0 left-0 flex justify-center items-center w-100 vh-100 bg-black-80">
             <img className="db mw-100" src={src} alt={alt} />
           </figure>
         )}
@@ -47,6 +47,11 @@ class Image extends Component {
         <style jsx>{`
           figure {
             margin: 0;
+            cursor: zoom-in;
+          }
+
+          .expanded {
+            cursor: zoom-out;
           }
 
           .expanded > img {

@@ -1,7 +1,10 @@
-import Layout from '../components/Layout'
-import Image from '../components/Image'
+import TATLayout from '../../../components/TATLayout'
+import Image from '../../../components/Image'
+import NoteTitle from '../../../components/NoteTitle'
 
-export default Layout
+export default TATLayout
+
+<NoteTitle title="Planning" />
 
 <Image src="/01/IMG_2484.jpg" alt="K packed and ready to go" />
 
@@ -285,7 +288,7 @@ Estimate traveling ~250 mi/day on average
 
 #### Logistics
 
-Ship the bike back with [Federal Motorcycle Transport][28]. It should cost around $700-800. Call them 5-7 days out to schedule the dropoff.
+Ship the bike back with [Federal Motorcycle Transport][28]. It should cost around \$700-800. Call them 5-7 days out to schedule the dropoff.
 
 #### Service Intervals
 
