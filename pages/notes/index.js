@@ -8,6 +8,11 @@ const Notes = () => {
     <Layout>
       <Subheading>Notes</Subheading>
       <DateLink
+        href="/notes/wanderings"
+        text="Wanderings 2018"
+        date="2019-01-01"
+      />
+      <DateLink
         href="/notes/guitar-topographies"
         text="Guitar Topographies"
         date="2018-12-04"
