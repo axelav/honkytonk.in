@@ -32,12 +32,12 @@ const Notes = () => {
         text="Booze (Cont.)"
         date="2018-03-19"
       />
-      <DateLink
-        href="/notes/last-things-last"
-        text="Last Things Last"
-        date="2017-12-14"
-      />
       {
+        // <DateLink
+        //   href="/notes/last-things-last"
+        //   text="Last Things Last"
+        //   date="2017-12-14"
+        // />
         // <DateLink href="/notes/2018" text="2018" date="2017-12-04" />
         // <DateLink
         //   href="/notes/2017-pine-barrens-500"
