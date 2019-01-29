@@ -50,11 +50,13 @@ class Index extends Component {
           text="Trans America Trail"
           date="2018-10-23"
         />
-        <DateLink
-          href="/notes/last-things-last"
-          text="Last Things Last"
-          date="2017-12-14"
-        />
+        {
+          // <DateLink
+          //   href="/notes/last-things-last"
+          //   text="Last Things Last"
+          //   date="2017-12-14"
+          // />
+        }
         <hr />
         <Video
           className="center"
