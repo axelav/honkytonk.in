@@ -6,8 +6,7 @@ const hotPink = '#FF41B4'
 const blue = '#357EDD'
 const lightestBlue = '#CDECFF'
 
-const dataUrl =
-  'https://gist.githubusercontent.com/axelav/0503e5aba8e5ea450bef6433d65256bf/raw/b6e5286da5219d87daa14ec831f6fe7a7f4225e9/wanderin.gs-locations.json'
+const dataUrl = 'https://honkytonk.in/api/wanderings'
 const usAtlasUrl = 'https://unpkg.com/us-atlas@1/us/10m.json'
 
 class WanderingsMap extends Component {
