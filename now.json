@@ -1,0 +1,22 @@
+{
+  "name": "honkytonk.in",
+  "version": 2,
+  "builds": [
+    { "src": "www/package.json", "use": "@now/static-build" },
+    { "src": "api/**/*.js", "use": "@now/node" }
+  ],
+  "alias": ["honkytonk.in", "www.honkytonk.in"],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/www/$1",
+      "headers": {
+        "x-request-path": "$1"
+      }
+    }
+  ]
+}
