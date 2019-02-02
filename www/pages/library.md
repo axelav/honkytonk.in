@@ -9,12 +9,6 @@ export default Layout
 - _Angle of Repose_, Wallace Stegner
 - _D3.js in Action, Second Edition: Data visualization with JavaScript_, Elijah Meeks
 
-#### Started and Put Down...
-
-- _Networking for Systems Administrators_, Michael Lucas
-- _The Intelligent Investor_, Benjamin Graham
-- _Code: The Hidden Language of Computer Hardware and Software_, Charles Petzold
-
 #### 2019
 
 - _7 Years from Start to Finish: The Baja 1000 &mdash; The Early Years_, Rod Koch
@@ -77,6 +71,13 @@ export default Layout
 - _Waging Heavy Peace_, Neil Young
 - _Wyoming Folklore: Reminiscences, Folktales, Beliefs, Customs and Folk Speech, Federal Writers' Project_
 
+#### Started and Put Down...
+
+- _Networking for Systems Administrators_, Michael Lucas
+- _The Intelligent Investor_, Benjamin Graham
+- _Code: The Hidden Language of Computer Hardware and Software_, Charles Petzold
+
+<!--
 TODO should this stay?
 
 #### The Thing About Motorcycles
@@ -91,3 +92,4 @@ TODO should this stay?
 [1]: http://www.latexnet.org/~csmith/sausage.html
 [2]: http://motorcyclestudies.org
 [3]: https://harpers.org/archive/1995/05/precious-dangers/
+-->
