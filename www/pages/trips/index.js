@@ -7,22 +7,15 @@ const Trips = () => {
   return (
     <Layout>
       <Title>Trips</Title>
-      <DateLink
-        href="/trips/trans-america-trail"
-        text="Trans America Trail"
-        date="2018-10-23"
-      />
+      <DateLink href="/trips/trans-america-trail" text="Trans America Trail" />
       {
-        // <DateLink href="/trips/maine" text="Maine" date="2016-08-30" />
+        // <DateLink href="/trips/maine" text="Maine" />
       }
-      <DateLink href="/trips/alaska" text="Alaska" date="2016-07-30" />
+      <DateLink href="/trips/alaska" text="Alaska" />
+      <DateLink href="/trips/goes-west" text="Goes West" />
       {
-        // <DateLink
-        //   href="/trips/grand-canyon"
-        //   text="Grand Canyon"
-        //   date="2014-02-15"
-        // />
-        // <DateLink href="/trips/shenandoah" text="Shenandoah" date="2014-10-10" />
+        // <DateLink href="/trips/grand-canyon" text="Grand Canyon" />
+        // <DateLink href="/trips/shenandoah" text="Shenandoah" />
       }
     </Layout>
   )

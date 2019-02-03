@@ -4,7 +4,7 @@ import { DateTime } from 'luxon'
 import { Title, Subtitle } from 'mdx-provider-components'
 
 const NoteTitle = ({ title, subtitle, date }) => (
-  <div className="flex-ns items-center-ns justify-between-ns">
+  <div className="NoteTitle flex-ns items-center-ns justify-between-ns">
     <Title>{title}</Title>
     <div className="tabular-nums w5-ns tr-ns">
       {subtitle && <Subtitle>{subtitle}</Subtitle>}
