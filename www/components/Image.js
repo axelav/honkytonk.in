@@ -1,6 +1,7 @@
 // TODO make this a package?
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
+import LazyLoad from 'react-lazyload'
 
 class Image extends Component {
   static propTypes = {
@@ -36,7 +37,9 @@ class Image extends Component {
     return (
       <div className="Image w-100 mt4 mb4" onClick={this.handleClick}>
         <figure className="inline">
-          <img className="db mw-100 center" src={src} alt={alt} />
+          <LazyLoad height={200} offset={100} once>
+            <img className="db mw-100 center" src={src} alt={alt} />
+          </LazyLoad>
         </figure>
         {isExpanded && (
           <figure className="expanded fixed top-0 left-0 flex justify-center items-center w-100 vh-100 bg-black-80">

@@ -4,7 +4,7 @@ import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-<NoteTitle title="Alaska" />
+<NoteTitle title="Alaska" subtitle="July 2016" />
 
 I traveled to Alaska in July of 2016 with my brother, dad, and uncle to ride motorcycles. We started in Anchorage, rode down the Kenai Peninsula, up to Denali National Park and across the Denali Highway, back south for a quick stop in Valdez, and due west on the Glenn Highway back to Anchorage. We had an incredible time.
 
