@@ -75,8 +75,6 @@ I recenty came across an old [flickr account](https://www.flickr.com/photos/5282
 <Image src="https://s3.amazonaws.com/honkytonk.in/goes-west/4872481145_c609a505c8_o.jpg" />
 <Image src="https://s3.amazonaws.com/honkytonk.in/goes-west/4873088252_9c0e2ca80e_o.jpg" />
 <Image src="https://s3.amazonaws.com/honkytonk.in/goes-west/4873088404_7f7cf632c0_o.jpg" />
-REMOVE?
-<Image src="https://s3.amazonaws.com/honkytonk.in/goes-west/4873088486_b705a7c665_o.jpg" />
 <Image src="https://s3.amazonaws.com/honkytonk.in/goes-west/4872481775_47b1a292ba_o.jpg" />
 <Image src="https://s3.amazonaws.com/honkytonk.in/goes-west/4872481951_f2ac5ee980_o.jpg" />
 <Image src="https://s3.amazonaws.com/honkytonk.in/goes-west/4872482147_8d42aa83cc_o.jpg" />
