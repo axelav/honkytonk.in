@@ -25,6 +25,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
+    "react-lazyload": "^2.5.0",
     "remark-emoji": "^2.0.2",
     "remark-images": "^0.15.6",
     "tachyons": "^4.11.1",
