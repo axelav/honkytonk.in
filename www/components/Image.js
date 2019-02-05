@@ -36,20 +36,19 @@ class Image extends Component {
 
     return (
       <div className="Image w-100 mt4 mb4" onClick={this.handleClick}>
-        <figure className="inline">
+        <figure className="inline ma0">
           <LazyLoad height={200} offset={100} once>
             <img className="db mw-100 center" src={src} alt={alt} />
           </LazyLoad>
         </figure>
         {isExpanded && (
-          <figure className="expanded fixed top-0 left-0 flex justify-center items-center w-100 vh-100 bg-black-80">
+          <figure className="expanded fixed top-0 left-0 flex justify-center items-center w-100 vh-100 ma0 bg-black-80">
             <img className="db mw-100" src={src} alt={alt} />
           </figure>
         )}
 
         <style jsx>{`
-          figure {
-            margin: 0;
+          .inline {
             cursor: zoom-in;
           }
 
