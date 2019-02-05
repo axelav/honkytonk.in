@@ -57,29 +57,9 @@ const Notes = () => {
         date="2015-10-08"
       />
       <DateLink
-        href="/notes/wyoming"
-        text="Wyoming (Late Summer 2013)"
-        date="2013-12-31"
-      />
-      <DateLink
         href="/notes/humans-rocks-cars"
         text="Humans, Rocks, Cars (Winter 2013)"
         date="2013-03-04"
-      />
-      <DateLink
-        href="/notes/northeastern-fall"
-        text="Hudson Valley, Cape Cod, Pine Barrens (Fall 2012)"
-        date="2013-02-01"
-      />
-      <DateLink
-        href="/notes/point-reyes"
-        text="Point Reyes (Summer 2012)"
-        date="2013-01-28"
-      />
-      <DateLink
-        href="/notes/penobscot-bay"
-        text="Penobscot Bay (Memorial Day 2011)"
-        date="2013-01-22"
       />
       <DateLink
         href="/notes/disintegration-loops"

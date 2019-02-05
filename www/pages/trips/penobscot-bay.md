@@ -4,7 +4,7 @@ import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-<NoteTitle date="2013-01-22" title="Penobscot Bay (Memorial Day 2011)" />
+<NoteTitle title="Penobscot Bay" subtitle="Memorial Day 2011" />
 
 <Image src="https://s3.amazonaws.com/honkytonk.in/maine/57750007.jpg" alt="California" />
 <Image src="https://s3.amazonaws.com/honkytonk.in/maine/63900025.jpg" alt="California" />
