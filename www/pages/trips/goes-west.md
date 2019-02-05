@@ -4,7 +4,7 @@ import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-<NoteTitle title="Goes West" subtitle="April &ndash; October 2010" />
+<NoteTitle title="Goes West" subtitle="Spring &ndash; Fall 2010" />
 
 I recenty came across an old [flickr account](https://www.flickr.com/photos/52821084@N07/) of mine that had a cache of photos from when my brother and I drove across the country and all around out west. Unfortunately, I had no idea how to log into the account, so I just downloaded them all individually. I have the film negatives in storage somewhere; maybe I'll scan better quality versions of these...sometime.
 

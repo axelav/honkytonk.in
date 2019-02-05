@@ -4,11 +4,20 @@ export default Layout
 
 ### Now
 
-I'm Axel. This is my dumb website that I made while living in Brooklyn, NY. I'm married to an exceptional woman, and we have a really [great dog](https://s3.amazonaws.com/honkytonk.in/IMG_1439.jpg). I like to [read](/library). I am constantly distracted and enriched by [motorcycles](https://github.com/axelav/motorcycles). I try to be a decent human and continue learning. I used to hike a lot, but now I mostly ride dirt bikes. I try to find new ways to enjoy this stupid internet thing we're all living on, but it gets harder all the time.
+Axel Anderson<br />
+Born 1983<br />
+Lives and works in Brooklyn, NY<br />
+
+I'm Axel, and this is my dumb website. I'm married to an exceptional woman, and we have a really [great dog](https://s3.amazonaws.com/honkytonk.in/IMG_1439.jpg). I like to [read](/library). I'm obsessed with [motorcycles](https://github.com/axelav/motorcycles). I try to be a decent human. I used to hike a lot, but now I mostly ride dirt bikes. I try to find new ways to enjoy this stupid internet thing we're all living on, but it gets harder all the time.
 
 Send me an email at [axel@ftml.net](mailto:axel@ftml.net).
 
-#### Dumb honkytonk.in Links
+#### Dumb external links
 
-- [Dakar](https://dakar.honkytonk.in)
+- [Resume](https://axelav.com)
+- [Github](https://github.com/axelav)
+
+#### Dumber internal links
+
+- [Dakar 2019](https://dakar.honkytonk.in)
 - [Oblique Strategies](https://strategies.honkytonk.in)

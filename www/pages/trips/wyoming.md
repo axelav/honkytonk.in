@@ -4,7 +4,7 @@ import NoteTitle from '../../components/NoteTitle'
 
 export default Layout
 
-<NoteTitle date="2013-12-31" title="Wyoming (Late Summer 2013)" />
+<NoteTitle title="Wyoming" subtitle="Summer 2013" />
 
 <Image src="https://s3.amazonaws.com/honkytonk.in/wyoming/wyoming_02.jpg" alt="A canyon through a clearing" />
 <Image src="https://s3.amazonaws.com/honkytonk.in/wyoming/wyoming_03.jpg" alt="Sky, pines, and mountains" />
