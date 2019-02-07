@@ -19,7 +19,7 @@ It took:
 - one fuel pump and one filter replacement
 - dozens of cheeseburgers and thousands of peanut butter M&Ms
 
-These are some of my favorite photos from the trip below, and I've written it up in [much greater detail](/trips/trans-america-trail) as well.
+These are some of my favorite photos from the trip below, and I've written it up in [much greater detail](/travel/trans-america-trail) as well.
 
 <Subtitle>Tennessee</Subtitle>
 

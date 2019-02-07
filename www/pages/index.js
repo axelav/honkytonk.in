@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { useState } from 'react'
 import { Title } from 'mdx-provider-components'
 import Layout from '../components/Layout'
 import DateLink from '../components/DateLink'
@@ -14,63 +14,51 @@ const honkyTonkVideoIds = [
   'Y0r651OMVUw'
 ]
 
-class Index extends Component {
-  state = {
-    videoId:
-      honkyTonkVideoIds[Math.floor(Math.random() * honkyTonkVideoIds.length)]
-  }
+const getRandomVideoId = () =>
+  honkyTonkVideoIds[Math.floor(Math.random() * honkyTonkVideoIds.length)]
 
-  handleClick = () =>
-    this.setState({
-      videoId:
-        honkyTonkVideoIds[Math.floor(Math.random() * honkyTonkVideoIds.length)]
-    })
+const Index = () => {
+  const [videoId, setVideoId] = useState(getRandomVideoId())
 
-  render() {
-    return (
-      <Layout>
-        <Title>Lately</Title>
-        <DateLink
-          href="/notes/wanderings"
-          text="Wanderings 2018"
-          date="2019-01-01"
-        />
-        <DateLink
-          href="/notes/guitar-topographies"
-          text="Guitar Topographies"
-          date="2018-12-04"
-        />
-        <DateLink
-          href="/notes/2018-pine-barrens-500"
-          text="2018 Pine Barrens 500"
-          date="2018-11-02"
-        />
-        <DateLink
-          href="/notes/trans-america-trail"
-          text="Trans America Trail"
-          date="2018-10-23"
-        />
-        {
-          // <DateLink
-          //   href="/notes/last-things-last"
-          //   text="Last Things Last"
-          //   date="2017-12-14"
-          // />
-        }
-        <hr />
-        <Video
-          className="center"
-          src={`https://www.youtube.com/embed/${this.state.videoId}`}
-        />
-        <span
-          className="db link blue hover-dark-blue tc pointer"
-          onClick={this.handleClick}
-        >
-          Find another dance partner
-        </span>
-      </Layout>
-    )
-  }
+  return (
+    <Layout>
+      <Title>Lately</Title>
+      {
+        // <DateLink href="/notes/lately-2019-01" text="Lately" date="2019-02-06" />
+      }
+      <DateLink
+        href="/notes/wanderings"
+        text="Wanderings 2018"
+        date="2019-01-01"
+      />
+      <DateLink
+        href="/notes/guitar-topographies"
+        text="Guitar Topographies"
+        date="2018-12-04"
+      />
+      <DateLink
+        href="/notes/2018-pine-barrens-500"
+        text="2018 Pine Barrens 500"
+        date="2018-11-02"
+      />
+      <DateLink
+        href="/notes/trans-america-trail"
+        text="Trans America Trail"
+        date="2018-10-23"
+      />
+      <hr />
+      <Video
+        className="center"
+        src={`https://www.youtube.com/embed/${videoId}`}
+      />
+      <span
+        className="db link blue hover-dark-blue tc pointer"
+        onClick={() => setVideoId(getRandomVideoId())}
+      >
+        Find another dance partner
+      </span>
+    </Layout>
+  )
 }
 
 export default Index

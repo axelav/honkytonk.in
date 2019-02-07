@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import Link from 'next/link'
 
 const DateLink = ({ href, text, date }) => (
-  <div className="DateLink flex-l justify-between-l mb2 lh-copy tabular-nums">
+  <div className="DateLink flex-ns justify-between-ns mb2 lh-copy tabular-nums">
     <Link prefetch href={href}>
       <a className="db link blue hover-dark-blue">{text}</a>
     </Link>

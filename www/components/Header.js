@@ -18,8 +18,8 @@ const Header = () => (
             </Link>
           </li>
           <li className="mr3-ns mb1 mb0-ns">
-            <Link prefetch href="/trips">
-              <a className="link blue hover-dark-blue">Trips</a>
+            <Link prefetch href="/travel">
+              <a className="link blue hover-dark-blue">Travel</a>
             </Link>
           </li>
           <li className="mr3-ns mb1 mb0-ns">

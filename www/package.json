@@ -23,8 +23,8 @@
     "next": "^7.0.2",
     "prettier": "^1.16.0",
     "prop-types": "^15.6.2",
-    "react": "^16.6.1",
-    "react-dom": "^16.6.1",
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
     "react-lazyload": "^2.5.0",
     "remark-emoji": "^2.0.2",
     "remark-images": "^0.15.6",
@@ -42,10 +42,14 @@
   "private": true,
   "eslintConfig": {
     "extends": "react-app",
+    "plugins": [
+      "react-hooks"
+    ],
     "rules": {
       "default-case": "off",
       "react/prop-types": 1,
-      "jsx-a11y/anchor-is-valid": 0
+      "jsx-a11y/anchor-is-valid": 0,
+      "react-hooks/rules-of-hooks": "error"
     }
   },
   "lint-staged": {

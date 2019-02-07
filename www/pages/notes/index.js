@@ -7,6 +7,9 @@ const Notes = () => {
   return (
     <Layout>
       <Title>Notes</Title>
+      {
+        // <DateLink href="/notes/lately-2019-01" text="Lately" date="2019-02-06" />
+      }
       <DateLink
         href="/notes/wanderings"
         text="Wanderings 2018"
