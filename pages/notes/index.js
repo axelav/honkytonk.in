@@ -1,0 +1,90 @@
+import React from 'react'
+import { Title } from 'mdx-provider-components'
+import Layout from '../../components/Layout'
+import DateLink from '../../components/DateLink'
+
+const Notes = () => {
+  return (
+    <Layout>
+      <Title>Notes</Title>
+      <DateLink
+        href="/notes/wanderings"
+        text="Wanderings 2018"
+        date="2019-01-01"
+      />
+      <DateLink
+        href="/notes/guitar-topographies"
+        text="Guitar Topographies"
+        date="2018-12-04"
+      />
+      <DateLink
+        href="/notes/2018-pine-barrens-500"
+        text="2018 Pine Barrens 500"
+        date="2018-11-02"
+      />
+      <DateLink
+        href="/notes/trans-america-trail"
+        text="Trans America Trail"
+        date="2018-10-23"
+      />
+      <DateLink
+        href="/notes/booze-cont"
+        text="Booze (Cont.)"
+        date="2018-03-19"
+      />
+      <DateLink
+        href="/notes/skip-tracer"
+        text="Skip Tracer"
+        date="2016-01-05"
+      />
+      <DateLink
+        href="/notes/whiskey-sundown"
+        text="Whiskey Sundown"
+        date="2015-10-08"
+      />
+      <DateLink
+        href="/notes/humans-rocks-cars"
+        text="Humans, Rocks, Cars (Winter 2013)"
+        date="2013-03-04"
+      />
+      <DateLink
+        href="/notes/disintegration-loops"
+        text="The Disintegration Loops"
+        date="2012-11-20"
+      />
+      <DateLink
+        href="/notes/hurricane-sandy"
+        text="Hurricane Sandy, the Rockaways, and Occupy Sandy"
+        date="2012-11-07"
+      />
+      <DateLink href="/notes/a-day" text="A Day" date="2012-10-31" />
+      <DateLink
+        href="/notes/transit-of-venus"
+        text="The Transit of Venus"
+        date="2012-06-06"
+      />
+      <DateLink
+        href="/notes/if-a-tree-falls"
+        text="If a Tree Falls and the Secret Lives of Plants"
+        date="2012-05-06"
+      />
+      <DateLink
+        href="/notes/collateral-damage"
+        text="Collateral Damage"
+        date="2012-02-26"
+      />
+      <DateLink
+        href="/notes/acid-eiffel"
+        text="Acid Eiffel"
+        date="2012-01-15"
+      />
+      <DateLink
+        href="/notes/hello-world"
+        text="Hello World"
+        date="2011-12-14"
+      />
+    </Layout>
+  )
+}
+
+export default Notes
