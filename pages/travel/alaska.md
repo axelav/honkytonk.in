@@ -12,8 +12,8 @@ I traveled to Alaska in July of 2016 with my brother, dad, and uncle to ride mot
 <Image src="https://s3.amazonaws.com/honkytonk.in/alaska/DSC00441.jpg" />
 <Image src="https://s3.amazonaws.com/honkytonk.in/alaska/DSC00463.jpg" />
 <Image src="https://s3.amazonaws.com/honkytonk.in/alaska/DSC00515.jpg" />
-<Image src="https://s3.amazonaws.com/honkytonk.in/alaska/DSC00524.jpg" />
 <Image src="https://s3.amazonaws.com/honkytonk.in/alaska/DSC00537.jpg" />
+<Image src="https://s3.amazonaws.com/honkytonk.in/alaska/DSC00524.jpg" />
 <Image src="https://s3.amazonaws.com/honkytonk.in/alaska/DSC00611.jpg" />
 <Image src="https://s3.amazonaws.com/honkytonk.in/alaska/DSC00617.jpg" />
 <Image src="https://s3.amazonaws.com/honkytonk.in/alaska/DSC00662.jpg" />

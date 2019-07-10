@@ -1,26 +1,9 @@
 {
   "name": "honkytonk.in",
   "version": 2,
-  "builds": [
-    { "src": "www/package.json", "use": "@now/static-build" },
-    { "src": "api/**/*.js", "use": "@now/node" }
-  ],
+  "builds": [{ "src": "next.config.js", "use": "@now/next" }],
   "alias": ["honkytonk.in", "www.honkytonk.in"],
   "github": {
     "silent": true
-  },
-  "routes": [
-    {
-      "src": "/api/(.*)",
-      "dest": "/api/$1",
-      "headers": { "Access-Control-Allow-Origin": "*" }
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/www/$1",
-      "headers": {
-        "x-request-path": "$1"
-      }
-    }
-  ]
+  }
 }

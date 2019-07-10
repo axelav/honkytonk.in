@@ -6,7 +6,7 @@ export default Layout
 
 #### Currently
 
-- _D3.js in Action, Second Edition: Data visualization with JavaScript_, Elijah Meeks
+- _Life in Code: A Personal History of Technology_, Ellen Ullman
 - _Exhalation_, Ted Chiang
 
 #### 2019
@@ -18,6 +18,7 @@ export default Layout
 
 #### 2018
 
+- _D3.js in Action, Second Edition: Data visualization with JavaScript_, Elijah Meeks
 - _Zen and the Art of Motorcycle Maintenance_, Robert Pirsig
 - _The Perfect Vehicle_, Melissa Holbrook Pierson
 - _Excuse Me, Which Way to the Baja 1000?_, Airborne Andy

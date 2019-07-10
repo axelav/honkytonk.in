@@ -38,16 +38,18 @@
     "build": "next build",
     "start": "next start",
     "export": "next export",
-    "now-build": "npm run build && npm run export -- -o dist",
-    "now-dev": "next dev -p $PORT"
+    "now-prod": "now --target production",
+    "now-stage": "now --target staging",
+    "now-dev": "now dev -p 4200"
+  },
+  "engines": {
+    "node": ">10.15.0"
   },
   "author": "Axel Anderson <axel@ftml.net>",
   "private": true,
   "eslintConfig": {
     "extends": "react-app",
-    "plugins": [
-      "react-hooks"
-    ],
+    "plugins": ["react-hooks"],
     "rules": {
       "default-case": "off",
       "react/prop-types": 1,
@@ -64,10 +66,7 @@
       "prettier --single-quote --no-semi --write",
       "git add"
     ],
-    "style.css": [
-      "prettier --write",
-      "git add"
-    ]
+    "style.css": ["prettier --write", "git add"]
   },
   "husky": {
     "hooks": {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Title } from 'mdx-provider-components'
 import Layout from '../components/Layout'
-import DateLink from '../components/DateLink'
+import IndexLink from '../components/IndexLink'
 import Video from '../components/Video'
 
 const honkyTonkVideoIds = [
@@ -23,25 +23,25 @@ const Index = () => {
   return (
     <Layout>
       <Title>Lately</Title>
-      <DateLink
+      <IndexLink
         href="/notes/wanderings"
-        text="Wanderings 2018"
-        date="2019-01-01"
+        textLeft="Wanderings 2018"
+        textRight="2019-01-01"
       />
-      <DateLink
+      <IndexLink
         href="/notes/guitar-topographies"
-        text="Guitar Topographies"
-        date="2018-12-04"
+        textLeft="Guitar Topographies"
+        textRight="2018-12-04"
       />
-      <DateLink
+      <IndexLink
         href="/notes/2018-pine-barrens-500"
-        text="2018 Pine Barrens 500"
-        date="2018-11-02"
+        textLeft="2018 Pine Barrens 500"
+        textRight="2018-11-02"
       />
-      <DateLink
+      <IndexLink
         href="/notes/trans-america-trail"
-        text="Trans America Trail"
-        date="2018-10-23"
+        textLeft="Trans America Trail"
+        textRight="2018-10-23"
       />
       <hr />
       <Video

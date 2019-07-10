@@ -1,38 +1,46 @@
 import React from 'react'
 import { Title } from 'mdx-provider-components'
 import Layout from '../../components/Layout'
-import DateLink from '../../components/DateLink'
+import IndexLink from '../../components/IndexLink'
 
 const Trips = () => {
   return (
     <Layout>
       <Title>Travel</Title>
-      <DateLink
+      <IndexLink
         href="/travel/trans-america-trail"
-        text="Trans America Trail"
-        date="Summer 2018"
+        textLeft="Trans America Trail"
+        textRight="Summer 2018"
       />
-      <DateLink href="/travel/alaska" text="Alaska" date="Summer 2016" />
-      <DateLink href="/travel/wyoming" text="Wyoming" date="Summer 2013" />
-      <DateLink
+      <IndexLink
+        href="/travel/alaska"
+        textLeft="Alaska"
+        textRight="Summer 2016"
+      />
+      <IndexLink
+        href="/travel/wyoming"
+        textLeft="Wyoming"
+        textRight="Summer 2013"
+      />
+      <IndexLink
         href="/travel/northeastern-fall"
-        text="Hudson Valley, Cape Cod, Pine Barrens"
-        date="Fall 2012"
+        textLeft="Hudson Valley, Cape Cod, Pine Barrens"
+        textRight="Fall 2012"
       />
-      <DateLink
+      <IndexLink
         href="/travel/point-reyes"
-        text="Point Reyes"
-        date="Summer 2012"
+        textLeft="Point Reyes"
+        textRight="Summer 2012"
       />
-      <DateLink
+      <IndexLink
         href="/travel/penobscot-bay"
-        text="Penobscot Bay"
-        date="Memorial Day 2011"
+        textLeft="Penobscot Bay"
+        textRight="Memorial Day 2011"
       />
-      <DateLink
+      <IndexLink
         href="/travel/goes-west"
-        text="Goes West"
-        date="Spring &ndash; Fall 2010"
+        textLeft="Goes West"
+        textRight="Spring &ndash; Fall 2010"
       />
     </Layout>
   )
