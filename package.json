@@ -49,7 +49,9 @@
   "private": true,
   "eslintConfig": {
     "extends": "react-app",
-    "plugins": ["react-hooks"],
+    "plugins": [
+      "react-hooks"
+    ],
     "rules": {
       "default-case": "off",
       "react/prop-types": 1,
@@ -66,7 +68,10 @@
       "prettier --single-quote --no-semi --write",
       "git add"
     ],
-    "style.css": ["prettier --write", "git add"]
+    "style.css": [
+      "prettier --write",
+      "git add"
+    ]
   },
   "husky": {
     "hooks": {
