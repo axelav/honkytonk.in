@@ -4,13 +4,31 @@ export default Layout
 
 ### Library
 
-#### Currently
+#### 2020
 
-- _Life in Code: A Personal History of Technology_, Ellen Ullman
-- _Exhalation_, Ted Chiang
+- _The Communist Manifesto_, Karl Marx and Friedrich Engels
+- _Ecosocialism_, Michawl Löwy
+- _How to Do Nothing_, Jenny Odell
+- _October: The Story of the Russian Revolution_, China Miéville
+- _Underland_, Robert Macfarlane
+- _Four Futures: Visions of the World After Capitalism_, Peter Frase
+- _Oranges_, John McPhee
+- _Annals of a Former World_, John McPhee
 
 #### 2019
 
+- _Encounters with the Archdruid_, John McPhee
+- _Coming into the Country_, John McPhee
+- _Moby Dick_, Herman Melville
+- _Sourdough_, Robin Sloan
+- _The Art of Trailriding_, Paul Clipper
+- _The Grapes of Wrath_, John Steinbeck
+- _Bluets_, Maggie Nelson
+- _The Problems of Philosophy_, Bertrand Russell
+- _The Wake_, Paul Kingsnorth
+- _Say Nothing_, Patrick Radden Keefe
+- _Orfeo_, Richard Powers
+- _Exhalation_, Ted Chiang
 - _The Lathe of Heaven_, Ursula Le Guin
 - _Mason and Dixon_, Thomas Pynchon
 - _Angle of Repose_, Wallace Stegner
@@ -77,6 +95,7 @@ export default Layout
 
 #### Started and Put Down...
 
+- _Life in Code: A Personal History of Technology_, Ellen Ullman
 - _Networking for Systems Administrators_, Michael Lucas
 - _The Intelligent Investor_, Benjamin Graham
 - _Code: The Hidden Language of Computer Hardware and Software_, Charles Petzold

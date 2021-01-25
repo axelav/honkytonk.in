@@ -24,6 +24,16 @@ const Index = () => {
     <Layout>
       <Title>Lately</Title>
       <IndexLink
+        href="/notes/spring"
+        textLeft="Spring"
+        textRight="2020-03-11"
+      />
+      <IndexLink
+        href="/notes/off-road-racing"
+        textLeft="Off Road Moto Racing"
+        textRight="2019-12-28"
+      />
+      <IndexLink
         href="/notes/wanderings"
         textLeft="Wanderings 2018"
         textRight="2019-01-01"
@@ -32,11 +42,6 @@ const Index = () => {
         href="/notes/guitar-topographies"
         textLeft="Guitar Topographies"
         textRight="2018-12-04"
-      />
-      <IndexLink
-        href="/notes/2018-pine-barrens-500"
-        textLeft="2018 Pine Barrens 500"
-        textRight="2018-11-02"
       />
       <IndexLink
         href="/notes/trans-america-trail"

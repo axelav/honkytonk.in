@@ -24,4 +24,5 @@ export default Layout
 - visit Japan
 - visit Portugal
 - visit Roden Crater
+- visit all 50 states
 - ~~visit Spain~~

@@ -8,6 +8,16 @@ const Notes = () => {
     <Layout>
       <Title>Notes</Title>
       <IndexLink
+        href="/notes/spring"
+        textLeft="Spring"
+        textRight="2020-03-11"
+      />
+      <IndexLink
+        href="/notes/off-road-racing"
+        textLeft="Off Road Moto Racing"
+        textRight="2019-12-28"
+      />
+      <IndexLink
         href="/notes/wanderings"
         textLeft="Wanderings 2018"
         textRight="2019-01-01"

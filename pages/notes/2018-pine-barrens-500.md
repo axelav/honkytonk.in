@@ -6,6 +6,8 @@ export default Layout
 
 <NoteTitle title="2018 Pine Barrens 500" date="2018-11-02" />
 
+Last year, at the 2017 PB 500, I broke my hand which required surgery and my lower leg which my Russian doctor assured me required nothing. He was right. Before that happened, I crashed and a guy used my bike as a ramp to launch his Africa Twin into the air. He mangled my chain, which I didn't notice but discovered when it snapped 10 miles further on. So I was hoping that this year's event would go a bit better for me.
+
 #### Friday
 
 I woke at 5am, packed the bike, and got on the road by six. The thermometer read around 40&deg; F. It was a cold two hours over the Verrazano Bridge and then south on the NJ Turnpike to 206 and into Hammonton. I arrived at by 8:30, got registered, and had the bike inspected.
