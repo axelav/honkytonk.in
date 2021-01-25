@@ -6,6 +6,15 @@ export default Layout
 
 #### 2020
 
+- _Iron in the Pines_, Arthur D Pierce
+- _Bleeding Edge_, Thomas Pynchon
+- _V_, Thomas Pynchon
+- _True Grit_, Charles Portis
+- _The Art of Trailriding_, Paul Clipper
+- _The Pine Barrens_, John McPhee
+- _To Our Friends_, The Invisible Committee
+- _The Coming Insurrection_, The Invisible Committee
+- _End Notes 1_, Anonymous
 - _The Communist Manifesto_, Karl Marx and Friedrich Engels
 - _Ecosocialism_, Michawl Löwy
 - _How to Do Nothing_, Jenny Odell
