@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import Link from 'next/link'
-import { Heading } from 'mdx-provider-components'
+import { Heading } from './provider'
 
 const Header = () => (
   <Fragment>
@@ -18,8 +18,8 @@ const Header = () => (
             </Link>
           </li>
           <li className="mr3-ns mb1 mb0-ns">
-            <Link href="/travel">
-              <a className="link blue hover-dark-blue">Travel</a>
+            <Link href="/places">
+              <a className="link blue hover-dark-blue">Places</a>
             </Link>
           </li>
           <li className="mr3-ns mb1 mb0-ns">

@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { DateTime } from 'luxon'
-import { Title, Subtitle } from 'mdx-provider-components'
+import { Title, Subtitle } from './provider'
 
 const NoteTitle = ({ title, subtitle, date }) => (
   <div className="NoteTitle flex-ns items-center-ns justify-between-ns">

@@ -1,7 +1,7 @@
-@import "~tachyons";
+@import '~tachyons';
 
 :root {
-  --f6: 0.875rem;
+  --f6: 1rem;
   --light-gray: #eee;
   --near-white: #f4f4f4;
   --spacing-small: 0.5rem;
@@ -17,6 +17,10 @@ body {
 h5,
 h6 {
   font-size: var(--f6);
+}
+
+h6 {
+  font-style: italic;
 }
 
 hr {
@@ -49,4 +53,9 @@ video {
 
 .tab-nums {
   font-variant-numeric: tabular-nums;
+}
+
+ul > li > ul {
+  margin-top: 0.5rem !important;
+  margin-bottom: 0 !important;
 }

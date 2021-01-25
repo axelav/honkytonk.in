@@ -1,7 +1,8 @@
 import React from 'react'
 import Head from 'next/head'
-import { MDXProvider } from '@mdx-js/tag'
-import createScope from 'mdx-provider-components'
+import { MDXProvider } from '@mdx-js/react'
+import createScope from '../components/provider'
+import '../style.css'
 
 const components = createScope()
 

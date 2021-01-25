@@ -1,7 +1,5 @@
 {
-  "name": "honkytonk.in",
   "version": 2,
-  "builds": [{ "src": "next.config.js", "use": "@now/next" }],
   "alias": ["honkytonk.in", "www.honkytonk.in"],
   "github": {
     "silent": true

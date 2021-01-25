@@ -1,14 +1,14 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'next/link'
-import { Subheading } from 'mdx-provider-components'
+import { Subheading } from './provider'
 import { DateTime } from 'luxon'
 import Layout from './Layout'
 
 const TATLayout = ({ children, prev, next }) => (
   <Layout>
     <div className="mb5">
-      <Link href="/travel/trans-america-trail">
+      <Link href="/places/trans-america-trail">
         <a className="db link near-black hover-gray">
           <Subheading>Trans America Trail</Subheading>
         </a>
@@ -19,7 +19,7 @@ const TATLayout = ({ children, prev, next }) => (
       <div className="flex justify-between mb7">
         <div>
           {prev && (
-            <Link href={`/travel/trans-america-trail/${prev}`}>
+            <Link href={`/places/trans-america-trail/${prev}`}>
               <a className="db link blue hover-dark-blue">
                 &laquo;{' '}
                 {DateTime.fromISO(prev).toLocaleString(DateTime.DATE_FULL)}
@@ -29,7 +29,7 @@ const TATLayout = ({ children, prev, next }) => (
         </div>
         <div>
           {next && (
-            <Link href={`/travel/trans-america-trail/${next}`}>
+            <Link href={`/places/trans-america-trail/${next}`}>
               <a className="db link blue hover-dark-blue">
                 {DateTime.fromISO(next).toLocaleString(DateTime.DATE_FULL)}{' '}
                 &raquo;
@@ -45,7 +45,7 @@ const TATLayout = ({ children, prev, next }) => (
 TATLayout.propTypes = {
   children: PropTypes.node.isRequired,
   prev: PropTypes.string,
-  next: PropTypes.string
+  next: PropTypes.string,
 }
 
 export default TATLayout

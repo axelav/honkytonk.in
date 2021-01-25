@@ -8,6 +8,4 @@ export default Layout
 
 <Video src="https://www.youtube.com/embed/rYBUDRSeeeE" />
 
-[Choice, Acid Eiffel](http://www.discogs.com/Choice-Soofle-Acid-Eiffel-How-Do-You-Plead/release/17517)
-
 Beyond anything else that has tried to come close.

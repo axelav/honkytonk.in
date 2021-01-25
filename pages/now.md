@@ -20,5 +20,7 @@ Send me an email at [axel@ftml.net](mailto:axel@ftml.net).
 
 #### Dumber internal links
 
+- [Interne](https://interne.honkytonk.in)
+- [COVID-19](https://covid19.honkytonk.in)
 - [Dakar 2019](https://dakar.honkytonk.in)
 - [Oblique Strategies](https://strategies.honkytonk.in)
