@@ -5,20 +5,26 @@ import IndexLink from '../components/IndexLink'
 import Video from '../components/Video'
 
 const honkyTonkVideoIds = [
+  // Hank's classic
   'kN17OTQIGqg',
-  'Q6gUnFZsDjc',
+  '6c3K-LIo_gQ',
   'KHEQi25GSNo',
   'BrkLxJqb2xM',
-  'q57iYqeY3j0',
   '918TER9fDRQ',
   'Y0r651OMVUw',
+  'FxKuAMmYkOo',
+  'sODtr7C2u4M',
+  'Orr0ZDUii9o',
+  // others
+  'o1R4ls73dxU',
+  'prKDa0-uvBA',
 ]
 
 const getRandomVideoId = () =>
   honkyTonkVideoIds[Math.floor(Math.random() * honkyTonkVideoIds.length)]
 
-const Index = () => {
-  const [videoId, setVideoId] = useState(getRandomVideoId())
+const Index = ({ initialVideoId }) => {
+  const [videoId, setVideoId] = useState(initialVideoId)
 
   return (
     <Layout>
@@ -61,6 +67,14 @@ const Index = () => {
       </span>
     </Layout>
   )
+}
+
+export async function getServerSideProps() {
+  return {
+    props: {
+      initialVideoId: getRandomVideoId(),
+    },
+  }
 }
 
 export default Index
