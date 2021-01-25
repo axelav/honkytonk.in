@@ -1,5 +1,5 @@
 import Layout from '../../components/Layout'
-import Image from '../../components/Image'
+import BigLazyImage from '../../components/BigLazyImage'
 import NoteTitle from '../../components/NoteTitle'
 import WanderingsMap from '../../components/WanderingsMap'
 
