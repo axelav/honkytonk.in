@@ -13,13 +13,13 @@ const Header = () => (
       <nav className="mb4-ns ml4-ns">
         <ul className="list pl0 flex-ns mb0 mt0 lh-copy">
           <li className="mr3-ns mb1 mb0-ns">
-            <Link href="/notes">
-              <a className="link blue hover-dark-blue">Notes</a>
+            <Link href="/places">
+              <a className="link blue hover-dark-blue">Places</a>
             </Link>
           </li>
           <li className="mr3-ns mb1 mb0-ns">
-            <Link href="/places">
-              <a className="link blue hover-dark-blue">Places</a>
+            <Link href="/notes">
+              <a className="link blue hover-dark-blue">Notes</a>
             </Link>
           </li>
           <li className="mr3-ns mb1 mb0-ns">
