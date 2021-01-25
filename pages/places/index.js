@@ -3,42 +3,60 @@ import { Title } from '../../components/provider'
 import Layout from '../../components/Layout'
 import IndexLink from '../../components/IndexLink'
 
-const Trips = () => {
+const Places = () => {
   return (
     <Layout>
-      <Title>Travel</Title>
+      <Title>Places</Title>
+      {/* TODO */}
+      {/* <IndexLink */}
+      {/*   href="/places/kentucky-adventure-trail" */}
+      {/*   textLeft="Kentucky Adventure Trail" */}
+      {/*   textRight="October 2019" */}
+      {/* /> */}
       <IndexLink
-        href="/travel/trans-america-trail"
+        href="/places/trans-america-trail"
         textLeft="Trans America Trail"
         textRight="Summer 2018"
       />
       <IndexLink
-        href="/travel/alaska"
+        href="/places/alaska"
         textLeft="Alaska"
         textRight="Summer 2016"
       />
+      {/* TODO */}
+      {/* <IndexLink */}
+      {/*   href="/places/grand-canyon" */}
+      {/*   textLeft="Grand Canyon" */}
+      {/*   textRight="January 2015" */}
+      {/* /> */}
+      {/* TODO */}
+      {/* <IndexLink */}
+      {/*   href="/places/shenandoah" */}
+      {/*   textLeft="Shenandoah" */}
+      {/*   textRight="?? August 2014 ??" */}
+      {/* /> */}
       <IndexLink
-        href="/travel/wyoming"
+        href="/places/wyoming"
         textLeft="Wyoming"
         textRight="Summer 2013"
       />
       <IndexLink
-        href="/travel/northeastern-fall"
+        href="/places/northeastern-fall"
         textLeft="Hudson Valley, Cape Cod, Pine Barrens"
         textRight="Fall 2012"
       />
       <IndexLink
-        href="/travel/point-reyes"
+        href="/places/point-reyes"
         textLeft="Point Reyes"
         textRight="Summer 2012"
       />
       <IndexLink
-        href="/travel/penobscot-bay"
+        href="/places/penobscot-bay"
         textLeft="Penobscot Bay"
         textRight="Memorial Day 2011"
       />
       <IndexLink
-        href="/travel/goes-west"
+        href="/places/goes-west"
         textLeft="Goes West"
         textRight="Spring &ndash; Fall 2010"
       />
@@ -46,4 +64,4 @@ const Trips = () => {
   )
 }
 
-export default Trips
+export default Places
