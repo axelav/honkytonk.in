@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Title } from 'mdx-provider-components'
+import { Title } from '../components/provider'
 import Layout from '../components/Layout'
 import IndexLink from '../components/IndexLink'
 import Video from '../components/Video'
@@ -11,7 +11,7 @@ const honkyTonkVideoIds = [
   'BrkLxJqb2xM',
   'q57iYqeY3j0',
   '918TER9fDRQ',
-  'Y0r651OMVUw'
+  'Y0r651OMVUw',
 ]
 
 const getRandomVideoId = () =>

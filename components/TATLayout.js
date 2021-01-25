@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Link from 'next/link'
-import { Subheading } from 'mdx-provider-components'
+import { Subheading } from './provider'
 import { DateTime } from 'luxon'
 import Layout from './Layout'
 
@@ -45,7 +45,7 @@ const TATLayout = ({ children, prev, next }) => (
 TATLayout.propTypes = {
   children: PropTypes.node.isRequired,
   prev: PropTypes.string,
-  next: PropTypes.string
+  next: PropTypes.string,
 }
 
 export default TATLayout

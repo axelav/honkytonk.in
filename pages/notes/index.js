@@ -1,5 +1,5 @@
 import React from 'react'
-import { Title } from 'mdx-provider-components'
+import { Title } from '../../components/provider'
 import Layout from '../../components/Layout'
 import IndexLink from '../../components/IndexLink'
 

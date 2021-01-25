@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react'
 import Link from 'next/link'
-import { Heading } from 'mdx-provider-components'
+import { Heading } from './provider'
 
 const Header = () => (
   <Fragment>
