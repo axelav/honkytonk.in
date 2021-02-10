@@ -8,6 +8,11 @@ const Notes = () => {
     <Layout>
       <Title>Notes</Title>
       <IndexLink
+        href="/notes/lately-2020-12"
+        textLeft="Lately"
+        textRight="2021-01-01"
+      />
+      <IndexLink
         href="/notes/spring"
         textLeft="Spring"
         textRight="2020-03-11"
