@@ -4,6 +4,10 @@ export default Layout
 
 ### Library
 
+#### 2021
+
+- _Red Mars_, Kim Stanley Robinson
+
 #### 2020
 
 - _Iron in the Pines_, Arthur D Pierce
