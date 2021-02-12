@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import PropTypes from 'prop-types'
 import { Title } from '../components/provider'
 import Layout from '../components/Layout'
 import IndexLink from '../components/IndexLink'
@@ -31,7 +32,7 @@ const Index = ({ initialVideoId }) => {
       <Title>Lately</Title>
       <IndexLink
         href="/notes/lately-2020-12"
-        textLeft="Lately — December 2020"
+        textLeft="December 2020"
         textRight="2021-01-01"
       />
       <IndexLink
@@ -72,6 +73,10 @@ const Index = ({ initialVideoId }) => {
       </span>
     </Layout>
   )
+}
+
+Index.propTypes = {
+  initialVideoId: PropTypes.string.isRequired,
 }
 
 export async function getServerSideProps() {

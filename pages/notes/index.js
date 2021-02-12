@@ -9,7 +9,7 @@ const Notes = () => {
       <Title>Notes</Title>
       <IndexLink
         href="/notes/lately-2020-12"
-        textLeft="Lately"
+        textLeft="December 2020"
         textRight="2021-01-01"
       />
       <IndexLink
