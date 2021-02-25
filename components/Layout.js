@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Header from './Header'
 
 const Layout = ({ children }) => (
-  <div className="Layout sans-serif near-black f5">
+  <div className="Layout sans-serif near-black f4">
     <div className="mw7-ns mt4 mb7 center ph2 ph4-m ph0-l">
       <Header />
       {children}
