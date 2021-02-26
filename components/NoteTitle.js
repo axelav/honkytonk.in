@@ -6,7 +6,7 @@ import { Title, Subtitle } from './provider'
 const NoteTitle = ({ title, subtitle, date }) => (
   <div className="NoteTitle flex-ns items-center-ns justify-between-ns">
     <Title>{title}</Title>
-    <div className="tab-nums w5-ns tr-ns">
+    <div className="tab-nums tr-ns">
       {subtitle && <Subtitle>{subtitle}</Subtitle>}
       {date && (
         <Subtitle>
@@ -20,7 +20,7 @@ const NoteTitle = ({ title, subtitle, date }) => (
 NoteTitle.propTypes = {
   title: PropTypes.string.isRequired,
   subtitle: PropTypes.string,
-  date: PropTypes.string
+  date: PropTypes.string,
 }
 
 export default NoteTitle
