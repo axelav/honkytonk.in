@@ -28,47 +28,40 @@ season.
 
 #### Sand Blast Rally
 
-<BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/racing/2019/SB-690.jpg" alt="Sand Blast Rally - 2010 690 Enduro R"/>
+If you've ever wanted to run wide open in 6th gear through deep sand, Sand
+Blast Rally is the race. I hit ~90mpg on SS6. That was fun. I ended up 16th
+overall, 8th in MM class.
 
-- top speed 89 mph on SS6
-- **work on cornering: speed into turns (can be faster), braking (can be later), looking (should be up and through turn)**
-- 16th overall, 8th in MM class [results](http://www.nasarallysport.com/results/2019-Sandblast-Rally-index.htm)
+<BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/racing/2019/SB-690.jpg" alt="Sand Blast Rally - 2010 690 Enduro R"/>
 
 #### Broad Mountain Enduro
 
-<BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/racing/2019/broad-mountain-enduro.jpg" alt="Broad Mountain Enduro"/>
+I rode the Broad Mountain Enduro on May 26, 2019. It was my first enduro and it
+really beat me up. I had no idea how difficult it would actually be, especially
+as I've had very little experience riding the type of terrain it covered
+&mdash; rocky and rooty, muddy and slippery, steep ascent and descents. I was
+terrified for the first few miles and then just exhausted. I did not finish,
+and I learned how much better shape I need to be in before I give a go at
+another one.
 
-I rode the Broad Mountain Enduro on May 26, 2019. It was my first enduro and
-it really kicked my ass! I had no idea how difficult it would actually be,
-especially as I've had very little experience riding the type of terrain it
-covered &mdash; rocky and rooty, muddy and slippery, steep ascent and
-descents. I was terrified for the first few miles and then just exhausted. I
-did not finish, and I learned how much better shape I need to be in before I
-give a go at another one.
+<BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/racing/2019/broad-mountain-enduro.jpg" alt="Broad Mountain Enduro"/>
 
 #### Richardson's Farm Hare Scramble
 
 <BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/racing/2019/richardons-farm-hare-scramble.jpg" alt="Richardson's Farm Hare Scramble"/>
 
-- NETRA event
-- rocky, muddy track
-- loved this format
-
-lap 1: 30:34 (21)
-lap 2: 44:18 (21)
-
 #### Pine Hill Enduro
+
+Whooped out Pine Barrens fire cuts all damn day. I had a really helpful guy on
+my row, Michael, who helped me understand what was happening durning the race
+with resets, free time, etc.
 
 <BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/racing/2019/pine-hill-enduro-02.jpg" alt="Pine Hill Enduro"/>
 
-- tons of whoops
-- had a super helpful guy on my row, Michael, who helped me understand what was
-  happening during the race with resets, free time, etc
-
 #### Sandy Lane Enduro
 
-<BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/racing/2019/sandy-lane-enduro-01.jpg" alt="Sandy Lane Enduro"/>
+A fun one, lots of tight woods. I had one big off where I whiskey throttled
+myself into some trees. I had a pause for a few minutes after that one. I was
+able to timekeep somewhat, though I will want an enduro computer for next year.
 
-- super tight woods
-- two falls, one scary whiskey throttle into a tree
-- was able to timekeep somewhat, though still difficult without the resetable odometer
+<BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/racing/2019/sandy-lane-enduro-01.jpg" alt="Sandy Lane Enduro"/>
