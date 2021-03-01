@@ -9,6 +9,10 @@
   --spacing-large: 2rem;
 }
 
+::selection {
+  background: rgba(255, 255, 102, 0.85);
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
