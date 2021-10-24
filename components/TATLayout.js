@@ -1,9 +1,9 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Link from 'next/link'
 import { Subheading } from './provider'
 import { DateTime } from 'luxon'
 import Layout from './Layout'
+import Link from './Link'
 
 const TATLayout = ({ children, prev, next }) => (
   <Layout>
