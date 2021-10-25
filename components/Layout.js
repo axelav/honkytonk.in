@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Link from 'next/link'
 import Header from './Header'
+import Link from './Link'
 
 const Layout = ({ children }) => (
   <div className="Layout sans-serif near-black f4">

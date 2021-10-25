@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import Link from 'next/link'
+import Link from './Link'
 
 const IndexLink = ({ href, textLeft, textRight }) => (
   <div className="IndexLink flex-ns justify-between-ns mb2 lh-copy tab-nums">
@@ -14,7 +14,7 @@ const IndexLink = ({ href, textLeft, textRight }) => (
 IndexLink.propTypes = {
   href: PropTypes.string.isRequired,
   textLeft: PropTypes.string.isRequired,
-  textRight: PropTypes.string
+  textRight: PropTypes.string,
 }
 
 export default IndexLink
