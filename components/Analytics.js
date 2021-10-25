@@ -1,7 +1,7 @@
 import { useRef, useEffect, useCallback } from 'react'
 import PropTypes from 'prop-types'
-import { useRouter } from 'next/router'
 import Event from './Event'
+import { useRouter } from 'next/router'
 import { usePrevious, useEventListener } from '../hooks'
 import { getDevice, isIos } from '../utils/device'
 import { getPageLoad, getLatency } from '../utils/performance'

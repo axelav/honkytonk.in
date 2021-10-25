@@ -2,6 +2,7 @@ import React, { useEffect, useState, useCallback } from 'react'
 import PropTypes from 'prop-types'
 import LazyLoad from 'react-lazyload'
 import Event from './Event'
+import { useEventListener } from '../hooks'
 
 const BigLazyImage = ({ src, alt = '', logEvent }) => {
   const [isExpanded, setIsExpanded] = useState(false)
@@ -11,14 +12,10 @@ const BigLazyImage = ({ src, alt = '', logEvent }) => {
     !isExpanded && logEvent(alt, { type: 'EXPAND IMAGE', src })
   }, [isExpanded, alt, logEvent, src])
 
-  useEffect(() => {
-    const handleKeyDown = ({ keyCode }) =>
-      keyCode === 27 && isExpanded && handleClick()
+  const handleKeyDown = ({ keyCode }) =>
+    keyCode === 27 && isExpanded && handleClick()
 
-    document.addEventListener('keydown', handleKeyDown)
-
-    return document.removeEventListener('keydown', handleKeyDown)
-  }, [handleClick, isExpanded])
+  useEventListener('keydown', handleKeyDown)
 
   return (
     <div className="BigLazyImage w-100 mt4 mb4" onClick={handleClick}>
