@@ -1,7 +1,6 @@
 import { useRef, useEffect, useCallback } from 'react'
 import PropTypes from 'prop-types'
 import { useRouter } from 'next/router'
-import { v4 as uuidv4 } from 'uuid'
 import Event from './Event'
 import { usePrevious, useEventListener } from '../hooks'
 import { getDevice, isIos } from '../utils/device'
@@ -20,34 +19,33 @@ const Analytics = ({ logEvent, events }) => {
       if (skip.current) return
       skip.current = true
 
-      const now = new Date()
-      const sessionId = `${now.getTime()}${uuidv4().slice(0, 6)}`
+      const lastEventAt = new Date()
 
       events.push({
         event: evt.type,
         type: 'END_SESSION',
-        timestamp: new Date().getTime(),
+        timestamp: lastEventAt.getTime(),
       })
 
       const session = {
-        createdAt: now.toISOString(),
-        sessionId,
-        startedAt: events[0].timestamp,
+        startedAt: new Date(events[0].timestamp).toISOString(),
+        endedAt: lastEventAt.toISOString(),
         ref: document.referrer,
         device: getDevice(userAgent),
         userAgent,
         language,
         timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
-        length: events.length,
-        pages: events.filter((x) => x.type === 'PAGE').length,
         latency: getLatency(),
         pageLoad: getPageLoad(),
+        length: events[events.length - 1].timestamp - events[0].timestamp,
+        pageviewCount: events.filter((x) => x.type === 'PAGE').length,
         events: events.map(({ event, type, timestamp }, i) => ({
-          sessionId,
           timestamp,
           event,
           type,
-          length: events[i].timestamp - timestamp,
+          // get time to next event to measure length, assumes next event is user action
+          length:
+            i < events.length - 1 ? events[i + 1].timestamp - timestamp : 0,
         })),
       }
 

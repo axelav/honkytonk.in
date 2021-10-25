@@ -11,6 +11,8 @@ const getDevice = (userAgent) => {
   } else if (isSubstring(userAgent, DEVICES.IPAD)) {
     return DEVICES.IPAD
   }
+
+  return null
 }
 
 const isIos = (userAgent) => !!getDevice(userAgent)
