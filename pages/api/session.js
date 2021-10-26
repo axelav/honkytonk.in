@@ -3,7 +3,7 @@ const q = faunadb.query
 
 const client = new faunadb.Client({
   secret: process.env.FAUNA_SECRET_KEY,
-  domain: 'db.us.fauna.com',
+  domain: process.env.FAUNA_HOST,
   port: 443,
   scheme: 'https',
 })
