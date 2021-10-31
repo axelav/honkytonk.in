@@ -22,6 +22,11 @@ const App = ({ Component, pageProps }) => {
       <Head>
         <meta name="viewport" content="width=device-width,initial-scale=1" />
         <title key="title">honky tonkin'</title>
+        <script
+          defer
+          data-domain="honkytonk.in"
+          src="https://plausible.io/js/plausible.js"
+        ></script>
       </Head>
       <MDXProvider components={components}>
         <EventsContext.Provider value={value}>
