@@ -22,7 +22,7 @@ const Title = ({ children }) => (
 )
 
 const Subtitle = ({ children }) => (
-  <h4 className="mt0 mb4 lh-title f3 i normal">{children}</h4>
+  <h4 className="mt0 mb4 lh-title f4">{children}</h4>
 )
 
 const H5 = ({ children }) => <h5 className="mt0 mb4 lh-title f5">{children}</h5>
