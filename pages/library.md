@@ -6,126 +6,115 @@ export default Layout
 
 #### 2021
 
-- _Red Mars_, Kim Stanley Robinson
+- Batsuo Bashō, _The Narrow Road to the Deep North_ (1702)
+- David Foster Wallace, _Infinite Jest_
+- Jeff VanderMeer, _Annihilation_ (2014)
+- John McPhee, _The Survival of the Bark Canoe_ (1982)
+- Kim Stanley Robinson, _Red Mars_ (1993)
+- Oakley Hall, _Warlock_ (1958)
+- Octavia Butler, _Parable of the Sower_ (1993)
+- Rainer Maria Rilke, _Duino Elegies_ (1923)
+- Rainer Maria Rilke, _Sonnets to Orpheus_ (1922)
+- Teju Cole, _Open City_ (2012)
+- Thomas Pynchon, _Gravity's Rainbow_ (1973)
+- Tim Maughan, _Ghost Hardware_ (2019)
+- Tim Maughan, _Infinite Detail_ (2019)
+- William Gibson, _Agency_ (2020)
 
 #### 2020
 
-- _Iron in the Pines_, Arthur D Pierce
-- _Bleeding Edge_, Thomas Pynchon
-- _V_, Thomas Pynchon
-- _True Grit_, Charles Portis
-- _The Art of Trailriding_, Paul Clipper
-- _The Pine Barrens_, John McPhee
-- _To Our Friends_, The Invisible Committee
-- _The Coming Insurrection_, The Invisible Committee
-- _End Notes 1_, Anonymous
-- _The Communist Manifesto_, Karl Marx and Friedrich Engels
-- _Ecosocialism_, Michawl Löwy
-- _How to Do Nothing_, Jenny Odell
-- _October: The Story of the Russian Revolution_, China Miéville
-- _Underland_, Robert Macfarlane
-- _Four Futures: Visions of the World After Capitalism_, Peter Frase
-- _Oranges_, John McPhee
-- _Annals of a Former World_, John McPhee
+- Anonymous, _End Notes 1_
+- Arthur D Pierce, _Iron in the Pines_
+- Charles Portis, _True Grit_
+- China Miéville, _October: The Story of the Russian Revolution_
+- Jenny Odell, _How to Do Nothing_
+- John McPhee, _Annals of a Former World_
+- John McPhee, _Oranges_
+- John McPhee, _The Pine Barrens_
+- Karl Marx and Friedrich Engels, _The Communist Manifesto_
+- Michawl Löwy, _Ecosocialism_
+- Paul Clipper, _The Art of Trailriding_
+- Peter Frase, _Four Futures: Visions of the World After Capitalism_
+- Robert Macfarlane, _Underland_
+- The Invisible Committee, _The Coming Insurrection_
+- The Invisible Committee, _To Our Friends_
+- Thomas Pynchon, _Bleeding Edge_
+- Thomas Pynchon, _V_
 
 #### 2019
 
-- _Encounters with the Archdruid_, John McPhee
-- _Coming into the Country_, John McPhee
-- _Moby Dick_, Herman Melville
-- _Sourdough_, Robin Sloan
-- _The Art of Trailriding_, Paul Clipper
-- _The Grapes of Wrath_, John Steinbeck
-- _Bluets_, Maggie Nelson
-- _The Problems of Philosophy_, Bertrand Russell
-- _The Wake_, Paul Kingsnorth
-- _Say Nothing_, Patrick Radden Keefe
-- _Orfeo_, Richard Powers
-- _Exhalation_, Ted Chiang
-- _The Lathe of Heaven_, Ursula Le Guin
-- _Mason and Dixon_, Thomas Pynchon
-- _Angle of Repose_, Wallace Stegner
-- _7 Years from Start to Finish: The Baja 1000 &mdash; The Early Years_, Rod Koch
+- Bertrand Russell, _The Problems of Philosophy_
+- Herman Melville, _Moby Dick_
+- John McPhee, _Coming into the Country_
+- John McPhee, _Encounters with the Archdruid_
+- John Steinbeck, _The Grapes of Wrath_
+- Maggie Nelson, _Bluets_
+- Patrick Radden Keefe, _Say Nothing_
+- Paul Clipper, _The Art of Trailriding_
+- Paul Kingsnorth, _The Wake_
+- Richard Powers, _Orfeo_
+- Robin Sloan, _Sourdough_
+- Rod Koch, _7 Years from Start to Finish: The Baja 1000 &mdash; The Early Years_
+- Ted Chiang, _Exhalation_
+- Thomas Pynchon, _Mason and Dixon_
+- Ursula Le Guin, _The Lathe of Heaven_
+- Wallace Stegner, _Angle of Repose_
 
 #### 2018
 
-- _D3.js in Action, Second Edition: Data visualization with JavaScript_, Elijah Meeks
-- _Zen and the Art of Motorcycle Maintenance_, Robert Pirsig
-- _The Perfect Vehicle_, Melissa Holbrook Pierson
-- _Excuse Me, Which Way to the Baja 1000?_, Airborne Andy
-- _To Dakar and Back_, Lawrence Hacking
-- _Savage Dreams_, Rebecca Solnit
-- _Beyond the Hundredth Meridian: John Wesley Powell and the Second Opening of the West_, Wallace Stegner
-- _The Odyssey_, Homer, translated by Emily Wilson
-- _The Practice of the Wild_, Gary Snyder
-- _Stop Drinking Now_, Allen Carr
-- _Sanibel Flats_, Randy Wayne White
+- Allen Carr, _Stop Drinking Now_
+- Elijah Meeks, _D3.js in Action, Second Edition: Data visualization with JavaScript_
+- Gary Snyder, _The Practice of the Wild_
+- Homer, translated by Emily Wilson, _The Odyssey_
+- Lawrence Hacking, _To Dakar and Back_
+- Melissa Holbrook Pierson, _The Perfect Vehicle_
+- Randy Wayne White, _Sanibel Flats_
+- Rebecca Solnit, _Savage Dreams_
+- Robert Pirsig, _Zen and the Art of Motorcycle Maintenance_
+- Wallace Stegner, _Beyond the Hundredth Meridian: John Wesley Powell and the Second Opening of the West_
+- Airborne Andy, _Excuse Me, Which Way to the Baja 1000?_
 
 #### 2017
 
-- _Zero History_, William Gibson
-- _Thinking in Systems: A Primer_, Donella Meadows
-- _Lincoln in the Bardo_, George Saunders
-- _The Pine Barrens_, John McPhee
-- _Allegheny Front_, Matthew Neill Null
-- _Jupiter's Travels_, Ted Simon
-- _Stories of Your Life and Others_, Ted Chiang
-- _On Trails_, Robert Moor
+- Donella Meadows, _Thinking in Systems: A Primer_
+- George Saunders, _Lincoln in the Bardo_
+- John McPhee, _The Pine Barrens_
+- Matthew Neill Null, _Allegheny Front_
+- Robert Moor, _On Trails_
+- Ted Chiang, _Stories of Your Life and Others_
+- Ted Simon, _Jupiter's Travels_
+- William Gibson, _Zero History_
 
 #### 2016
 
-- _The Transmigration of Timothy Archer_, Philip K Dick
-- _High Performance Browser Networking_, Ilya Grigorik
-- _Client-Side Data Storage_, Raymond Camden
-- _Blood Meridian_, Cormac McCarthy
-- _The Left Hand of Darkness_, Ursula Le Guin
-- _The Stories of Breece D'j Pancake_, Breece Pancake
+- Breece Pancake, _The Stories of Breece D'j Pancake_
+- Cormac McCarthy, _Blood Meridian_
+- Ilya Grigorik, _High Performance Browser Networking_
+- Philip K Dick, _The Transmigration of Timothy Archer_
+- Raymond Camden, _Client-Side Data Storage_
+- Ursula Le Guin, _The Left Hand of Darkness_
 
 #### 2015
 
-- _The Real World of Technology_, Ursula Franklin
-- _Javascript Allonge_, Reg Braithwaite
-- _The Simulacra_, Philip K Dick
-- _Ancillary Justice_, Ann Leckie
-- _Functional Javascript_, Michael Fogus
-- _The Peripheral_, William Gibson
-- _Willie Nelson: An Epic Life_, Joe Patoski
-- _Zen and the Art of Motorcycle Maintenance_, Robert Pirsig
+- Ann Leckie, _Ancillary Justice_
+- Joe Patoski, _Willie Nelson: An Epic Life_
+- Michael Fogus, _Functional Javascript_
+- Philip K Dick, _The Simulacra_
+- Reg Braithwaite, _Javascript Allonge_
+- Robert Pirsig, _Zen and the Art of Motorcycle Maintenance_
+- Ursula Franklin, _The Real World of Technology_
+- William Gibson, _The Peripheral_
 
 #### 2014
 
-- _Bleeding Edge_, Thomas Pynchon
-- _Mr. Penumbra's 24-Hour Bookstore_, Robin Sloan
-- _Sometimes a Great Notion_, Ken Kesey
-- _The Dispossessed: An Ambiguous Utopia_, Ursula Le Guin
-- _The Long Ships_, Frans Bengtsson
-- _The Soul of a New Machine_, Tracy Kidder
-- _Tubes: A Journey to the Center of the Internet_, Andrew Blum
-- _Ubik_, Philip K Dick
-- _VALIS_, Philip K Dick
-- _Waging Heavy Peace_, Neil Young
-- _Wyoming Folklore: Reminiscences, Folktales, Beliefs, Customs and Folk Speech, Federal Writers' Project_
-
-#### Started and Put Down...
-
-- _Life in Code: A Personal History of Technology_, Ellen Ullman
-- _Networking for Systems Administrators_, Michael Lucas
-- _The Intelligent Investor_, Benjamin Graham
-- _Code: The Hidden Language of Computer Hardware and Software_, Charles Petzold
-
-<!--
-TODO should this stay?
-
-#### The Thing About Motorcycles
-
-- ["About Motorcycles"][0], Frederick Seidel
-- ["International Journal of Motorcycle Studies"][2]
-- ["Precious Dangers"][3] and _The Perfect Vehicle_, Melissa Holbrook Pierson
-- ["Song of the Sausage Creature"][1], Hunter S Thompson
-- _Zen and the Art of Motorcycle Maintainance_, Robert M Pirsig
-
-[0]: https://harpers.org/archive/2009/11/about-motorcycles/?single=1
-[1]: http://www.latexnet.org/~csmith/sausage.html
-[2]: http://motorcyclestudies.org
-[3]: https://harpers.org/archive/1995/05/precious-dangers/
--->
+- Andrew Blum, _Tubes: A Journey to the Center of the Internet_
+- Federal Writers' Project, _Wyoming Folklore: Reminiscences, Folktales, Beliefs, Customs and Folk Speech_
+- Frans Bengtsson, _The Long Ships_
+- Ken Kesey, _Sometimes a Great Notion_
+- Neil Young, _Waging Heavy Peace_
+- Philip K Dick, _Ubik_
+- Philip K Dick, _VALIS_
+- Robin Sloan, _Mr. Penumbra's 24-Hour Bookstore_
+- Thomas Pynchon, _Bleeding Edge_
+- Tracy Kidder, _The Soul of a New Machine_
+- Ursula Le Guin, _The Dispossessed: An Ambiguous Utopia_
