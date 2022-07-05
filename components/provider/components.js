@@ -3,7 +3,7 @@ import cx from 'classnames'
 import { widont } from 'journalize'
 
 const Heading = ({ children, smallMargin }) => {
-  const prefix = cx('f2 mt0 lh-title', {
+  const prefix = cx('f1 mt0 lh-title', {
     mb2: smallMargin,
     mb4: !smallMargin,
   })
@@ -14,15 +14,15 @@ const Heading = ({ children, smallMargin }) => {
 Heading.defaultProps = { smallMargin: false }
 
 const Subheading = ({ children }) => (
-  <h2 className="mt0 mb4 lh-title f3">{children}</h2>
+  <h2 className="mt0 mb4 lh-title f2">{children}</h2>
 )
 
 const Title = ({ children }) => (
-  <h3 className="mt0 mb4 lh-title f4">{children}</h3>
+  <h3 className="mt0 mb4 lh-title f3">{children}</h3>
 )
 
 const Subtitle = ({ children }) => (
-  <h4 className="mt0 mb4 lh-title f4 i normal">{children}</h4>
+  <h4 className="mt0 mb4 lh-title f3 i normal">{children}</h4>
 )
 
 const H5 = ({ children }) => <h5 className="mt0 mb4 lh-title f5">{children}</h5>
