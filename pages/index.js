@@ -31,6 +31,11 @@ const Index = ({ initialVideoId }) => {
     <Layout>
       <Title>Lately</Title>
       <IndexLink
+        href="/notes/lately-2022-06"
+        textLeft="June 2022"
+        textRight="2022-06-30"
+      />
+      <IndexLink
         href="/notes/enduro-toolkit"
         textLeft="Enduro Toolkit"
         textRight="2021-02-25"
