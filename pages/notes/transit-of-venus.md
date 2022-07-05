@@ -17,6 +17,6 @@ export default Layout
 > The last transit of Venus was on 5 and 6 June 2012, and was the last Venus
 > transit of the 21st century; the prior transit took place on 8 June 2004. The
 > previous pair of transits were in December 1874 and December 1882. The next
-> transits of Venus will be on 10–11 December 2117, and 8 December 2125.
+> transits of Venus will be on 10&dash;11 December 2117, and 8 December 2125.
 
 [0]: https://en.wikipedia.org/wiki/Transit_of_Venus
