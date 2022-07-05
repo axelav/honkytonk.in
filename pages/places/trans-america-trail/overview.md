@@ -4,7 +4,7 @@ import BigLazyImage from '../../../components/BigLazyImage'
 
 export default TATLayout
 
-<iframe src='https://www.mytracks.co/axelav/groups/8a3912d5-3e55-4ece-8777-41d944acd6d0' width='100%' height='500px' allowFullScreen></iframe>
+<Image src="https://s3.amazonaws.com/honkytonk.in/tat-route-basecamp.jpg" alt="An overview of the route I travelled on the TAT" />
 
 <Subtitle>Tennessee</Subtitle>
 
