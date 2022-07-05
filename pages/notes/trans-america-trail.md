@@ -9,7 +9,7 @@ export default Layout
 
 This past summer, I rode the [Trans America Trail](https://www.transamtrail.com) across the country on my 2010 KTM 690 Enduro R.
 
-<Image src="https://s3.amazonaws.com/honkytonk.in/tat-route-basecamp.jpg" alt="An overview of the route I travelled on the TAT" />
+<BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/tat-route-basecamp.jpg" alt="An overview of the route I travelled on the TAT" />
 
 It took:
 

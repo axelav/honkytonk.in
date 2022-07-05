@@ -4,7 +4,7 @@ import BigLazyImage from '../../../components/BigLazyImage'
 
 export default TATLayout
 
-<Image src="https://s3.amazonaws.com/honkytonk.in/tat-route-basecamp.jpg" alt="An overview of the route I travelled on the TAT" />
+<BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/tat-route-basecamp.jpg" alt="An overview of the route I travelled on the TAT" />
 
 <Subtitle>Tennessee</Subtitle>
 
