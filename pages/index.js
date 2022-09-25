@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import PropTypes from 'prop-types'
 import { Title } from '../components/provider'
 import Layout from '../components/Layout'
 import IndexLink from '../components/IndexLink'
@@ -24,8 +23,8 @@ const honkyTonkVideoIds = [
 const getRandomVideoId = () =>
   honkyTonkVideoIds[Math.floor(Math.random() * honkyTonkVideoIds.length)]
 
-const Index = ({ initialVideoId }) => {
-  const [videoId, setVideoId] = useState(initialVideoId)
+const Index = () => {
+  const [videoId, setVideoId] = useState(getRandomVideoId())
 
   return (
     <Layout>
@@ -83,18 +82,6 @@ const Index = ({ initialVideoId }) => {
       </span>
     </Layout>
   )
-}
-
-Index.propTypes = {
-  initialVideoId: PropTypes.string.isRequired,
-}
-
-export async function getServerSideProps() {
-  return {
-    props: {
-      initialVideoId: getRandomVideoId(),
-    },
-  }
 }
 
 export default Index

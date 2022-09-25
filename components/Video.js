@@ -8,6 +8,7 @@ const Video = ({ src, className }) => {
   return (
     <div className="Video">
       <iframe
+        title="~ Enjoy the tunes ~"
         className={prefix}
         width="560"
         height="315"
@@ -21,11 +22,11 @@ const Video = ({ src, className }) => {
 
 Video.propTypes = {
   src: PropTypes.string.isRequired,
-  className: PropTypes.string
+  className: PropTypes.string,
 }
 
 Video.defaultProps = {
-  className: ''
+  className: '',
 }
 
 export default Video
