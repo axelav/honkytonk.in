@@ -10,14 +10,7 @@ const handleResponse = async (res) => {
   }
 }
 
-const writeTag = (str) => {
-  if (/ /.test(str)) {
-    return `#[[${str.toLowerCase()}]]`
-  } else {
-    return `#${str.toLowerCase()}`
-  }
-}
-
+const formatAndSort = (list) => list.map((t) => t.toLowerCase()).sort()
 const unique = (x, idx, self) => self.indexOf(x) === idx
 
 const getSearchResults = async (query, isMaster = true) => {
@@ -48,7 +41,7 @@ const formatRelease = (release) => {
     title,
     year,
     label: labels[0]?.name || 'Not On Label',
-    tags: [...genres, ...styles].filter(unique).map(writeTag).join(' '),
+    tags: [...formatAndSort(genres), ...formatAndSort(styles)].filter(unique),
     url: release.uri,
   }
 }
