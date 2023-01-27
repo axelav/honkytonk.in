@@ -10,17 +10,51 @@ const handleResponse = async (res) => {
   }
 }
 
-const formatAndSort = (list) => list.map((t) => t.toLowerCase()).sort()
+const toLowerCaseAndSort = (list) => list.map((t) => t.toLowerCase()).sort()
 const unique = (x, idx, self) => self.indexOf(x) === idx
 
 const getSearchResults = async (query, isMaster = true) => {
   const res = await fetch(
-    `https://api.discogs.com/database/search?token=${token}&q=${query}${
-      isMaster ? '&type=master' : ''
+    `https://api.discogs.com/database/search?token=${token}&q=${query}${isMaster ? '&type=master' : ''
     }`
   )
 
   return handleResponse(res)
+}
+
+const getLabel = (list) => {
+  const noLabelText = 'Not On Label'
+
+  if (!list || !list.length) {
+    return noLabelText
+  }
+
+  const first = list[0]?.name
+
+  // Trim any parenthetical marks from label name, eg "Not On Label (Self-released)"
+  if (first.match(noLabelText)) {
+    return noLabelText
+  }
+
+  return first
+}
+
+const addSpaceAfterJoin = (artist) => {
+  const join = artist.join
+
+  if (join) {
+    return join.replace(/(\/)/g, '$1 ')
+  }
+
+  return ''
+}
+
+const formatArtist = (artist) => {
+  // Remove any parenthetical marks from artist name
+  const name = artist.name.trim().replace(/\s\(\d+\)/g, '')
+  const join = addSpaceAfterJoin(artist)
+
+  return `${name}${join}`
 }
 
 const formatRelease = (release) => {
@@ -34,14 +68,11 @@ const formatRelease = (release) => {
   } = release
 
   return {
-    artist: artists.reduce(
-      (prev, x) => `${prev}${x.name}${!!x.join ? ` ${x.join} ` : ''}`,
-      ''
-    ),
+    artist: artists.reduce((acc, x) => `${acc}${formatArtist(x)}`, ''),
     title,
     year,
-    label: labels[0]?.name || 'Not On Label',
-    tags: [...formatAndSort(genres), ...formatAndSort(styles)].filter(unique),
+    label: getLabel(labels),
+    tags: [...toLowerCaseAndSort(genres), ...toLowerCaseAndSort(styles)].filter(unique),
     url: release.uri,
   }
 }
