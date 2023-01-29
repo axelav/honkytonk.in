@@ -39,15 +39,12 @@
   },
   "scripts": {
     "dev": "next dev -p 4200",
-    "build": "next build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider next build",
     "start": "next start",
     "export": "next export",
     "deploy:dev": "now",
     "deploy:staging": "now --prod",
     "deploy:prod": "now --prod && now alias set https://honkytonkin.axelav.vercel.app honkytonk.in"
-  },
-  "engines": {
-    "node": ">10.15.0"
   },
   "author": "Axel Anderson <axel@ftml.net>",
   "private": true,
