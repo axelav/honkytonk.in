@@ -1,8 +1,2 @@
-.next
-dist
-node_modules
-node_modules.nosync
-
-.vercel
 .env
 .env.local
