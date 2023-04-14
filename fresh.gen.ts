@@ -14,7 +14,8 @@ import * as $7 from "./routes/library.tsx";
 import * as $8 from "./routes/notes/[slug].tsx";
 import * as $9 from "./routes/notes/index.tsx";
 import * as $10 from "./routes/now.tsx";
-import * as $11 from "./routes/places/index.tsx";
+import * as $11 from "./routes/places/[slug].tsx";
+import * as $12 from "./routes/places/index.tsx";
 import * as $$0 from "./islands/Counter.tsx";
 
 const manifest = {
@@ -30,7 +31,8 @@ const manifest = {
     "./routes/notes/[slug].tsx": $8,
     "./routes/notes/index.tsx": $9,
     "./routes/now.tsx": $10,
-    "./routes/places/index.tsx": $11,
+    "./routes/places/[slug].tsx": $11,
+    "./routes/places/index.tsx": $12,
   },
   islands: {
     "./islands/Counter.tsx": $$0,

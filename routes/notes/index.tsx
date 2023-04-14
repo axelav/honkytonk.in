@@ -12,16 +12,28 @@ export const handler: Handlers<Note[]> = {
 
 export const NoteCard = ({ note }: { note: Note }) => (
   <div class="mt-6">
-    <a class="sm:col-span-2" href={`/notes/${note.slug}`}>
+    <a
+      class="sm:col-span-2"
+      href={`/${note.type === 'place' ? 'places' : 'notes'}/${note.slug}`}
+    >
       <SectionHeading>{note.title}</SectionHeading>
-      <time class="text-gray-500 mt-2">
-        {new Date(note.publishedAt).toLocaleDateString('en-us', {
-          year: 'numeric',
-          month: 'long',
-          day: 'numeric',
-        })}
-      </time>
-      {note.snippet && <div class="mt-2 text-gray-900">{note.snippet}</div>}
+      {note.type === 'note' && (
+        <>
+          <div class="mt-1">
+            <time class="text-gray-500">
+              {new Date(note.publishedAt).toLocaleDateString('en-us', {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+              })}
+            </time>
+          </div>
+          {note.snippet && <div class="mt-1 text-gray-900">{note.snippet}</div>}
+        </>
+      )}
+      {note.type === 'place' && note.snippet && (
+        <div class="mt-1 text-gray-500">{note.snippet}</div>
+      )}
     </a>
   </div>
 )
