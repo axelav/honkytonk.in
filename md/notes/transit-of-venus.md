@@ -1,12 +1,9 @@
-import Layout from '../../components/Layout'
-import NoteTitle from '../../components/NoteTitle'
-import Video from '../../components/Video'
+---
+title: The transit of Venus
+published_at: 2012-06-06T15:00:00.000Z
+---
 
-export default Layout
-
-<NoteTitle date="2012-06-06" title="The Transit of Venus" />
-
-<Video src="//www.youtube.com/embed/4Z9rM8ChTjY" />
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4Z9rM8ChTjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 > Transits of Venus are among the rarest of predictable astronomical phenomena.
 > They occur in a pattern that generally repeats every 243 years, with pairs of

@@ -1,12 +1,10 @@
-import Layout from '../../components/Layout'
-import Video from '../../components/Video'
-import NoteTitle from '../../components/NoteTitle'
+---
+title: Guitar Topographies
+published_at: 2018-12-04T15:00:00.000Z
+---
 
-export default Layout
-
-<NoteTitle title="Guitar Topographies" date="2018-12-04" />
-
-"Guitar Topographies", a mix by Andrew Pekler, hits a lot of the right spots for me.
+"Guitar Topographies", a mix by Andrew Pekler, hits a lot of the right spots for
+me.
 
 <Video src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/525582759&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=true&visual=true" />
 

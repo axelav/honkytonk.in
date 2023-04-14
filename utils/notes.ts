@@ -6,7 +6,7 @@ export interface Note {
   title: string
   publishedAt: Date
   content: string
-  snippet: string
+  snippet?: string
 }
 
 export const getNote = async (slug: string): Promise<Note | null> => {

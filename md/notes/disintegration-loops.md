@@ -1,10 +1,7 @@
-import Layout from '../../components/Layout'
-import NoteTitle from '../../components/NoteTitle'
-import Video from '../../components/Video'
-
-export default Layout
-
-<NoteTitle date="2012-11-20" title="The Disintegration Loops" />
+---
+title: The Disintegration Loops
+published_at: 2012-11-20T15:00:00.000Z
+---
 
 _The Quietus_ recently published a great [interview][0] with William Basinski on
 the tenth anniversary of the Disintegration Loops. He speaks at length about how

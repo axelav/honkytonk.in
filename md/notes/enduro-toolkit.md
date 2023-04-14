@@ -1,14 +1,20 @@
-import Layout from '../../components/Layout'
-import BigLazyImage from '../../components/BigLazyImage'
-import NoteTitle from '../../components/NoteTitle'
+---
+title: Enduro toolkit
+published_at: 2021-02-25T15:00:00.000Z
+---
 
-export default Layout
+With all the snow we've had this winter, I've been so damn bored I cleaned up my
+tool pack and wrote down some notes. I mainly use this for trail riding. For a
+dual sport/multi-day trip, I'd add a few more tools/spares and throw everything
+a backpack.
 
-<NoteTitle title="Enduro Toolkit" date="2021-02-25" />
-
-With all the snow we've had this winter, I've been so damn bored I cleaned up my tool pack and wrote down some notes. I mainly use this for trail riding. For a dual sport/multi-day trip, I'd add a few more tools/spares and throw everything a backpack.
-
-I've tried a few waist packs and this Zac Speed Matrix is my favorite. It's made of heavy-duty material, uses large zippers, and keeps its contents dry. The design is simple: a single, large main compartment with a few mesh organizers and a clear, quick-access "tail". It comes with a tool roll as well, but it's pretty bulky. I don't use it. I keep a microfiber cloth in the tail to wipe goggles and phone/GPS screens. I'll also throw a snack or sandwich in there while riding.
+I've tried a few waist packs and this Zac Speed Matrix is my favorite. It's made
+of heavy-duty material, uses large zippers, and keeps its contents dry. The
+design is simple: a single, large main compartment with a few mesh organizers
+and a clear, quick-access "tail". It comes with a tool roll as well, but it's
+pretty bulky. I don't use it. I keep a microfiber cloth in the tail to wipe
+goggles and phone/GPS screens. I'll also throw a snack or sandwich in there
+while riding.
 
 <BigLazyImage src="https://advrider-rkdwp.s3.amazonaws.com/toolkit/1.jpg" alt="Toolkit" />
 <BigLazyImage src="https://advrider-rkdwp.s3.amazonaws.com/toolkit/2.jpg" alt="Toolkit" />
@@ -26,7 +32,10 @@ I stash most stuff in the main compartment:
 <BigLazyImage src="https://advrider-rkdwp.s3.amazonaws.com/toolkit/4.jpg" alt="Toolkit" />
 <BigLazyImage src="https://advrider-rkdwp.s3.amazonaws.com/toolkit/5.jpg" alt="Toolkit" />
 
-I use a Dirt Bike Gear tool roll. It's perfect. All their gear is great, go buy it. I only wish they made a fanny pack. I'm sure it'd be perfect as well. I run tubliss/bibs and do not carry tire irons, tubes, &c. so it's not stuffed. Here's what's in there:
+I use a Dirt Bike Gear tool roll. It's perfect. All their gear is great, go buy
+it. I only wish they made a fanny pack. I'm sure it'd be perfect as well. I run
+tubliss/bibs and do not carry tire irons, tubes, &c. so it's not stuffed. Here's
+what's in there:
 
 - KTM axle/spark plug tool (wrapped with duct and electrical tape)
 - Knipex 8" pliers wrench 🤑
@@ -49,9 +58,11 @@ The small pocket of the tool roll holds:
 
 <BigLazyImage src="https://advrider-rkdwp.s3.amazonaws.com/toolkit/8.jpg" alt="Toolkit" />
 
-A few small containers and plastic baggies get stuffed in the mesh pockets on the fanny pack. These hold spares and (super) basic first aid:
+A few small containers and plastic baggies get stuffed in the mesh pockets on
+the fanny pack. These hold spares and (super) basic first aid:
 
-- baggie w/ TP, band aids, ibuprofen, couple o-rings (fit KTM fuel quick disconnect, water bladder, other stuff probably...)
+- baggie w/ TP, band aids, ibuprofen, couple o-rings (fit KTM fuel quick
+  disconnect, water bladder, other stuff probably...)
 - quiksteel
 - spare spark plug
 
@@ -74,4 +85,5 @@ A few small containers and plastic baggies get stuffed in the mesh pockets on th
 <BigLazyImage src="https://advrider-rkdwp.s3.amazonaws.com/toolkit/9.jpg" alt="Toolkit" />
 <BigLazyImage src="https://advrider-rkdwp.s3.amazonaws.com/toolkit/10.jpg" alt="Toolkit" />
 
-I keep a spare shift lever and brake lever ziptied to the frame in the air box. That's it.
+I keep a spare shift lever and brake lever ziptied to the frame in the air box.
+That's it.

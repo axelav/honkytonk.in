@@ -1,13 +1,10 @@
-import { Subtitle } from '../../components/provider'
-import Layout from '../../components/Layout'
-import BigLazyImage from '../../components/BigLazyImage'
-import NoteTitle from '../../components/NoteTitle'
+---
+title: Trans America Trail
+published_at: 2018-10-23T15:00:00.000Z
+---
 
-export default Layout
-
-<NoteTitle title="Trans America Trail" date="2018-10-23" />
-
-This past summer, I rode the [Trans America Trail](https://www.transamtrail.com) across the country on my 2010 KTM 690 Enduro R.
+This past summer, I rode the [Trans America Trail](https://www.transamtrail.com)
+across the country on my 2010 KTM 690 Enduro R.
 
 <BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/tat-route-basecamp.jpg" alt="An overview of the route I travelled on the TAT" />
 
@@ -19,7 +16,8 @@ It took:
 - one fuel pump and one filter replacement
 - dozens of cheeseburgers and thousands of peanut butter M&Ms
 
-These are some of my favorite photos from the trip below, and I've written it up in [much greater detail](/places/trans-america-trail) as well.
+These are some of my favorite photos from the trip below, and I've written it up
+in [much greater detail](/places/trans-america-trail) as well.
 
 <Subtitle>Tennessee</Subtitle>
 

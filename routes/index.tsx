@@ -1,34 +1,25 @@
-export default function Home() {
-  return (
-    <div>
-      <h2 class="mt-8 text-2xl font-bold">Lately</h2>
+import { Handlers, PageProps } from '$fresh/server.ts'
+import { getNotes, Note } from '@/utils/notes.ts'
+import { NoteCard } from '@/routes/notes/index.tsx'
 
-      <ul class="mt-4 space-y-2">
-        <li>
-          <a href="/notes/lately-2022-06">June 2022</a>
-        </li>
-        <li>
-          <a href="/notes/enduro-toolkit">Enduro Toolkit</a>
-        </li>
-        <li>
-          <a href="/notes/lately-2020-12">December 2020</a>
-        </li>
-        <li>
-          <a href="/notes/spring">Spring</a>
-        </li>
-        <li>
-          <a href="/notes/off-road-racing">Off Road Moto Racing</a>
-        </li>
-        <li>
-          <a href="/notes/wanderings">Wanderings 2018</a>
-        </li>
-        <li>
-          <a href="/notes/guitar-topographies">Guitar Topographies</a>
-        </li>
-        <li>
-          <a href="/notes/trans-america-trail">Trans America Trail</a>
-        </li>
-      </ul>
-    </div>
-  )
+export const handler: Handlers<Note[]> = {
+  async GET(_req, ctx) {
+    const notes = await getNotes()
+
+    return ctx.render(notes.slice(0, 8))
+  },
 }
+
+const Home = ({ data: notes }: PageProps<Note[]>) => (
+  <div>
+    <h2 class="mt-8 text-3xl font-bold">Lately</h2>
+
+    <div class="mt-8">
+      {notes.map((note) => (
+        <NoteCard note={note} />
+      ))}
+    </div>
+  </div>
+)
+
+export default Home
