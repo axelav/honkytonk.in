@@ -1,9 +1,9 @@
 import { JSX } from 'preact'
 
-export function Header(props: JSX.HTMLAttributes<HTMLDivElement>) {
+export function TopNav(props: JSX.HTMLAttributes<HTMLDivElement>) {
   return (
     <div>
-      <h1 class="mt-8 text-4xl font-bold">honkytonkin'</h1>
+      <h1 class="mt-8 text-4xl font-bold">honky tonkin'</h1>
       <nav class="mt-4">
         <ul>
           <li>
