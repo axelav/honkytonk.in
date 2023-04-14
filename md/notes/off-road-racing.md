@@ -29,7 +29,7 @@ If you've ever wanted to run wide open in 6th gear through deep sand, Sand Blast
 Rally is the race. I hit ~90mpg on SS6. That was fun. I ended up 16th overall,
 8th in MM class.
 
-<BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/racing/2019/SB-690.jpg" alt="Sand Blast Rally - 2010 690 Enduro R"/>
+![Sand Blast Rally - 2010 690 Enduro R](https://s3.amazonaws.com/honkytonk.in/racing/2019/SB-690.jpg)
 
 ### Broad Mountain Enduro
 
@@ -40,11 +40,11 @@ rocky and rooty, muddy and slippery, steep ascent and descents. I was terrified
 for the first few miles and then just exhausted. I did not finish, and I learned
 how much better shape I need to be in before I give a go at another one.
 
-<BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/racing/2019/broad-mountain-enduro.jpg" alt="Broad Mountain Enduro"/>
+![Broad Mountain Enduro](https://s3.amazonaws.com/honkytonk.in/racing/2019/broad-mountain-enduro.jpg)
 
 ### Richardson's Farm Hare Scramble
 
-<BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/racing/2019/richardons-farm-hare-scramble.jpg" alt="Richardson's Farm Hare Scramble"/>
+![Richardson's Farm Hare Scramble](https://s3.amazonaws.com/honkytonk.in/racing/2019/richardons-farm-hare-scramble.jpg)
 
 ### Pine Hill Enduro
 
@@ -52,7 +52,7 @@ Whooped out Pine Barrens fire cuts all damn day. I had a really helpful guy on
 my row, Michael, who helped me understand what was happening durning the race
 with resets, free time, etc.
 
-<BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/racing/2019/pine-hill-enduro-02.jpg" alt="Pine Hill Enduro"/>
+![Pine Hill Enduro](https://s3.amazonaws.com/honkytonk.in/racing/2019/pine-hill-enduro-02.jpg)
 
 ### Sandy Lane Enduro
 
@@ -60,4 +60,4 @@ A fun one, lots of tight woods. I had one big off where I whiskey throttled
 myself into some trees. I had a pause for a few minutes after that one. I was
 able to timekeep somewhat, though I will want an enduro computer for next year.
 
-<BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/racing/2019/sandy-lane-enduro-01.jpg" alt="Sandy Lane Enduro"/>
+![Sandy Lane Enduro](https://s3.amazonaws.com/honkytonk.in/racing/2019/sandy-lane-enduro-01.jpg)

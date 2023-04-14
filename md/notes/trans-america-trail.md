@@ -6,7 +6,7 @@ published_at: 2018-10-23T15:00:00.000Z
 This past summer, I rode the [Trans America Trail](https://www.transamtrail.com)
 across the country on my 2010 KTM 690 Enduro R.
 
-<BigLazyImage src="https://s3.amazonaws.com/honkytonk.in/tat-route-basecamp.jpg" alt="An overview of the route I travelled on the TAT" />
+![An overview of the route I travelled on the TAT](https://s3.amazonaws.com/honkytonk.in/tat-route-basecamp.jpg)
 
 It took:
 
@@ -21,58 +21,58 @@ in [much greater detail](/places/trans-america-trail) as well.
 
 <Subtitle>Tennessee</Subtitle>
 
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/08/IMG_2626.jpg" alt="Tennessee" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/09/IMG_2634.jpg" alt="Tennessee" />
+![Tennessee](https://s3.amazonaws.com/tat.honkytonk.in/08/IMG_2626.jpg)
+![Tennessee](https://s3.amazonaws.com/tat.honkytonk.in/09/IMG_2634.jpg)
 
 <Subtitle>Georgia</Subtitle>
 
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/11/IMG_2691.jpg" alt="Georgia" />
+![Georgia](https://s3.amazonaws.com/tat.honkytonk.in/11/IMG_2691.jpg)
 
 <Subtitle>Mississippi</Subtitle>
 
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/11/IMG_2711.jpg" alt="Mississippi" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/12/IMG_2745.jpg" alt="Mississippi" />
+![Mississippi](https://s3.amazonaws.com/tat.honkytonk.in/11/IMG_2711.jpg)
+![Mississippi](https://s3.amazonaws.com/tat.honkytonk.in/12/IMG_2745.jpg)
 
 <Subtitle>Arkansas</Subtitle>
 
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/13/IMG_2790.jpg" alt="Arkansas" />
+![Arkansas](https://s3.amazonaws.com/tat.honkytonk.in/13/IMG_2790.jpg)
 
 <Subtitle>Oklahoma</Subtitle>
 
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/15/IMG_2830.jpg" alt="Oklahoma" />
+![Oklahoma](https://s3.amazonaws.com/tat.honkytonk.in/15/IMG_2830.jpg)
 
 <Subtitle>Colorado</Subtitle>
 
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/16/IMG_2872.jpg" alt="Colorado" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/19/IMG_2912.jpg" alt="Colorado" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/19/IMG_2930.jpg" alt="Colorado" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/20/IMG_2996.jpg" alt="Colorado" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/20/IMG_3001.jpg" alt="Colorado" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/20/IMG_3021.jpg" alt="Colorado" />
+![Colorado](https://s3.amazonaws.com/tat.honkytonk.in/16/IMG_2872.jpg)
+![Colorado](https://s3.amazonaws.com/tat.honkytonk.in/19/IMG_2912.jpg)
+![Colorado](https://s3.amazonaws.com/tat.honkytonk.in/19/IMG_2930.jpg)
+![Colorado](https://s3.amazonaws.com/tat.honkytonk.in/20/IMG_2996.jpg)
+![Colorado](https://s3.amazonaws.com/tat.honkytonk.in/20/IMG_3001.jpg)
+![Colorado](https://s3.amazonaws.com/tat.honkytonk.in/20/IMG_3021.jpg)
 
 <Subtitle>Utah</Subtitle>
 
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/20/IMG_3061.jpg" alt="Utah" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/22/IMG_3111.jpg" alt="Utah" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/22/IMG_3120.jpg" alt="Utah" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/23/IMG_3182.jpg" alt="Utah" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/24/IMG_3223.jpg" alt="Utah" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/24/IMG_3241.jpg" alt="Utah" />
+![Utah](https://s3.amazonaws.com/tat.honkytonk.in/20/IMG_3061.jpg)
+![Utah](https://s3.amazonaws.com/tat.honkytonk.in/22/IMG_3111.jpg)
+![Utah](https://s3.amazonaws.com/tat.honkytonk.in/22/IMG_3120.jpg)
+![Utah](https://s3.amazonaws.com/tat.honkytonk.in/23/IMG_3182.jpg)
+![Utah](https://s3.amazonaws.com/tat.honkytonk.in/24/IMG_3223.jpg)
+![Utah](https://s3.amazonaws.com/tat.honkytonk.in/24/IMG_3241.jpg)
 
 <Subtitle>Idaho</Subtitle>
 
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/25/IMG_3308.jpg" alt="Idaho" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/25/IMG_3297.jpg" alt="Idaho" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/26/IMG_3319.jpg" alt="Idaho" />
+![Idaho](https://s3.amazonaws.com/tat.honkytonk.in/25/IMG_3308.jpg)
+![Idaho](https://s3.amazonaws.com/tat.honkytonk.in/25/IMG_3297.jpg)
+![Idaho](https://s3.amazonaws.com/tat.honkytonk.in/26/IMG_3319.jpg)
 
 <Subtitle>Oregon</Subtitle>
 
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/27/IMG_3370.jpg" alt="Oregon" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/28/IMG_3424.jpg" alt="KTM Fuel Pump" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/29/IMG_3454.jpg" alt="Oregon" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/29/IMG_3460.jpg" alt="Oregon" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/30/IMG_3476.jpg" alt="Oregon" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/30/IMG_3485.jpg" alt="Oregon" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/30/IMG_3493.jpg" alt="Oregon" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/30/IMG_3503.jpg" alt="Oregon" />
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/30/IMG_3522.jpg" alt="Oregon" />
+![Oregon](https://s3.amazonaws.com/tat.honkytonk.in/27/IMG_3370.jpg)
+![KTM Fuel Pump](https://s3.amazonaws.com/tat.honkytonk.in/28/IMG_3424.jpg)
+![Oregon](https://s3.amazonaws.com/tat.honkytonk.in/29/IMG_3454.jpg)
+![Oregon](https://s3.amazonaws.com/tat.honkytonk.in/29/IMG_3460.jpg)
+![Oregon](https://s3.amazonaws.com/tat.honkytonk.in/30/IMG_3476.jpg)
+![Oregon](https://s3.amazonaws.com/tat.honkytonk.in/30/IMG_3485.jpg)
+![Oregon](https://s3.amazonaws.com/tat.honkytonk.in/30/IMG_3493.jpg)
+![Oregon](https://s3.amazonaws.com/tat.honkytonk.in/30/IMG_3503.jpg)
+![Oregon](https://s3.amazonaws.com/tat.honkytonk.in/30/IMG_3522.jpg)

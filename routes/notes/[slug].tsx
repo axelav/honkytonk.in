@@ -2,6 +2,7 @@ import { Handlers, PageProps } from '$fresh/server.ts'
 import { CSS, render } from 'gfm'
 import { Head } from '$fresh/runtime.ts'
 import { getNote, Note } from '@/utils/notes.ts'
+import { PageHeading } from '@/components/typography.tsx'
 
 export const handler: Handlers<Note> = {
   async GET(_req, ctx) {
@@ -30,7 +31,7 @@ const NotePage = ({ data: note }: PageProps<Note>) => (
     </Head>
 
     <div>
-      <h1 class="text-5xl font-bold">{note.title}</h1>
+      <PageHeading>{note.title}</PageHeading>
       <time class="text-gray-500">
         {new Date(note.publishedAt).toLocaleDateString('en-us', {
           year: 'numeric',
@@ -40,7 +41,9 @@ const NotePage = ({ data: note }: PageProps<Note>) => (
       </time>
       <div
         class="mt-8 markdown-body"
-        dangerouslySetInnerHTML={{ __html: render(note.content) }}
+        dangerouslySetInnerHTML={{
+          __html: render(note.content, { allowIframes: true }),
+        }}
       />
     </div>
   </>

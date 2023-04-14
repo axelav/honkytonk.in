@@ -1,7 +1,6 @@
 import { PageProps } from '$fresh/server.ts'
+import { PageHeading } from '@/components/typography.tsx'
 
-const FuturePage = (props: PageProps) => (
-  <h2 class="mt-8 text-3xl font-bold">Future</h2>
-)
+const FuturePage = (props: PageProps) => <PageHeading>Future</PageHeading>
 
 export default FuturePage

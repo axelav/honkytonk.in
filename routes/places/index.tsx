@@ -1,7 +1,6 @@
 import { PageProps } from '$fresh/server.ts'
+import { PageHeading } from '@/components/typography.tsx'
 
-const PlacesIndexPage = (props: PageProps) => (
-  <h2 class="mt-8 text-3xl font-bold">Places</h2>
-)
+const PlacesIndexPage = (props: PageProps) => <PageHeading>Places</PageHeading>
 
 export default PlacesIndexPage

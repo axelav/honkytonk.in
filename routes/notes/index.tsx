@@ -1,5 +1,6 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
 import { getNotes, Note } from '@/utils/notes.ts'
+import { PageHeading, SectionHeading } from '@/components/typography.tsx'
 
 export const handler: Handlers<Note[]> = {
   async GET(_req, ctx) {
@@ -12,8 +13,8 @@ export const handler: Handlers<Note[]> = {
 export const NoteCard = ({ note }: { note: Note }) => (
   <div class="mt-6">
     <a class="sm:col-span-2" href={`/notes/${note.slug}`}>
-      <h3 class="text(2xl gray-900)">{note.title}</h3>
-      <time class="text-gray-500">
+      <SectionHeading>{note.title}</SectionHeading>
+      <time class="text-gray-500 mt-2">
         {new Date(note.publishedAt).toLocaleDateString('en-us', {
           year: 'numeric',
           month: 'long',
@@ -27,7 +28,7 @@ export const NoteCard = ({ note }: { note: Note }) => (
 
 const NotesIndexPage = ({ data: notes }: PageProps<Note[]>) => (
   <div>
-    <h2 class="mt-8 text-3xl font-bold">Notes</h2>
+    <PageHeading>Notes</PageHeading>
     <div class="mt-8">
       {notes.map((note) => (
         <NoteCard note={note} />

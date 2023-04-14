@@ -1,6 +1,8 @@
+import { AppHeading } from '@/components/typography.tsx'
+
 export const TopNav = () => (
   <header>
-    <h1 class="mt-8 text-4xl font-bold">honky tonkin'</h1>
+    <AppHeading>honky tonkin'</AppHeading>
 
     <nav class="mt-4">
       <ul class="grid grid-cols-6 gap-6">
