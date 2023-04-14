@@ -28,6 +28,17 @@ const NotePage = ({ data: note }: PageProps<Note>) => (
   <>
     <Head>
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
+      <style>
+        {`
+          .markdown-body img {
+            margin-bottom: 16px;
+          }
+
+          .markdown-body ul {
+            list-style: disc;
+          }
+        `}
+      </style>
     </Head>
 
     <div>

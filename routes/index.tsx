@@ -5,9 +5,15 @@ import { PageHeading } from '@/components/typography.tsx'
 
 export const handler: Handlers<Note[]> = {
   async GET(_req, ctx) {
-    const notes = await getNotes()
+    const [notes, places] = await Promise.all([getNotes(), getNotes('places')])
 
-    return ctx.render(notes.slice(0, 8))
+    const allNotes = [...notes, ...places].sort((a, b) => {
+      return (
+        new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
+      )
+    })
+
+    return ctx.render(allNotes.slice(0, 8))
   },
 }
 
