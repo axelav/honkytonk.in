@@ -2,13 +2,12 @@ import { AppHeading } from '@/components/typography.tsx'
 
 export const TopNav = () => (
   <header>
-    <AppHeading>honky tonkin'</AppHeading>
+    <a href="/">
+      <AppHeading>honky tonkin'</AppHeading>
+    </a>
 
     <nav class="mt-4">
-      <ul class="grid grid-cols-6 gap-6">
-        <li>
-          <a href="/">Home</a>
-        </li>
+      <ul class="grid grid-cols-5 gap-8">
         <li>
           <a href="/places">Places</a>
         </li>
