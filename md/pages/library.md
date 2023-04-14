@@ -1,10 +1,4 @@
-import Layout from '../components/Layout'
-
-export default Layout
-
-### Library
-
-#### 2021
+### 2021
 
 - Batsuo Bashō, _The Narrow Road to the Deep North_ (1702)
 - David Foster Wallace, _Infinite Jest_
@@ -21,7 +15,7 @@ export default Layout
 - Tim Maughan, _Infinite Detail_ (2019)
 - William Gibson, _Agency_ (2020)
 
-#### 2020
+### 2020
 
 - Anonymous, _End Notes 1_
 - Arthur D Pierce, _Iron in the Pines_
@@ -41,7 +35,7 @@ export default Layout
 - Thomas Pynchon, _Bleeding Edge_
 - Thomas Pynchon, _V_
 
-#### 2019
+### 2019
 
 - Bertrand Russell, _The Problems of Philosophy_
 - Herman Melville, _Moby Dick_
@@ -54,16 +48,18 @@ export default Layout
 - Paul Kingsnorth, _The Wake_
 - Richard Powers, _Orfeo_
 - Robin Sloan, _Sourdough_
-- Rod Koch, _7 Years from Start to Finish: The Baja 1000 &mdash; The Early Years_
+- Rod Koch, _7 Years from Start to Finish: The Baja 1000 &mdash; The Early
+  Years_
 - Ted Chiang, _Exhalation_
 - Thomas Pynchon, _Mason and Dixon_
 - Ursula Le Guin, _The Lathe of Heaven_
 - Wallace Stegner, _Angle of Repose_
 
-#### 2018
+### 2018
 
 - Allen Carr, _Stop Drinking Now_
-- Elijah Meeks, _D3.js in Action, Second Edition: Data visualization with JavaScript_
+- Elijah Meeks, _D3.js in Action, Second Edition: Data visualization with
+  JavaScript_
 - Gary Snyder, _The Practice of the Wild_
 - Homer, translated by Emily Wilson, _The Odyssey_
 - Lawrence Hacking, _To Dakar and Back_
@@ -71,10 +67,11 @@ export default Layout
 - Randy Wayne White, _Sanibel Flats_
 - Rebecca Solnit, _Savage Dreams_
 - Robert Pirsig, _Zen and the Art of Motorcycle Maintenance_
-- Wallace Stegner, _Beyond the Hundredth Meridian: John Wesley Powell and the Second Opening of the West_
+- Wallace Stegner, _Beyond the Hundredth Meridian: John Wesley Powell and the
+  Second Opening of the West_
 - Airborne Andy, _Excuse Me, Which Way to the Baja 1000?_
 
-#### 2017
+### 2017
 
 - Donella Meadows, _Thinking in Systems: A Primer_
 - George Saunders, _Lincoln in the Bardo_
@@ -85,7 +82,7 @@ export default Layout
 - Ted Simon, _Jupiter's Travels_
 - William Gibson, _Zero History_
 
-#### 2016
+### 2016
 
 - Breece Pancake, _The Stories of Breece D'j Pancake_
 - Cormac McCarthy, _Blood Meridian_
@@ -94,7 +91,7 @@ export default Layout
 - Raymond Camden, _Client-Side Data Storage_
 - Ursula Le Guin, _The Left Hand of Darkness_
 
-#### 2015
+### 2015
 
 - Ann Leckie, _Ancillary Justice_
 - Joe Patoski, _Willie Nelson: An Epic Life_
@@ -105,10 +102,11 @@ export default Layout
 - Ursula Franklin, _The Real World of Technology_
 - William Gibson, _The Peripheral_
 
-#### 2014
+### 2014
 
 - Andrew Blum, _Tubes: A Journey to the Center of the Internet_
-- Federal Writers' Project, _Wyoming Folklore: Reminiscences, Folktales, Beliefs, Customs and Folk Speech_
+- Federal Writers' Project, _Wyoming Folklore: Reminiscences, Folktales,
+  Beliefs, Customs and Folk Speech_
 - Frans Bengtsson, _The Long Ships_
 - Ken Kesey, _Sometimes a Great Notion_
 - Neil Young, _Waging Heavy Peace_

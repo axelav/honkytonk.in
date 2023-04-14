@@ -1,9 +1,3 @@
-import Layout from '../components/Layout'
-
-export default Layout
-
-### Future
-
 - ~~get a dog~~
 - ~~get married~~
 - have a child (?)
