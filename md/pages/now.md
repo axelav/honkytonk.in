@@ -7,7 +7,7 @@ Born 1983<br /> Lives in Brooklyn, NY<br />
 
 I'm Axel, and this is my dumb website. I'm married to an exceptional woman, and
 we have a really
-[great dog](https://s3.amazonaws.com/honkytonk.in/IMG_1439.jpg). I like to
+[great dog](/img/cooper-derp.jpg). I like to
 [read](/library). I'm obsessed with
 [motorcycles](https://github.com/axelav/motorcycles). I try to be a decent
 human. I used to hike a lot, but now I mostly ride dirt bikes. I try to find new
