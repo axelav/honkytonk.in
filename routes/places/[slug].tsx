@@ -3,6 +3,7 @@ import { CSS, render } from 'gfm'
 import { Head } from '$fresh/runtime.ts'
 import { getNote, Note } from '@/utils/notes.ts'
 import { PageHeading } from '@/components/typography.tsx'
+import { MarkdownStyle } from '@/components/Markdown.tsx'
 
 export const handler: Handlers<Note> = {
   async GET(_req, ctx) {
@@ -28,17 +29,7 @@ const PlacePage = ({ data: note }: PageProps<Note>) => (
   <>
     <Head>
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
-      <style>
-        {`
-          .markdown-body img {
-            margin-bottom: 16px;
-          }
-
-          .markdown-body ul {
-            list-style: disc;
-          }
-        `}
-      </style>
+      <MarkdownStyle />
     </Head>
 
     <div>
