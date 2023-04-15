@@ -9,7 +9,7 @@ export default function App({ Component }: AppProps) {
       <Head>
         <title>https://honkytonk.in/</title>
       </Head>
-      <body class="body">
+      <body class="body bg-gray-50">
         <main class="app max-w-screen-md px-4 pt-16 mx-auto">
           <TopNav />
           <PageContainer>
