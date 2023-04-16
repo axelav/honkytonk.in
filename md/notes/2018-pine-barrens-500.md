@@ -18,7 +18,7 @@ around 40&deg; F. It was a cold two hours over the Verrazano Bridge and then
 south on the NJ Turnpike to 206 and into Hammonton. I arrived at by 8:30, got
 registered, and had the bike inspected.
 
-![PB500](https://s3.amazonaws.com/honkytonk.in/pb500/181026_pb500_397-X2.jpg)
+![PB500](/img/pb500/181026_pb500_397-X2.jpg)
 
 I ended up riding with a guy whose name I can't recall. He rode his Husky 501
 very well, especially in the enduro sections. He'd get ahead of me there, but I
@@ -45,7 +45,7 @@ up, but this time there was water in the crankcase. I decided to ride to the gas
 station a few miles away and then call the support truck. I made it, but the
 bike ran rough by the time we got there.
 
-![PB500](https://s3.amazonaws.com/honkytonk.in/pb500/181027_pb500_057-X2.jpg)
+![PB500](/img/pb500/181027_pb500_057-X2.jpg)
 
 The truck picked me up, and I spent the afternoon riding around with Dennis. He
 knew a lot about the forests and pointed things out and told stories as we drove
@@ -64,7 +64,7 @@ was even out there at all after what happened yesterday. Many deep puddles still
 covered large areas of the road. I tired to keep out of them, but it was
 impossible. There was just too much water.
 
-![PB500](https://s3.amazonaws.com/honkytonk.in/pb500/181028_pb500_177-X2.jpg)
+![PB500](/img/pb500/181028_pb500_177-X2.jpg)
 
 I stalled the bike braking hard for a puddle, and it seemed to hesitate when I
 hit the starter button to get moving again. A few miles later, I stopped for a

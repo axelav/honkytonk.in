@@ -12,4 +12,4 @@ unusual occurrence here for early March. You can almost see what a lovely day it
 is down on the Earth's surface in
 [this image](https://earthobservatory.nasa.gov/images/146412/hints-of-spring-in-the-atlantic).
 
-![Spring in the northeast](https://s3.amazonaws.com/honkytonk.in/spring.jpg)
+![Spring in the northeast](/img/spring/spring.85.jpg)

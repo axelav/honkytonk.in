@@ -16,8 +16,8 @@ pretty bulky. I don't use it. I keep a microfiber cloth in the tail to wipe
 goggles and phone/GPS screens. I'll also throw a snack or sandwich in there
 while riding.
 
-![Toolkit](https://advrider-rkdwp.s3.amazonaws.com/toolkit/1.jpg)
-![Toolkit](https://advrider-rkdwp.s3.amazonaws.com/toolkit/2.jpg)
+![Toolkit](/img/toolkit/1.jpg)
+![Toolkit](/img/toolkit/2.jpg)
 
 I stash most stuff in the main compartment:
 
@@ -28,9 +28,9 @@ I stash most stuff in the main compartment:
 - zip ties, various sizes
 - Voile straps (sometimes)
 
-![Toolkit](https://advrider-rkdwp.s3.amazonaws.com/toolkit/3.jpg)
-![Toolkit](https://advrider-rkdwp.s3.amazonaws.com/toolkit/4.jpg)
-![Toolkit](https://advrider-rkdwp.s3.amazonaws.com/toolkit/5.jpg)
+![Toolkit](/img/toolkit/3.jpg)
+![Toolkit](/img/toolkit/4.jpg)
+![Toolkit](/img/toolkit/5.jpg)
 
 I use a Dirt Bike Gear tool roll. It's perfect. All their gear is great, go buy
 it. I only wish they made a fanny pack. I'm sure it'd be perfect as well. I run
@@ -44,8 +44,8 @@ what's in there:
 - small flashlight
 - tire plug tools
 
-![Toolkit](https://advrider-rkdwp.s3.amazonaws.com/toolkit/6.jpg)
-![Toolkit](https://advrider-rkdwp.s3.amazonaws.com/toolkit/7.jpg)
+![Toolkit](/img/toolkit/6.jpg)
+![Toolkit](/img/toolkit/7.jpg)
 
 The small pocket of the tool roll holds:
 
@@ -56,7 +56,7 @@ The small pocket of the tool roll holds:
 - Phillips + flat bits
 - cutting tool
 
-![Toolkit](https://advrider-rkdwp.s3.amazonaws.com/toolkit/8.jpg)
+![Toolkit](/img/toolkit/8.jpg)
 
 A few small containers and plastic baggies get stuffed in the mesh pockets on
 the fanny pack. These hold spares and (super) basic first aid:
@@ -82,8 +82,8 @@ the fanny pack. These hold spares and (super) basic first aid:
 - sandpaper
 - patches
 
-![Toolkit](https://advrider-rkdwp.s3.amazonaws.com/toolkit/9.jpg)
-![Toolkit](https://advrider-rkdwp.s3.amazonaws.com/toolkit/10.jpg)
+![Toolkit](/img/toolkit/9.jpg)
+![Toolkit](/img/toolkit/10.jpg)
 
 I keep a spare shift lever and brake lever ziptied to the frame in the air box.
 That's it.

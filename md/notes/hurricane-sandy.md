@@ -38,12 +38,12 @@ a few I took around Beach 108th Street on Monday & Beach 92nd Street on Tuesday.
 
 [0]: http://www.rockawave.com/news/2011-08-05/Top_Stories/New_Group_Seeks_to_Save_Rockaways_Beaches.html
 
-![Destroyed boardwalk](https://s3.amazonaws.com/honkytonk.in/IMG_2640.jpg)
-![Military helicopter](https://s3.amazonaws.com/honkytonk.in/IMG_2646.jpg)
-![Fuck Sandy](https://s3.amazonaws.com/honkytonk.in/IMG_2649.jpg)
-![Military vehicle](https://s3.amazonaws.com/honkytonk.in/IMG_2658.jpg)
-![Destroyed car](https://s3.amazonaws.com/honkytonk.in/IMG_2664.jpg)
-![Another car](https://s3.amazonaws.com/honkytonk.in/IMG_2666.jpg)
-![Destroyed boardwalk](https://s3.amazonaws.com/honkytonk.in/IMG_2675.jpg)
-![Destroyed boardwalk and handball wall](https://s3.amazonaws.com/honkytonk.in/IMG_2676.jpg)
-![Littered street](https://s3.amazonaws.com/honkytonk.in/IMG_2680.jpg)
+![Destroyed boardwalk](/img/hurricane-sandy/IMG_2640.jpg)
+![Military helicopter](/img/hurricane-sandy/IMG_2646.jpg)
+![Fuck Sandy](/img/hurricane-sandy/IMG_2649.jpg)
+![Military vehicle](/img/hurricane-sandy/IMG_2658.jpg)
+![Destroyed car](/img/hurricane-sandy/IMG_2664.jpg)
+![Another car](/img/hurricane-sandy/IMG_2666.jpg)
+![Destroyed boardwalk](/img/hurricane-sandy/IMG_2675.jpg)
+![Destroyed boardwalk and handball wall](/img/hurricane-sandy/IMG_2676.jpg)
+![Littered street](/img/hurricane-sandy/IMG_2680.jpg)
