@@ -1,7 +1,16 @@
 import { load } from 'dotenv'
 
 const env = await load()
-const DISCOGS_API_TOKEN = env['DISCOGS_API_TOKEN']
+// const DISCOGS_API_TOKEN = env['DISCOGS_API_TOKEN']
+
+const DISCOGS_API_TOKEN = Deno.env.get('DISCOGS_API_TOKEN')
+
+console.log(
+  'DISCOGS_API_TOKEN',
+  DISCOGS_API_TOKEN,
+  Deno.env.get('DISCOGS_API_TOKEN'),
+  env
+)
 
 const fetchJSON = async (url: string) => {
   const response = await fetch(url)
