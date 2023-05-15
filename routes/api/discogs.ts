@@ -5,7 +5,14 @@ const DISCOGS_API_TOKEN = env['DISCOGS_API_TOKEN']
 
 const fetchJSON = async (url: string) => {
   const response = await fetch(url)
-  return response.json()
+
+  if (response.ok) {
+    return response.json()
+  }
+
+  const text = await response.text()
+
+  throw new Error(text)
 }
 
 interface Artist {
