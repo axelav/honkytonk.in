@@ -10,8 +10,6 @@ export async function handler(
 ) {
   const res = await ctx.next()
 
-  console.log('middleware', ctx.state.data)
-
   res.headers.set('server', "fresh honky tonk'")
 
   return res
