@@ -10,7 +10,7 @@ interface MarkdownFile {
   content: string
 }
 
-export const getMarkdownFile = async (
+export const readMarkdownFile = async (
   filename: string
 ): Promise<MarkdownFile | null> => {
   const text = await Deno.readTextFile(join('./md/pages', `${filename}.md`))
@@ -26,7 +26,7 @@ export const getMarkdownFile = async (
 export const handler: Handlers<MarkdownFile | null> = {
   async GET(_req, ctx) {
     try {
-      const page = await getMarkdownFile(ctx.params.filename)
+      const page = await readMarkdownFile(ctx.params.filename)
 
       return ctx.render(page)
     } catch (_err) {
@@ -39,10 +39,11 @@ const CatchAllPage = ({ url, params, data }: PageProps<MarkdownFile>) => {
   switch (url.pathname) {
     case '/now':
     case '/future':
-    case '/library':
+      // case '/library':
       return (
         <>
           <Head>
+            <title>{data.title} ://honkytonk.in/</title>
             <style dangerouslySetInnerHTML={{ __html: CSS }} />
             <MarkdownStyle />
           </Head>

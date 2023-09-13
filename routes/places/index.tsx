@@ -12,14 +12,19 @@ export const handler: Handlers<Note[]> = {
 }
 
 const PlacesIndexPage = ({ data: notes }: PageProps<Note[]>) => (
-  <div>
-    <PageHeading>Places</PageHeading>
-    <div class="mt-8">
-      {notes.map((note) => (
-        <NoteCard note={note} />
-      ))}
+  <>
+    <Head>
+      <title>Places ://honkytonk.in/</title>
+    </Head>
+    <div>
+      <PageHeading>Places</PageHeading>
+      <div class="mt-8">
+        {notes.map((note) => (
+          <NoteCard note={note} />
+        ))}
+      </div>
     </div>
-  </div>
+  </>
 )
 
 export default PlacesIndexPage

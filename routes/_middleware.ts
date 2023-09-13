@@ -10,7 +10,7 @@ export async function handler(
 ) {
   const res = await ctx.next()
 
-  res.headers.set('server', "fresh honky tonk'")
+  res.headers.set('server', "fresh honky tonkin'")
 
   return res
 }

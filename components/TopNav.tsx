@@ -14,9 +14,9 @@ export const TopNav = () => (
         <li>
           <a href="/notes">Notes</a>
         </li>
-        <li>
+        {/* <li>
           <a href="/library">Library</a>
-        </li>
+        </li> */}
         <li>
           <a href="/future">Future</a>
         </li>

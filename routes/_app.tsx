@@ -6,9 +6,6 @@ import { PageContainer } from '@/components/PageContainer.tsx'
 export default function App({ Component }: AppProps) {
   return (
     <html>
-      <Head>
-        <title>https://honkytonk.in/</title>
-      </Head>
       <body class="body bg-gray-50">
         <main class="app max-w-screen-md px-4 pt-16 mx-auto">
           <TopNav />

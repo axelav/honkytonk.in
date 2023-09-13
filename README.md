@@ -1,4 +1,4 @@
-# fresh project
+# honky tonkin' - https://honkytonk.in
 
 ### Usage
 
@@ -9,5 +9,3 @@ deno task start
 ```
 
 This will watch the project directory and restart as necessary.
-
-a

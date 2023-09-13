@@ -28,6 +28,7 @@ export const handler: Handlers<Note> = {
 const NotePage = ({ data: note }: PageProps<Note>) => (
   <>
     <Head>
+      <title>{note.title} ://honkytonk.in/</title>
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
       <MarkdownStyle />
     </Head>

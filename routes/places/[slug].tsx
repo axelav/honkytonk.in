@@ -10,6 +10,8 @@ export const handler: Handlers<Note> = {
     let note
 
     try {
+      // TODO: reuse the /notes/[slug] handler & component, but pass in a
+      // different `type` to `getNote` so it knows to look in the `places`
       note = await getNote(ctx.params.slug, 'places')
     } catch (err) {
       console.error(err)
@@ -28,6 +30,7 @@ export const handler: Handlers<Note> = {
 const PlacePage = ({ data: note }: PageProps<Note>) => (
   <>
     <Head>
+      <title>{note.title} ://honkytonk.in/</title>
       <style dangerouslySetInnerHTML={{ __html: CSS }} />
       <MarkdownStyle />
     </Head>

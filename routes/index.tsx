@@ -1,4 +1,5 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
+import { Head } from '$fresh/runtime.ts'
 import { getNotes, Note } from '@/utils/notes.ts'
 import { NoteCard } from '@/routes/notes/index.tsx'
 import { PageHeading } from '@/components/typography.tsx'
@@ -18,15 +19,20 @@ export const handler: Handlers<Note[]> = {
 }
 
 const Home = ({ data: notes }: PageProps<Note[]>) => (
-  <div>
-    <PageHeading>Lately</PageHeading>
+  <>
+    <Head>
+      <title>Home ://honkytonk.in/</title>
+    </Head>
+    <div>
+      <PageHeading>Lately</PageHeading>
 
-    <div class="mt-8">
-      {notes.map((note) => (
-        <NoteCard note={note} />
-      ))}
+      <div class="mt-8">
+        {notes.map((note) => (
+          <NoteCard note={note} />
+        ))}
+      </div>
     </div>
-  </div>
+  </>
 )
 
 export default Home

@@ -1,4 +1,5 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
+import { Head } from '$fresh/runtime.ts'
 import { getNotes, Note } from '@/utils/notes.ts'
 import { PageHeading, SectionHeading } from '@/components/typography.tsx'
 
@@ -39,14 +40,19 @@ export const NoteCard = ({ note }: { note: Note }) => (
 )
 
 const NotesIndexPage = ({ data: notes }: PageProps<Note[]>) => (
-  <div>
-    <PageHeading>Notes</PageHeading>
-    <div class="mt-8">
-      {notes.map((note) => (
-        <NoteCard note={note} />
-      ))}
+  <>
+    <Head>
+      <title>Notes ://honkytonk.in/</title>
+    </Head>
+    <div>
+      <PageHeading>Notes</PageHeading>
+      <div class="mt-8">
+        {notes.map((note) => (
+          <NoteCard note={note} />
+        ))}
+      </div>
     </div>
-  </div>
+  </>
 )
 
 export default NotesIndexPage
