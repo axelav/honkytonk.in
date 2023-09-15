@@ -10,7 +10,7 @@ export const handler: Handlers<Note> = {
     let note
 
     try {
-      note = await getNote(ctx.params.slug, 'notes')
+      note = await getNote(ctx.params.slug, 'places/trans-america-trail')
     } catch (err) {
       console.error(err)
 
@@ -25,7 +25,7 @@ export const handler: Handlers<Note> = {
   },
 }
 
-const NotePage = ({ data: note }: PageProps<Note>) => (
+const PlacePage = ({ data: note }: PageProps<Note>) => (
   <>
     <Head>
       <title>{note.title} ://honkytonk.in/</title>
@@ -35,15 +35,7 @@ const NotePage = ({ data: note }: PageProps<Note>) => (
 
     <div>
       <PageHeading>{note.title}</PageHeading>
-      <div class="mt-2">
-        <time class="text-gray-500">
-          {new Date(note.publishedAt).toLocaleDateString('en-us', {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric',
-          })}
-        </time>
-      </div>
+      {note.snippet && <div class="mt-2 text-gray-500">{note.snippet}</div>}
       <div
         class="mt-8 markdown-body"
         dangerouslySetInnerHTML={{
@@ -54,4 +46,4 @@ const NotePage = ({ data: note }: PageProps<Note>) => (
   </>
 )
 
-export default NotePage
+export default PlacePage

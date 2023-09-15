@@ -1,7 +1,7 @@
 import React from 'react'
-import { Subheading } from '../../../components/provider'
-import Layout from '../../../components/Layout'
-import IndexLink from '../../../components/IndexLink'
+import { Subheading } from '../../../_bak/components/provider'
+import Layout from '../../../_bak/components/Layout'
+import IndexLink from '../../../_bak/components/IndexLink'
 
 const TransAmericaTrailIndex = () => {
   return (

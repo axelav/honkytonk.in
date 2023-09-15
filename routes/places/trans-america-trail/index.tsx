@@ -6,19 +6,19 @@ import NoteCard from '@/components/NoteCard.tsx'
 
 export const handler: Handlers<Note[]> = {
   async GET(_req, ctx) {
-    const notes = await getNotes('notes')
+    const notes = await getNotes('places/trans-america-trail')
 
-    return ctx.render(notes)
+    return ctx.render(notes.reverse())
   },
 }
 
-const NotesIndexPage = ({ data: notes }: PageProps<Note[]>) => (
+const TransAmericaTrailIndexPage = ({ data: notes }: PageProps<Note[]>) => (
   <>
     <Head>
-      <title>Notes ://honkytonk.in/</title>
+      <title>Trans America Trail ://honkytonk.in/</title>
     </Head>
     <div>
-      <PageHeading>Notes</PageHeading>
+      <PageHeading>Trans America Trail</PageHeading>
       <div class="mt-8">
         {notes.map((note) => (
           <NoteCard note={note} />
@@ -28,4 +28,4 @@ const NotesIndexPage = ({ data: notes }: PageProps<Note[]>) => (
   </>
 )
 
-export default NotesIndexPage
+export default TransAmericaTrailIndexPage

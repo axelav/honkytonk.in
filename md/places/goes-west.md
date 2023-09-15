@@ -1,7 +1,7 @@
 ---
 title: Goes west
 published_at: 2010-10-15T15:00:00.000Z
-snippet: Spring - Fall 2010
+snippet: Spring – Fall 2010
 ---
 
 I recenty came across an old

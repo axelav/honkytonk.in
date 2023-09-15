@@ -1,12 +1,15 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
 import { Head } from '$fresh/runtime.ts'
 import { getNotes, Note } from '@/utils/notes.ts'
-import { NoteCard } from '@/routes/notes/index.tsx'
+import NoteCard from '@/components/NoteCard.tsx'
 import { PageHeading } from '@/components/typography.tsx'
 
 export const handler: Handlers<Note[]> = {
   async GET(_req, ctx) {
-    const [notes, places] = await Promise.all([getNotes(), getNotes('places')])
+    const [notes, places] = await Promise.all([
+      getNotes('notes'),
+      getNotes('places'),
+    ])
 
     const allNotes = [...notes, ...places].sort((a, b) => {
       return (

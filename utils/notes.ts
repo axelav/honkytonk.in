@@ -3,7 +3,7 @@ import { join } from 'https://deno.land/std@0.183.0/path/mod.ts'
 
 export interface Note {
   type: 'note' | 'place'
-  slug: string
+  path: string
   title: string
   publishedAt: Date
   content: string
@@ -12,9 +12,9 @@ export interface Note {
 
 export const getNote = async (
   slug: string,
-  collection?: 'notes' | 'places'
+  collection: string
 ): Promise<Note | null> => {
-  const collectionPath = `./md/${collection ? collection : 'notes'}`
+  const collectionPath = `./md/${collection}`
   const text = await Deno.readTextFile(join(collectionPath, `${slug}.md`))
 
   const { attrs, body } = extract(text) as {
@@ -24,7 +24,7 @@ export const getNote = async (
 
   return {
     type: collectionPath.includes('places') ? 'place' : 'note',
-    slug,
+    path: join(collection, slug),
     title: attrs.title,
     publishedAt: new Date(attrs.published_at),
     content: body,
@@ -32,17 +32,37 @@ export const getNote = async (
   }
 }
 
-export const getNotes = async (
-  collection?: 'notes' | 'places'
-): Promise<Note[]> => {
-  const collectionPath = `./md/${collection ? collection : 'notes'}`
+export const getNotes = async (collection: string): Promise<Note[]> => {
+  const collectionPath = `./md/${collection}`
 
   const files = Deno.readDir(collectionPath)
-  const promises = []
+  const promises: Note[] = []
 
   for await (const file of files) {
-    const slug = file.name.replace('.md', '')
-    promises.push(getNote(slug, collection))
+    if (file.isDirectory) {
+      const text = await Deno.readTextFile(
+        join(collectionPath, file.name, `index.md`)
+      )
+
+      const { attrs, body } = extract(text) as {
+        attrs: { title: string; published_at: string; snippet: string }
+        body: string
+      }
+
+      promises.push({
+        type: collectionPath.includes('places') ? 'place' : 'note',
+        path: join(collection, file.name),
+        title: attrs.title,
+        publishedAt: new Date(attrs.published_at),
+        content: body,
+        snippet: attrs.snippet,
+      })
+    }
+
+    if (file.isFile) {
+      const slug = file.name.replace('.md', '')
+      promises.push(getNote(slug, collection))
+    }
   }
 
   const notes = (await Promise.all(promises)) as Note[]

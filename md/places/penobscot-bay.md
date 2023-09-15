@@ -1,7 +1,7 @@
 ---
 title: Penobscot Bay
 published_at: 2011-06-01T15:00:00.000Z
-snippet: May - June 2011
+snippet: May – June 2011
 ---
 
 ![Penobscot Bay](/img/maine/57750007.85.jpg)
