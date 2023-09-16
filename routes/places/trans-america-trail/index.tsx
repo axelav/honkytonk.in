@@ -1,7 +1,7 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
 import { Head } from '$fresh/runtime.ts'
 import { getNotes, Note } from '@/utils/notes.ts'
-import { PageHeading, SectionHeading } from '@/components/typography.tsx'
+import { PageHeading } from '@/components/typography.tsx'
 import NoteCard from '@/components/NoteCard.tsx'
 
 export const handler: Handlers<Note[]> = {
