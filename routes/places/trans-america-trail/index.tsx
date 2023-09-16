@@ -20,9 +20,12 @@ const TransAmericaTrailIndexPage = ({ data: notes }: PageProps<Note[]>) => (
     <div>
       <PageHeading>Trans America Trail</PageHeading>
       <div class="mt-8">
-        {notes.map((note) => (
-          <NoteCard note={note} />
-        ))}
+        {notes
+          // Remove the index page from the list
+          .filter((note) => note.path !== 'places/trans-america-trail/index')
+          .map((note) => (
+            <NoteCard note={note} />
+          ))}
       </div>
     </div>
   </>
