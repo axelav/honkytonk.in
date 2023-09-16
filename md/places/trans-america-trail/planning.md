@@ -4,7 +4,7 @@ published_at: 2018-09-31:00:00.000Z
 snippet: links, gear, logistics, etc
 ---
 
-<BigLazyImage src="https://s3.amazonaws.com/tat.honkytonk.in/01/IMG_2484.jpg" alt="K packed and ready to go" />
+![K packed and ready to go](/img/tat/01/IMG_2484.jpg)
 
 ### General Information
 
@@ -302,30 +302,4 @@ Ship the bike back with [Federal Motorcycle Transport][28]. It should cost aroun
 [14]: http://www.dangerousroads.org/north-america/usa/4418-tincup-pass.html
 [15]: http://www.dangerousroads.org/north-america/usa/953-tomichi-pass-trail-usa.html
 [16]: http://www.dangerousroads.org/north-america/usa/3816-hancock-pass.html
-[17]: http://advrider.com/index.php?threads/my-first-adventure-ride-the-tat.1077645/page-3#post-27165845
-[18]: https://www.nps.gov/cany/planyourvisit/whiterimroad.htm
-[19]: https://www.reddit.com/r/Dualsport/comments/7ubozy/bestmost_beautiful_off_road_places_youve_ridden/dtjrnow/
-[20]: http://3stephideaway.com/
-[22]: http://advrider.com/index.php?threads/ktm-690-efi-2008-2013-idiots-guide.931664/
-[26]: http://advrider.com/index.php?threads/look-ma-no-home-a-one-way-ditch-everything-and-start-over-tat-odyssey.1090803/page-11#post-27730506
-[27]: http://www.theravensresthostel.com/
-[28]: http://www.funtransport.com/
-[29]: http://advrider.com/index.php?threads/gpskevin-sections-per-day.1159575/
-[30]: http://advrider.com/index.php?threads/my-first-adventure-ride-the-tat.1077645/page-3#post-27163745
-[31]: http://advrider.com/index.php?threads/earliest-you-can-start-the-tat.1238572/#post-32736052
-[35]: http://advrider.com/index.php?threads/2018-tat-planning.1204056/
-[39]: http://advrider.com/index.php?threads/tat-difference-between-sam-and-gpskevin.926004/page-15
-[40]: https://advrider.com/index.php?threads/tat-2017-roll-call.1212976/
-[41]: http://advrider.com/index.php?threads/2017-tat-planning.1184330/
-[45]: http://www.transamtrail.com/
-[46]: http://www.gpskevinadventurerides.com/trans-america-trail
-[47]: http://www.tattracks.com/
-[48]: http://beachconnection.net/news/drivebeach043014_1014.php
-[49]: https://visittheoregoncoast.com/activities/camping/
-[50]: http://www.taylorparktradingpost.com/
-[51]: https://inciweb.nwcg.gov/
-[52]: https://www.nps.gov/cany/planyourvisit/dayusepermits.htm
-[53]: https://advrider.com/index.php?threads/tent-space-map.776925/
-[54]: http://trailtaker.com
-[55]: https://www.trailsoffroad.com
-[56]: https://advtracks.online
+[17]: http://ad
