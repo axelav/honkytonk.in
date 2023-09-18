@@ -11,13 +11,6 @@ export async function handler(_req: Request, ctx: MiddlewareHandlerContext) {
     const pageviews = await kv.get<number>(['analytics', 'pageviews'])
 
     await kv.set(['analytics', 'pageviews'], (pageviews.value ?? 0) + 1)
-
-    await kv.set(['analytics', 'userAttributes'], {
-      ref: document.referrer,
-      userAgent: navigator.userAgent,
-      language: navigator.language,
-      timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone,
-    })
   }
 
   return res
