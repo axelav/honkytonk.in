@@ -1,16 +1,9 @@
 import { render } from 'gfm'
 import { Head } from '$fresh/runtime.ts'
-import { getNote, Note } from '@/utils/notes.ts'
+import { getNote } from '@/utils/notes.ts'
 import { PageHeading, SectionHeading } from '@/components/typography.tsx'
 import { MarkdownStyle } from '@/components/Markdown.tsx'
 import { defineRoute } from '$fresh/server.ts'
-
-interface TATNote extends Note {
-  links: {
-    prev?: { href: string; title: string }
-    next?: { href: string; title: string }
-  } | null
-}
 
 const getISODate = (date: Date) => date.toISOString().split('T')[0]
 
@@ -62,6 +55,7 @@ const getPrevAndNextLinks = (
 export default defineRoute(async (_req, ctx) => {
   try {
     const note = await getNote(ctx.params.slug, 'places/trans-america-trail')
+    const links = getPrevAndNextLinks(ctx.params.slug)
 
     return (
       <>
@@ -86,16 +80,14 @@ export default defineRoute(async (_req, ctx) => {
               __html: render(note.content, { allowIframes: true }),
             }}
           />
-          {note.links && (
+          {links && (
             <div class="mt-8 flex justify-between">
-              {note.links.prev ? (
-                <a href={note.links.prev.href}>← {note.links.prev.title}</a>
+              {links.prev ? (
+                <a href={links.prev.href}>← {links.prev.title}</a>
               ) : (
                 <div />
               )}
-              {note.links.next && (
-                <a href={note.links.next.href}>{note.links.next.title} →</a>
-              )}
+              {links.next && <a href={links.next.href}>{links.next.title} →</a>}
             </div>
           )}
         </div>
