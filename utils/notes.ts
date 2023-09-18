@@ -13,7 +13,7 @@ export interface Note {
 export const getNote = async (
   slug: string,
   collection: string
-): Promise<Note | null> => {
+): Promise<Note> => {
   const collectionPath = `./md/${collection}`
   const text = await Deno.readTextFile(join(collectionPath, `${slug}.md`))
 
@@ -36,7 +36,7 @@ export const getNotes = async (collection: string): Promise<Note[]> => {
   const collectionPath = `./md/${collection}`
 
   const files = Deno.readDir(collectionPath)
-  const promises: Note[] = []
+  const promises = []
 
   for await (const file of files) {
     if (file.isDirectory) {
