@@ -1,5 +1,5 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
-import { CSS, render } from 'gfm'
+import { render } from 'gfm'
 import { Head } from '$fresh/runtime.ts'
 import { getNote, Note } from '@/utils/notes.ts'
 import { PageHeading, SectionHeading } from '@/components/typography.tsx'
@@ -83,7 +83,6 @@ const TransAmericaTrailPage = ({ data: note }: PageProps<TATNote>) => (
   <>
     <Head>
       <title>TAT: {note.title} ://honkytonk.in/</title>
-      <style dangerouslySetInnerHTML={{ __html: CSS }} />
       <MarkdownStyle />
     </Head>
 

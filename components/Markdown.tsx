@@ -1,3 +1,5 @@
+import { CSS } from 'gfm'
+
 export const MarkdownStyle = () => (
   <style>
     {`
@@ -15,7 +17,7 @@ export const MarkdownStyle = () => (
       }
 
       .markdown-body img {
-        margin-bottom: 16px;
+        margin: 0 auto 16px;
         border: 1px solid #f3f4f6; // gray-100
       }
 
@@ -23,6 +25,7 @@ export const MarkdownStyle = () => (
         list-style: disc;
       }
 
+      ${CSS}
     `}
   </style>
 )

@@ -1,5 +1,5 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
-import { CSS, render } from 'gfm'
+import { render } from 'gfm'
 import { Head } from '$fresh/runtime.ts'
 import { getNote, Note } from '@/utils/notes.ts'
 import { PageHeading } from '@/components/typography.tsx'
@@ -29,7 +29,6 @@ const NotePage = ({ data: note }: PageProps<Note>) => (
   <>
     <Head>
       <title>{note.title} ://honkytonk.in/</title>
-      <style dangerouslySetInnerHTML={{ __html: CSS }} />
       <MarkdownStyle />
     </Head>
 

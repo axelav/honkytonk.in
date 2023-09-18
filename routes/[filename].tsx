@@ -1,6 +1,6 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
 import { Head } from '$fresh/runtime.ts'
-import { CSS, render } from 'gfm'
+import { render } from 'gfm'
 import { join } from 'https://deno.land/std@0.183.0/path/mod.ts'
 import { PageHeading } from '@/components/typography.tsx'
 import { MarkdownStyle } from '@/components/Markdown.tsx'
@@ -44,7 +44,6 @@ const CatchAllPage = ({ url, params, data }: PageProps<MarkdownFile>) => {
         <>
           <Head>
             <title>{data.title} ://honkytonk.in/</title>
-            <style dangerouslySetInnerHTML={{ __html: CSS }} />
             <MarkdownStyle />
           </Head>
           <PageHeading>{data.title}</PageHeading>
