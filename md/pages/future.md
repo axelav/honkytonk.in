@@ -1,14 +1,16 @@
+- buy land
 - ~~get a dog~~
 - ~~get married~~
 - have a child (?)
 - hike the Appalachian Trail
 - leave NYC
 - make clothing
-- buy land
 - ~~quit drinking~~
+- race Romaniacs
 - ~~race a motorcycle~~
 - ~~ride a motorcycle across the US~~
 - ride a motorcycle around the world
+- see a solar eclipse
 - see the Aurora Borealis
 - start a company
 - ~~visit Alaska~~
@@ -18,5 +20,5 @@
 - visit Japan
 - visit Portugal
 - visit Roden Crater
-- visit all 50 states
+- visit all 50 states (seven left)
 - ~~visit Spain~~
