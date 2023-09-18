@@ -12,5 +12,13 @@ export async function handler(
 
   res.headers.set('server', "fresh honky tonkin'")
 
+  if (ctx.destination === 'route') {
+    const kv = await Deno.openKv()
+
+    const entry = await kv.get<number>(['analytics', 'pageviews'])
+
+    await kv.set(['analytics', 'pageviews'], (entry.value ?? 0) + 1)
+  }
+
   return res
 }
