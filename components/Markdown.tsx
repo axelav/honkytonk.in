@@ -14,6 +14,7 @@ export const MarkdownStyle = () => (
       .markdown-body h5,
       .markdown-body h6 {
         margin: 16px 0;
+        font-weigth: 500;
       }
 
       .markdown-body img,
