@@ -10,11 +10,12 @@ export default defineRoute(async () => {
     getNotes('places'),
   ])
 
-  const allNotes = [...notes, ...places].sort((a, b) => {
-    return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
-  })
-
-  const recents = allNotes.slice(0, 8)
+  const recents = [...notes, ...places]
+    .sort(
+      (a, b) =>
+        new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
+    )
+    .slice(0, 8)
 
   return (
     <>
