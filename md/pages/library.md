@@ -1,7 +1,19 @@
+<!-- TODO: get correct 2022 from logseq, clean up anything else? -->
+
+#### 2022
+
+- Anonymous, _End Notes 2_ (2021)
+- Cormac McCarthy, _All the Pretty Horses_ (1992)
+- David Wong, _Real-World Cryptography_ (2021)
+- Don DeLillo, _Underworld_ (1997)
+- Wendell Berry, _The Peace of Wild Things: And Other Poems_ (2018)
+- _The Rust Programming Language_
+- _The TypeScript Handbook_
+
 ### 2021
 
 - Batsuo Bashō, _The Narrow Road to the Deep North_ (1702)
-- David Foster Wallace, _Infinite Jest_
+- David Foster Wallace, _Infinite Jest_ (1996)
 - Jeff VanderMeer, _Annihilation_ (2014)
 - John McPhee, _The Survival of the Bark Canoe_ (1982)
 - Kim Stanley Robinson, _Red Mars_ (1993)
@@ -25,7 +37,6 @@
 - John McPhee, _Annals of a Former World_
 - John McPhee, _Oranges_
 - John McPhee, _The Pine Barrens_
-- Karl Marx and Friedrich Engels, _The Communist Manifesto_
 - Michawl Löwy, _Ecosocialism_
 - Paul Clipper, _The Art of Trailriding_
 - Peter Frase, _Four Futures: Visions of the World After Capitalism_

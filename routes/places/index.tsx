@@ -4,6 +4,11 @@ import { PageHeading } from '@/components/typography.tsx'
 import NoteCard from '@/components/NoteCard.tsx'
 import { defineRoute } from '$fresh/server.ts'
 
+// TODO:
+// - Add KAT, Oct 19
+// - Add St Croix
+// - Add Banff
+// - Add Maine (honeymoon)
 export default defineRoute(async () => {
   const notes = await getNotes('places')
 
