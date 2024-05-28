@@ -14,7 +14,7 @@ export default defineRoute(async () => {
       </Head>
       <div>
         <PageHeading>Places</PageHeading>
-        <div class="mt-8">
+        <div>
           {notes.map((note) => (
             <NoteCard note={note} />
           ))}

@@ -3,7 +3,6 @@ import { Head } from '$fresh/runtime.ts'
 import { render } from 'gfm'
 import { join } from 'https://deno.land/std@0.183.0/path/mod.ts'
 import { PageHeading } from '@/components/typography.tsx'
-import { MarkdownStyle } from '@/components/Markdown.tsx'
 
 interface MarkdownFile {
   title: string
@@ -44,11 +43,9 @@ const CatchAllPage = ({ url, params, data }: PageProps<MarkdownFile>) => {
         <>
           <Head>
             <title>{data.title} ://honkytonk.in/</title>
-            <MarkdownStyle />
           </Head>
           <PageHeading>{data.title}</PageHeading>
           <div
-            class="mt-8 markdown-body"
             dangerouslySetInnerHTML={{
               __html: render(data.content, { allowIframes: true }),
             }}

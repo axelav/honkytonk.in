@@ -2,7 +2,6 @@ import { render } from 'gfm'
 import { Head } from '$fresh/runtime.ts'
 import { getNote } from '@/utils/notes.ts'
 import { PageHeading } from '@/components/typography.tsx'
-import { MarkdownStyle } from '@/components/Markdown.tsx'
 import { defineRoute } from '$fresh/server.ts'
 
 export default defineRoute(async (_req, ctx) => {
@@ -15,14 +14,12 @@ export default defineRoute(async (_req, ctx) => {
       <>
         <Head>
           <title>{note.title} ://honkytonk.in/</title>
-          <MarkdownStyle />
         </Head>
 
         <div>
           <PageHeading>{note.title}</PageHeading>
-          {note.snippet && <div class="mt-2 text-gray-500">{note.snippet}</div>}
+          {note.snippet && <div>{note.snippet}</div>}
           <div
-            class="mt-8 markdown-body"
             dangerouslySetInnerHTML={{
               __html: render(note.content, { allowIframes: true }),
             }}
