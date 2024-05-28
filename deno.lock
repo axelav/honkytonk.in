@@ -1,5 +1,19 @@
 {
   "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:marked@12.0.2": "npm:marked@12.0.2"
+    },
+    "npm": {
+      "marked@12.0.2": {
+        "integrity": "sha512-qXUm7e/YKFoqFPYPa3Ukg9xlI5cyAtGmyEIzMfW//m6kXwCy2Ps9DYf5ioijFKQ8qyuscrHoY04iJGctu2Kg0Q==",
+        "dependencies": {}
+      }
+    }
+  },
+  "redirects": {
+    "https://esm.sh/v135/@types/marked@~2/index.d.ts": "https://esm.sh/v135/@types/marked@2.0.5/index.d.ts"
+  },
   "remote": {
     "https://deno.land/std@0.140.0/_util/assert.ts": "e94f2eb37cebd7f199952e242c77654e43333c1ac4c5c700e929ea3aa5489f74",
     "https://deno.land/std@0.140.0/_util/os.ts": "3b4c6e27febd119d36a416d7a97bd3b0251b77c88942c8f16ee5953ea13e2e49",
@@ -397,6 +411,7 @@
     "https://esm.sh/he@1.2.0": "6fddfbf1941aa86275ddd471997c64ba3811d44b1af974616033c46ed5206cc7",
     "https://esm.sh/katex@0.16.8/dist/katex.mjs": "9cf7668f77237b8993333732787ca8c98cfd26bed510a73e51762cf9a7ef07db",
     "https://esm.sh/marked-gfm-heading-id@3.1.0/": "44bfd669be9ec17b358b759437e76fbb69a0ff4517532e4dfc511e8f278e0cd3",
+    "https://esm.sh/marked@2.1.3": "44b32c8ae92c53bbbdc80a00e73a18d9b4333a0dffbf1b860d9a26b9cad16522",
     "https://esm.sh/marked@9.1.1/": "860fd670d2803df8da3d81e4262aa170e6e8e023aebabfb9a1791880a66aa29f",
     "https://esm.sh/preact@10.18.1": "94e175027f630c795ee1bde782564f4b9bed98db1e04cc7e07241a02c8d62358",
     "https://esm.sh/preact@10.18.1/debug": "abcf4a90f00e74034c3fc2f4faeb72e00ed6d75208441905ad4e07e70226a7f1",
@@ -434,10 +449,16 @@
     "https://esm.sh/v135/github-slugger@2.0.0/denonext/github-slugger.mjs": "42ff6fe7ba4f63d8a048970e5a32cd5b0348905dde3f9e270d90e44a6e7635ae",
     "https://esm.sh/v135/katex@0.16.8/denonext/dist/katex.js": "bc364d4cfbb8f11d62531fbdb634e13abef4b6a41456c8161ac4dc61b3523d36",
     "https://esm.sh/v135/marked-gfm-heading-id@3.1.0/denonext/marked-gfm-heading-id.mjs": "b5785d6c48ad4a00c184cd3f798acfdc9bab045d726e4424a889fddb736a814b",
+    "https://esm.sh/v135/marked@2.1.3/denonext/marked.mjs": "fbbab28470f17c315d313bd3fd352ecd6490bb67c264d0405df13c540cdfa1eb",
     "https://esm.sh/v135/marked@9.1.1/denonext/marked.mjs": "c8b18bb280217c43f1c1e7a4861b55dc0cb421301da4cb032cba8657373a98f4",
     "https://esm.sh/v135/preact-render-to-string@6.2.2/X-ZS8q/denonext/preact-render-to-string.mjs": "55283fc14993c67474322e5632215b2a06deeb7d4ff986031dcfff31a5b0b74c",
     "https://raw.githubusercontent.com/axelav/deno-gfm/main/deps.ts": "6c5a064d20b89094b14a3cb22b064ad6158c94b8a911d68ae10ee16fc4a8e55a",
     "https://raw.githubusercontent.com/axelav/deno-gfm/main/mod.ts": "d6776591ccc42fae73eb161bdffc00baaf8dff674b0aec4c35926c98abd107b6",
     "https://raw.githubusercontent.com/axelav/deno-gfm/main/style.js": "86de9308f5d108ee0976e296260eb634c7477a11a9bebf44e6f863a5b8fb6d6d"
+  },
+  "workspace": {
+    "dependencies": [
+      "npm:marked@12.0.2"
+    ]
   }
 }

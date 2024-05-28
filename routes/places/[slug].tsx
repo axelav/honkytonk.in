@@ -1,4 +1,4 @@
-import { render } from 'gfm'
+import { parse } from 'marked'
 import { Head } from '$fresh/runtime.ts'
 import { getNote } from '@/utils/notes.ts'
 import { PageHeading } from '@/components/typography.tsx'
@@ -18,10 +18,14 @@ export default defineRoute(async (_req, ctx) => {
 
         <div>
           <PageHeading>{note.title}</PageHeading>
-          {note.snippet && <div>{note.snippet}</div>}
+          {note.snippet && (
+            <section>
+              <span class="snippet">{note.snippet}</span>
+            </section>
+          )}
           <div
             dangerouslySetInnerHTML={{
-              __html: render(note.content, { allowIframes: true }),
+              __html: parse(note.content) as string,
             }}
           />
         </div>

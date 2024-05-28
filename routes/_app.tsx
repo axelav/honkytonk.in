@@ -13,6 +13,7 @@ export default defineApp((_req, { Component }) => (
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.blue.min.css"
       />
+      <link rel="stylesheet" href="/style.css" />
 
       <script
         data-goatcounter="https://honkytonkin.goatcounter.com/count"

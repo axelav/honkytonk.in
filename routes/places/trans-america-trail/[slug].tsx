@@ -1,8 +1,8 @@
-import { render } from 'gfm'
 import { Head } from '$fresh/runtime.ts'
 import { getNote } from '@/utils/notes.ts'
 import { PageHeading, SectionHeading } from '@/components/typography.tsx'
 import { defineRoute } from '$fresh/server.ts'
+import { parse } from 'marked'
 
 const getISODate = (date: Date) => date.toISOString().split('T')[0]
 
@@ -63,27 +63,33 @@ export default defineRoute(async (_req, ctx) => {
         </Head>
 
         <div>
-          <a href="/places/trans-america-trail">
-            <PageHeading>Trans America Trail</PageHeading>
-          </a>
+          <PageHeading>
+            <a href="/places/trans-america-trail">Trans America Trail</a>
+          </PageHeading>
           <div>
             <SectionHeading>{note.title}</SectionHeading>
-            {note.snippet && <div>{note.snippet}</div>}
+            {note.snippet && (
+              <section>
+                <span class="snippet">{note.snippet}</span>
+              </section>
+            )}
           </div>
           <div
             dangerouslySetInnerHTML={{
-              __html: render(note.content, { allowIframes: true }),
+              __html: parse(note.content) as string,
             }}
           />
           {links && (
-            <div>
+            <section
+              style={{ display: 'flex', justifyContent: 'space-between' }}
+            >
               {links.prev ? (
                 <a href={links.prev.href}>← {links.prev.title}</a>
               ) : (
                 <div />
               )}
               {links.next && <a href={links.next.href}>{links.next.title} →</a>}
-            </div>
+            </section>
           )}
         </div>
       </>

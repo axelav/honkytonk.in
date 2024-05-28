@@ -1,8 +1,8 @@
-import { render } from 'gfm'
 import { Head } from '$fresh/runtime.ts'
 import { getNote } from '@/utils/notes.ts'
 import { PageHeading } from '@/components/typography.tsx'
 import { defineRoute } from '$fresh/server.ts'
+import { parse } from 'marked'
 
 export default defineRoute(async (_req, ctx) => {
   try {
@@ -16,7 +16,7 @@ export default defineRoute(async (_req, ctx) => {
 
         <div>
           <PageHeading>{note.title}</PageHeading>
-          <div>
+          <section>
             <time>
               {new Date(note.publishedAt).toLocaleDateString('en-us', {
                 year: 'numeric',
@@ -24,10 +24,10 @@ export default defineRoute(async (_req, ctx) => {
                 day: 'numeric',
               })}
             </time>
-          </div>
+          </section>
           <div
             dangerouslySetInnerHTML={{
-              __html: render(note.content, { allowIframes: true }),
+              __html: parse(note.content) as string,
             }}
           />
         </div>

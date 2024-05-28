@@ -1,6 +1,6 @@
 import { Handlers, PageProps } from '$fresh/server.ts'
 import { Head } from '$fresh/runtime.ts'
-import { render } from 'gfm'
+import { parse } from 'marked'
 import { join } from 'https://deno.land/std@0.183.0/path/mod.ts'
 import { PageHeading } from '@/components/typography.tsx'
 
@@ -47,7 +47,7 @@ const CatchAllPage = ({ url, params, data }: PageProps<MarkdownFile>) => {
           <PageHeading>{data.title}</PageHeading>
           <div
             dangerouslySetInnerHTML={{
-              __html: render(data.content, { allowIframes: true }),
+              __html: parse(data.content) as string,
             }}
           />
         </>

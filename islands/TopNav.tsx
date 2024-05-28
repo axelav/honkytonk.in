@@ -5,9 +5,9 @@ export const TopNav = () => {
 
   return (
     <header>
-      <a href="/">
-        <AppHeading>honky tonkin'</AppHeading>
-      </a>
+      <AppHeading>
+        <a href="/">honky tonkin'</a>
+      </AppHeading>
 
       <nav>
         <ul>
