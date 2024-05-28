@@ -14,6 +14,7 @@ import * as $8 from "./routes/places/[slug].tsx";
 import * as $9 from "./routes/places/index.tsx";
 import * as $10 from "./routes/places/trans-america-trail/[slug].tsx";
 import * as $11 from "./routes/places/trans-america-trail/index.tsx";
+import * as $$0 from "./islands/TopNav.tsx";
 
 const manifest = {
   routes: {
@@ -30,7 +31,9 @@ const manifest = {
     "./routes/places/trans-america-trail/[slug].tsx": $10,
     "./routes/places/trans-america-trail/index.tsx": $11,
   },
-  islands: {},
+  islands: {
+    "./islands/TopNav.tsx": $$0,
+  },
   baseUrl: import.meta.url,
 };
 

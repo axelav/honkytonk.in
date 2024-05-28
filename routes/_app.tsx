@@ -1,5 +1,5 @@
 import { Head } from '$fresh/runtime.ts'
-import { TopNav } from '@/components/TopNav.tsx'
+import { TopNav } from '@/islands/TopNav.tsx'
 import { PageContainer } from '@/components/PageContainer.tsx'
 import { defineApp } from '$fresh/src/server/defines.ts'
 
