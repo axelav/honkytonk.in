@@ -55,6 +55,9 @@ const CatchAllPage = ({ url, params, data }: PageProps<MarkdownFile>) => {
           />
         </>
       )
+    case '/wp-login.php':
+    case '/wp-admin':
+      return <div>Fuck off and die.</div>
     default:
       return <div>Hello {params.filename}. You look beautiful today.</div>
   }
