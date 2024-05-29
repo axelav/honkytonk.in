@@ -8,11 +8,8 @@ export default defineApp((_req, { Component }) => (
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-      {/* https://github.com/picocss/pico */}
-      <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.blue.min.css"
-      />
+      {/* https://github.com/picocss/pico - https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.blue.min.css */}
+      <link rel="stylesheet" href="/pico.classless.blue.min.css" />
       <link rel="stylesheet" href="/style.css" />
 
       <script
