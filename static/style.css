@@ -18,3 +18,7 @@ time {
   padding: 0.25rem;
   border-radius: 0.25rem;
 }
+:where(a:not([role='button'])):is([aria-current]:not([aria-current='false'])),
+[role='link']:is([aria-current]:not([aria-current='false'])) {
+  font-weight: 600;
+}
