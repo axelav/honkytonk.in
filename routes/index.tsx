@@ -13,7 +13,7 @@ export default defineRoute(async () => {
   const recents = [...notes, ...places]
     .sort(
       (a, b) =>
-        new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime(),
+        new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime()
     )
     .slice(0, 8)
 
@@ -25,7 +25,7 @@ export default defineRoute(async () => {
       <div>
         <PageHeading>Lately</PageHeading>
 
-        <div class="mt-8">
+        <div>
           {recents.map((note) => (
             <NoteCard note={note} />
           ))}

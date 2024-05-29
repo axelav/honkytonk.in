@@ -14,7 +14,7 @@ export default defineRoute(async () => {
       </Head>
       <div>
         <PageHeading>Trans America Trail</PageHeading>
-        <div class="mt-8">
+        <div>
           {notes
             .reverse()
             // Remove the index page from the list

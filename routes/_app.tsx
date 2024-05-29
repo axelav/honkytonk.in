@@ -1,11 +1,17 @@
 import { Head } from '$fresh/runtime.ts'
-import { TopNav } from '@/components/TopNav.tsx'
+import { TopNav } from '@/islands/TopNav.tsx'
 import { PageContainer } from '@/components/PageContainer.tsx'
 import { defineApp } from '$fresh/src/server/defines.ts'
 
 export default defineApp((_req, { Component }) => (
   <html>
     <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+      {/* https://github.com/picocss/pico - https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.blue.min.css */}
+      <link rel="stylesheet" href="/pico.classless.blue.min.css" />
+      <link rel="stylesheet" href="/style.css" />
+
       <script
         data-goatcounter="https://honkytonkin.goatcounter.com/count"
         async
@@ -13,8 +19,8 @@ export default defineApp((_req, { Component }) => (
       ></script>
     </Head>
 
-    <body class="body bg-gray-50">
-      <main class="app max-w-screen-md px-4 pt-16 mx-auto">
+    <body>
+      <main>
         <TopNav />
         <PageContainer>
           <Component />

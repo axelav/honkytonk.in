@@ -1,9 +1,8 @@
-import { render } from 'gfm'
 import { Head } from '$fresh/runtime.ts'
 import { getNote } from '@/utils/notes.ts'
 import { PageHeading, SectionHeading } from '@/components/typography.tsx'
-import { MarkdownStyle } from '@/components/Markdown.tsx'
 import { defineRoute } from '$fresh/server.ts'
+import { parse } from 'marked'
 
 const getISODate = (date: Date) => date.toISOString().split('T')[0]
 
@@ -61,34 +60,36 @@ export default defineRoute(async (_req, ctx) => {
       <>
         <Head>
           <title>TAT: {note.title} ://honkytonk.in/</title>
-          <MarkdownStyle />
         </Head>
 
         <div>
-          <a href="/places/trans-america-trail">
-            <PageHeading>Trans America Trail</PageHeading>
-          </a>
-          <div class="mt-8">
+          <PageHeading>
+            <a href="/places/trans-america-trail">Trans America Trail</a>
+          </PageHeading>
+          <div>
             <SectionHeading>{note.title}</SectionHeading>
             {note.snippet && (
-              <div class="mt-2 text-gray-500">{note.snippet}</div>
+              <section>
+                <span class="snippet">{note.snippet}</span>
+              </section>
             )}
           </div>
           <div
-            class="mt-8 markdown-body"
             dangerouslySetInnerHTML={{
-              __html: render(note.content, { allowIframes: true }),
+              __html: parse(note.content) as string,
             }}
           />
           {links && (
-            <div class="mt-8 flex justify-between">
+            <section
+              style={{ display: 'flex', justifyContent: 'space-between' }}
+            >
               {links.prev ? (
                 <a href={links.prev.href}>← {links.prev.title}</a>
               ) : (
                 <div />
               )}
               {links.next && <a href={links.next.href}>{links.next.title} →</a>}
-            </div>
+            </section>
           )}
         </div>
       </>
