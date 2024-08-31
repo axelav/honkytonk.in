@@ -49,7 +49,7 @@ how much better shape I need to be in before I give a go at another one.
 ### Pine Hill Enduro
 
 Whooped out Pine Barrens fire cuts all damn day. I had a really helpful guy on
-my row, Michael, who helped me understand what was happening durning the race
+my row, Michael, who helped me understand what was happening during the race
 with resets, free time, etc.
 
 ![Pine Hill Enduro](/img/2019-racing/pine-hill-enduro-02.85.jpg)

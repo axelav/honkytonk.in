@@ -14,10 +14,15 @@ p > img {
 
 .snippet,
 time {
-  background-color: #f5f5f5;
+  background-color: #f0f0fb;
   padding: 0.25rem;
   border-radius: 0.25rem;
+
+  @media (prefers-color-scheme: dark) {
+    background-color: #000;
+  }
 }
+
 :where(a:not([role='button'])):is([aria-current]:not([aria-current='false'])),
 [role='link']:is([aria-current]:not([aria-current='false'])) {
   font-weight: 600;
