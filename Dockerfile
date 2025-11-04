@@ -3,7 +3,7 @@ FROM denoland/deno:1.46.3
 WORKDIR /app
 
 # Copy dependency files
-COPY deno.json deno.lock* ./
+COPY deno.json deno.lock ./
 
 # Copy application code
 COPY . .
